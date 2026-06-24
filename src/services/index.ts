@@ -2,11 +2,13 @@ import IndexedDbDataStoreService from './IndexedDbDataStoreService';
 import TemplateService from './TemplateService';
 import StickerCollectionViewService from './StickerCollectionViewService';
 import StickerResultsModalService from './StickerResultsModalService';
+import TradeModalService from './TradeModalService';
 
 export {
   IndexedDbDataStoreService,
   StickerCollectionViewService,
   StickerResultsModalService,
+  TradeModalService,
   TemplateService
 }
 
@@ -21,3 +23,11 @@ export type {
   StickerResultsModalController,
   StickerResultsModalMode
 } from './StickerResultsModalService';
+export type {
+  TradeGiveOption,
+  TradeReceiveOption,
+  TradeSelection,
+  TradeConfirmResult,
+  TradeModalOpenOptions,
+  TradeModalController,
+} from './TradeModalService';

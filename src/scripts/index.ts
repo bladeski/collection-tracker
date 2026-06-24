@@ -4,6 +4,7 @@ import {
   StickerCollectionViewService,
   StickerResultsModalController,
   StickerResultsModalService,
+  TradeModalService,
   TemplateService
 } from '../services';
 import { FifaScanImageService } from '../services/fifa';
@@ -11,6 +12,7 @@ import TesseractReaderService from '../services/TesseractReaderService';
 import PreprocessingPool from '../workers/PreprocessingPool';
 import { wireAddFromCameraButton } from './addFromCameraButton.ts';
 import { wireAddFromImageButton } from './addFromImageButton.ts';
+import { wireTradeButton } from './wireTradeButton.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const collection = new FifaCollection();
@@ -22,6 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const showDuplicatesCheckbox = document.getElementById('show-duplicates') as HTMLInputElement;
   const addFromImageButton = document.getElementById('add-from-image') as HTMLButtonElement | null;
   const addFromCameraButton = document.getElementById('add-from-camera') as HTMLButtonElement | null;
+  const tradeButton = document.getElementById('trade-button') as HTMLButtonElement | null;
+  const tradeToast = document.getElementById('trade-toast') as HTMLDivElement | null;
+  const tradeToastMessage = document.getElementById('trade-toast-message') as HTMLSpanElement | null;
+  const tradeToastDismiss = document.getElementById('trade-toast-dismiss') as HTMLButtonElement | null;
   const imageCanvas = document.querySelector('.image-canvas') as HTMLCanvasElement | null;
   const stickerGrid = document.querySelector('.sticker-grid') as HTMLElement;
   const stickerView = new StickerCollectionViewService(templates, {
@@ -33,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     stickerGrid,
   });
   const stickerResultsModal = new StickerResultsModalService(templates);
+  const tradeModal = new TradeModalService(templates);
   let isImageScanInProgress = false;
   let isCameraScanInProgress = false;
 
@@ -101,8 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         teams,
         (teamId) => collection.getTeamStickers(teamId, true),
         async (sticker: FifaSticker) => {
-          sticker.count = 1;
-          await collection.addItem(sticker);
+          await collection.addItem({ ...sticker, count: 1 });
           const updatedSticker = collection.getItemById(sticker.id);
           stickerView.updateStickerRowById(
             sticker.id,
@@ -174,6 +180,112 @@ document.addEventListener('DOMContentLoaded', () => {
             width: Math.round(box.width * scale),
             height: Math.round(box.height * scale),
           }),
+        });
+      }
+
+      if (tradeButton) {
+        wireTradeButton({
+          button: tradeButton,
+          tradeModal,
+          getGiveOptions: () => collection
+            .getSpares()
+            .map((sticker) => ({
+              id: sticker.id,
+              duplicateCount: Math.max(0, sticker.count - 1),
+            })),
+          getReceiveOptions: () => collection
+            .getMissingItems()
+            .map((sticker) => ({ id: sticker.id })),
+          confirmTrade: async (selection) => {
+            const operations: Array<{ type: 'give' | 'receive'; id: string }> = [];
+            const affectedIds = new Set<string>();
+
+            try {
+              for (const giveId of selection.giveIds) {
+                const ownedSticker = collection.getItemById(giveId);
+                if (!ownedSticker || ownedSticker.count <= 1) {
+                  throw new Error(`Cannot trade sticker ${giveId} because it has no duplicates.`);
+                }
+                await collection.removeItem(ownedSticker);
+                operations.push({ type: 'give', id: giveId });
+                affectedIds.add(giveId);
+              }
+
+              for (const receiveId of selection.receiveIds) {
+                const baseSticker = baseStickerById.get(receiveId);
+                if (!baseSticker) {
+                  throw new Error(`Sticker ${receiveId} was not found in the base data.`);
+                }
+                await collection.addItem({ ...baseSticker, count: 1 });
+                operations.push({ type: 'receive', id: receiveId });
+                affectedIds.add(receiveId);
+              }
+            } catch (error) {
+              let rollbackFailed = false;
+
+              for (const operation of [...operations].reverse()) {
+                try {
+                  if (operation.type === 'give') {
+                    const baseSticker = baseStickerById.get(operation.id);
+                    if (!baseSticker) {
+                      rollbackFailed = true;
+                      continue;
+                    }
+                    await collection.addItem({ ...baseSticker, count: 1 });
+                  } else {
+                    const receivedSticker = collection.getItemById(operation.id);
+                    if (!receivedSticker) {
+                      rollbackFailed = true;
+                      continue;
+                    }
+                    await collection.removeItem(receivedSticker);
+                  }
+                } catch (rollbackError) {
+                  console.error('Rollback operation failed:', rollbackError);
+                  rollbackFailed = true;
+                }
+              }
+
+              throw new Error(
+                rollbackFailed
+                  ? 'Trade failed and rollback was incomplete. Please verify your collection and retry.'
+                  : (error instanceof Error ? error.message : 'Trade failed. Please retry.')
+              );
+            }
+
+            affectedIds.forEach((stickerId) => {
+              const baseSticker = baseStickerById.get(stickerId);
+              if (!baseSticker) {
+                return;
+              }
+              const updatedSticker = collection.getItemById(stickerId);
+              stickerView.updateStickerRowById(
+                stickerId,
+                baseSticker.name,
+                updatedSticker?.count ?? 0
+              );
+            });
+            stickerView.applyFilters();
+
+            return {
+              givenCount: selection.giveIds.length,
+              receivedCount: selection.receiveIds.length,
+            };
+          },
+          onSuccess: (result) => {
+            if (!tradeToast || !tradeToastMessage) {
+              return;
+            }
+
+            tradeToastMessage.textContent = `Trade complete: gave ${result.givenCount}, received ${result.receivedCount}.`;
+            tradeToast.classList.remove('hidden');
+          },
+        });
+      }
+
+      if (tradeToastDismiss && tradeToast) {
+        tradeToastDismiss.addEventListener('click', () => {
+          tradeToast.classList.add('hidden');
         });
       }
 

@@ -5,7 +5,12 @@ export type TemplateKey =
   | 'modal-shell'
   | 'sticker-results-modal-content'
   | 'sticker-results-modal-list-item'
-  | 'sticker-results-modal-empty';
+  | 'sticker-results-modal-empty'
+  | 'trade-modal-content'
+  | 'trade-modal-give-item'
+  | 'trade-modal-receive-item'
+  | 'trade-modal-summary-item'
+  | 'trade-modal-empty-item';
 
 class TemplateService {
   constructor(private readonly root: ParentNode = document) {}

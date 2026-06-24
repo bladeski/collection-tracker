@@ -19,28 +19,30 @@ include ../layout/mixins.pug
       section.text 
         | Welcome to Collection Tracker, the ultimate tool for managing your FIFA World Cup 2026 sticker collection! Keep track of your stickers, see which ones you have, and find out which ones you're missing. Whether you're a seasoned collector or just starting out, Collection Tracker helps you stay organized and make the most of your sticker collection.
       section.collection
-        h2 Your Sticker Collection
-          .subtitle All stickers
-        .action-bar
-          //- button#add-from-image Add Stickers from Image
-          //- button#add-from-camera Add Stickers from Camera
-        .filters
-          .filter-select
-            label Search by ID
-              input#search-filter(type="text" placeholder="Enter sticker ID")
-            label Filter by Team
-              select#collection-filter
-                option(value="all") All Stickers
-          .filter-options
-            label
-              input(type="checkbox" id="show-missing" checked)
-              | Show Missing Stickers
-            label
-              input(type="checkbox" id="show-owned" checked)
-              | Show Owned Stickers
-            label
-              input(type="checkbox" id="show-duplicates")
-              |  Show Duplicates
+        .section-heading
+          h2 Your Sticker Collection
+            .subtitle All stickers
+          .action-bar
+            button.primary#trade-button Trade Stickers
+            //- button#add-from-image Add Stickers from Image
+            //- button#add-from-camera Add Stickers from Camera
+          .filters
+            .filter-select
+              label Search by ID
+                input#search-filter(type="text" placeholder="Enter sticker ID")
+              label Filter by Team
+                select#collection-filter
+                  option(value="all") All Stickers
+            .filter-options
+              label
+                input(type="checkbox" id="show-missing" checked)
+                | Show Missing Stickers
+              label
+                input(type="checkbox" id="show-owned" checked)
+                | Show Owned Stickers
+              label
+                input(type="checkbox" id="show-duplicates")
+                |  Show Duplicates
         .sticker-grid
           //- Sticker items will be rendered here by the client-side script  
     canvas.image-canvas
@@ -48,6 +50,9 @@ include ../layout/mixins.pug
   nav.main-nav 
   footer   
     p &copy; 2026 Collection Tracker. All rights reserved.
+  #trade-toast.trade-toast.hidden(role="status" aria-live="polite")
+    span#trade-toast-message.trade-toast__message
+    button#trade-toast-dismiss.trade-toast__dismiss(type="button" aria-label="Dismiss trade status") ×
   #templates
     template#collection-filter-option
       option.collection-filter-option
@@ -93,3 +98,46 @@ include ../layout/mixins.pug
         span.sticker-results-modal__id
     template#sticker-results-modal-empty
       li.sticker-results-modal__empty No stickers detected yet.
+    template#trade-modal-content
+      .trade-modal__body-content
+        .trade-modal__selection-step
+          .trade-modal__columns
+            section.trade-modal__column
+              h3.trade-modal__column-title Give (Duplicates)
+              label.trade-modal__search-label(for="trade-give-search") Search by ID
+              input#trade-give-search.trade-modal__search(type="text" placeholder="Filter IDs")
+              ul.trade-modal__list.trade-modal__give-list
+            section.trade-modal__column
+              h3.trade-modal__column-title Receive (Missing)
+              label.trade-modal__search-label(for="trade-receive-search") Search by ID
+              input#trade-receive-search.trade-modal__search(type="text" placeholder="Filter IDs")
+              ul.trade-modal__list.trade-modal__receive-list
+        .trade-modal__summary-step.hidden
+          section.trade-modal__summary-group
+            h3.trade-modal__summary-title Giving
+            ul.trade-modal__list.trade-modal__summary-give
+          section.trade-modal__summary-group
+            h3.trade-modal__summary-title Receiving
+            ul.trade-modal__list.trade-modal__summary-receive
+      .trade-modal__footer-content
+        p.trade-modal__error.hidden(role="alert")
+        button.trade-modal__cancel(type="button") Cancel
+        button.trade-modal__back(type="button" hidden) Back
+        button.trade-modal__next.primary(type="button") Next
+        button.trade-modal__confirm.primary(type="button" hidden) Confirm
+    template#trade-modal-give-item
+      li.trade-modal__list-item
+        label.trade-modal__row
+          input.trade-modal__checkbox(type="checkbox")
+          span.trade-modal__id
+          span.trade-modal__count
+    template#trade-modal-receive-item
+      li.trade-modal__list-item
+        label.trade-modal__row
+          input.trade-modal__checkbox(type="checkbox")
+          span.trade-modal__id
+    template#trade-modal-summary-item
+      li.trade-modal__list-item
+        span.trade-modal__id
+    template#trade-modal-empty-item
+      li.trade-modal__empty No stickers available.
