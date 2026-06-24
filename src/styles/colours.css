@@ -1,0 +1,130 @@
+:root {
+  /* ===== BRAND COLOURS ===== */
+  
+  /* Primary - Collector Blue */
+  --color-primary-rgb: 37, 99, 235;
+  --color-primary: #2563EB;
+  
+  /* Secondary - Victory Green */
+  --color-secondary-rgb: 22, 163, 74;
+  --color-secondary: #16A34A;
+  
+  /* Accent - Album Gold */
+  --color-accent-rgb: 245, 158, 11;
+  --color-accent: #F59E0B;
+  
+  /* ===== STATUS COLOURS ===== */
+  
+  /* Missing stickers / Empty album slots */
+  --color-missing-rgb: 229, 231, 235;
+  --color-missing: #E5E7EB;
+  
+  /* Owned / Collected stickers */
+  --color-owned-rgb: 59, 130, 246;
+  --color-owned: #3B82F6;
+  
+  /* Duplicate stickers */
+  --color-duplicate-rgb: 139, 92, 246;
+  --color-duplicate: #8B5CF6;
+  
+  /* Recently added / Newly scanned stickers */
+  --color-recently-added-rgb: 16, 185, 129;
+  --color-recently-added: #10B981;
+  
+  /* Error / OCR failures, Validation errors */
+  --color-error-rgb: 220, 38, 38;
+  --color-error: #DC2626;
+  
+  /* Warning / Partial scans, Low confidence matches */
+  --color-warning-rgb: 249, 115, 22;
+  --color-warning: #F97316;
+  
+  /* ===== LIGHT THEME ===== */
+  
+  --light-background-rgb: 248, 250, 252;
+  --light-background: #F8FAFC;
+  
+  --light-surface-rgb: 255, 255, 255;
+  --light-surface: #FFFFFF;
+  
+  --light-surface-secondary-rgb: 241, 245, 249;
+  --light-surface-secondary: #F1F5F9;
+  
+  --light-border-rgb: 226, 232, 240;
+  --light-border: #E2E8F0;
+  
+  --light-text-primary-rgb: 15, 23, 42;
+  --light-text-primary: #0F172A;
+  
+  --light-text-secondary-rgb: 71, 85, 105;
+  --light-text-secondary: #475569;
+  
+  --light-text-muted-rgb: 148, 163, 184;
+  --light-text-muted: #94A3B8;
+  
+  /* ===== DARK THEME ===== */
+  
+  --dark-background-rgb: 15, 23, 42;
+  --dark-background: #0F172A;
+  
+  --dark-surface-rgb: 30, 41, 59;
+  --dark-surface: #1E293B;
+  
+  --dark-surface-secondary-rgb: 51, 65, 85;
+  --dark-surface-secondary: #334155;
+  
+  --dark-border-rgb: 71, 85, 105;
+  --dark-border: #475569;
+  
+  --dark-text-primary-rgb: 248, 250, 252;
+  --dark-text-primary: #F8FAFC;
+  
+  --dark-text-secondary-rgb: 203, 213, 225;
+  --dark-text-secondary: #CBD5E1;
+  
+  --dark-text-muted-rgb: 148, 163, 184;
+  --dark-text-muted: #94A3B8;
+  
+  /* ===== CAMERA SCANNER THEME ===== */
+  
+  /* Scanner overlay background */
+  --scanner-overlay: rgba(15, 23, 42, 0.65);
+  
+  /* Scanner frame outline */
+  --scanner-frame-rgb: 37, 99, 235;
+  --scanner-frame: #2563EB;
+  
+  /* Scanner success flash */
+  --scanner-success-rgb: 22, 163, 74;
+  --scanner-success: #16A34A;
+  
+  /* Scanner error flash */
+  --scanner-error-rgb: 220, 38, 38;
+  --scanner-error: #DC2626;
+  
+  /* Detected sticker highlight */
+  --scanner-highlight-rgb: 245, 158, 11;
+  --scanner-highlight: #F59E0B;
+  
+  /* ===== PROGRESS VISUALISATION COLOURS ===== */
+  
+  /* 0-24% completion */
+  --progress-critical-rgb: 220, 38, 38;
+  --progress-critical: #DC2626;
+  
+  /* 25-49% completion */
+  --progress-low-rgb: 249, 115, 22;
+  --progress-low: #F97316;
+  
+  /* 50-74% completion */
+  --progress-medium-rgb: 245, 158, 11;
+  --progress-medium: #F59E0B;
+  
+  /* 75-99% completion */
+  --progress-high-rgb: 59, 130, 246;
+  --progress-high: #3B82F6;
+  
+  /* 100% completion */
+  --progress-complete-rgb: 22, 163, 74;
+  --progress-complete: #16A34A;
+}

@@ -1,0 +1,136 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+  #  code.py.zip file
+*.zip
+
+# PEP 582
+__pypackages__/
+
+# environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swn
+
+# Cache directories
+.cache
+.node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+pnpm-store/
+
+# Output directories
+dist/
+.build/
+.out/
+*.output/
+
+# Parcel cache
+.node_cache/
+.cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+
+# Temporary files
+*~ 
+.tmp
+.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+
+# ParcelJS build cache
+.parcel-cache/
+
+# Vitest cache
+.vitest/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/
+
+# WebStorm
+.idea/
+
+# IntelliJ
+.idea/
+
+# Vim
+*~
+.swp
+.swo
+.swn
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.lproj
+._*
+.swp
+*~
+.swn
+
+# Windows
+Thumbs.db
+Desktop.ini
+.ntvs_cache/

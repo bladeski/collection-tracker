@@ -1,0 +1,7938 @@
+[
+  {
+    "id": "00",
+    "name": "Panini Logo",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC1",
+    "name": "Official Emblem (top)",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC2",
+    "name": "Official Emblem (bottom)",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC3",
+    "name": "Official Mascots",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "mascot",
+    "isShiny": true
+  },
+  {
+    "id": "FWC4",
+    "name": "Official Slogan",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC5",
+    "name": "Official Ball",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "ball",
+    "isShiny": true
+  },
+  {
+    "id": "FWC6",
+    "name": "Canada - Host Countries & Cities",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC7",
+    "name": "Mexico - Host Countries & Cities",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC8",
+    "name": "USA - Host Countries & Cities",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "logo",
+    "isShiny": true
+  },
+  {
+    "id": "FWC9",
+    "name": "Italy 1934",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC10",
+    "name": "Uruguay 1950",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC11",
+    "name": "West Germany 1954",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC12",
+    "name": "Brazil 1962",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC13",
+    "name": "West Germany 1974",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC14",
+    "name": "Argentina 1986",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC15",
+    "name": "Brazil 1994",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC16",
+    "name": "Brazil 2002",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC17",
+    "name": "Italy 2006",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC18",
+    "name": "Germany 2014",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "FWC19",
+    "name": "Argentina 2022",
+    "count": 0,
+    "teamId": "FWC",
+    "type": "museum",
+    "isShiny": true
+  },
+  {
+    "id": "MEX1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "MEX2",
+    "name": "Luis Malagón",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX3",
+    "name": "Johan Vasquez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX4",
+    "name": "Jorge Sánchez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX5",
+    "name": "Cesar Montes",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX6",
+    "name": "Jesús Gallardo",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX7",
+    "name": "Israel Reyes",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX8",
+    "name": "Diego Lainez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX9",
+    "name": "Carlos Rodriguez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX10",
+    "name": "Edson Alvarez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX11",
+    "name": "Orbelin Pineda",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX12",
+    "name": "Marcel Ruiz",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "MEX14",
+    "name": "Érick Sánchez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX15",
+    "name": "Hirving Lozano",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX16",
+    "name": "Santiago Giménez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX17",
+    "name": "Raúl Jiménez",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX18",
+    "name": "Alexis Vega",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX19",
+    "name": "Roberto Alvarado",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MEX20",
+    "name": "Cesar Huerta",
+    "count": 0,
+    "teamId": "MEX",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "RSA2",
+    "name": "Ronwen Williams",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA3",
+    "name": "Sipho Chaine",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA4",
+    "name": "Aubrey Modiba",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA5",
+    "name": "Samukele Kabini",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA6",
+    "name": "Mbekezeli Mbokazi",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA7",
+    "name": "Khulumani Ndamane",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA8",
+    "name": "Siyabonga Ngezana",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA9",
+    "name": "Khuliso Mudau",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA10",
+    "name": "Nkosinathi Sibisi",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA11",
+    "name": "Teboho Mokoena",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA12",
+    "name": "Thalente Mbatha",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "RSA14",
+    "name": "Bathusi Aubaas",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA15",
+    "name": "Yaya Sithole",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA16",
+    "name": "Sipho Mbule",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA17",
+    "name": "Lyle Foster",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA18",
+    "name": "Iqraam Rayners",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA19",
+    "name": "Mohau Nkota",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "RSA20",
+    "name": "Oswin Appollis",
+    "count": 0,
+    "teamId": "RSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "KOR2",
+    "name": "Hyeon-woo Jo",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR3",
+    "name": "Seung-Gyu Kim",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR4",
+    "name": "Min-jae Kim",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR5",
+    "name": "Yu-min Cho",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR6",
+    "name": "Young-woo Seol",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR7",
+    "name": "Han-beom Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR8",
+    "name": "Tae-seok Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR9",
+    "name": "Myung-jae Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR10",
+    "name": "Jae-sung Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR11",
+    "name": "In-beom Hwang",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR12",
+    "name": "Kang-in Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "KOR14",
+    "name": "Seung-ho Paik",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR15",
+    "name": "Jens Castrop",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR16",
+    "name": "Dong-gyeong Lee",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR17",
+    "name": "Gue-sung Cho",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR18",
+    "name": "Heung-min Son",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR19",
+    "name": "Hee-chan Hwang",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KOR20",
+    "name": "Hyeon-Gyu Oh",
+    "count": 0,
+    "teamId": "KOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CZE2",
+    "name": "Matej Kovar",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE3",
+    "name": "Jindrich Stanek",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE4",
+    "name": "Ladislav Krejci",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE5",
+    "name": "Vladimir Coufal",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE6",
+    "name": "Jaroslav Zeleny",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE7",
+    "name": "Tomas Holes",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE8",
+    "name": "David Zima",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE9",
+    "name": "Michal Sadilek",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE10",
+    "name": "Lukas Provod",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE11",
+    "name": "Lukas Cerv",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE12",
+    "name": "Tomas Soucek",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CZE14",
+    "name": "Pavel Sulc",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE15",
+    "name": "Matej Vydra",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE16",
+    "name": "Vasil Kusej",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE17",
+    "name": "Tomas Chory",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE18",
+    "name": "Vaclav Cerny",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE19",
+    "name": "Adam Hlozek",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CZE20",
+    "name": "Patrik Schick",
+    "count": 0,
+    "teamId": "CZE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CAN2",
+    "name": "Dayne St.Clair",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN3",
+    "name": "Alphonso Davies",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN4",
+    "name": "Alistair Johnston",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN5",
+    "name": "Samuel Adekugbe",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN6",
+    "name": "Richie Laryea",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN7",
+    "name": "Derek Cornelius",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN8",
+    "name": "Moïse Bombito",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN9",
+    "name": "Kamal Miller",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN10",
+    "name": "Stephen Eustáquio",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN11",
+    "name": "Ismaël Koné",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN12",
+    "name": "Jonathan Osorio",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CAN14",
+    "name": "Jacob Shaffelburg",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN15",
+    "name": "Mathieu Choinière",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN16",
+    "name": "Niko Sigur",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN17",
+    "name": "Tajon Buchanan",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN18",
+    "name": "Liam Millar",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN19",
+    "name": "Cyle Larin",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CAN20",
+    "name": "Jonathan David",
+    "count": 0,
+    "teamId": "CAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "BIH2",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH3",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH4",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH5",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH6",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH7",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH8",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH9",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH10",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH11",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH12",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "BIH14",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH15",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH16",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH17",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH18",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH19",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BIH20",
+    "name": "",
+    "count": 0,
+    "teamId": "BIH",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "QAT2",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT3",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT4",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT5",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT6",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT7",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT8",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT9",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT10",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT11",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT12",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "QAT14",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT15",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT16",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT17",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT18",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT19",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "QAT20",
+    "name": "",
+    "count": 0,
+    "teamId": "QAT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "SUI2",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI3",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI4",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI5",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI6",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI7",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI8",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI9",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI10",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI11",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI12",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "SUI14",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI15",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI16",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI17",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI18",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI19",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SUI20",
+    "name": "",
+    "count": 0,
+    "teamId": "SUI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "BRA2",
+    "name": "Alisson",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA3",
+    "name": "Bento",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA4",
+    "name": "Marquinhos",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA5",
+    "name": "Éder Militão",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA6",
+    "name": "Gabriel Magalhães",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA7",
+    "name": "Danilo",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA8",
+    "name": "Wesley",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA9",
+    "name": "Lucas Paquetá",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA10",
+    "name": "Casemiro",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA11",
+    "name": "Bruno Guimarães",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA12",
+    "name": "Luiz Henrique",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "BRA14",
+    "name": "Vinicius Júnior",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA15",
+    "name": "Rodrygo",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA16",
+    "name": "João Pedro",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA17",
+    "name": "Matheus Cunha",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA18",
+    "name": "Gabriel Martinelli",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA19",
+    "name": "Raphinha",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BRA20",
+    "name": "Estêvão",
+    "count": 0,
+    "teamId": "BRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "MAR2",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR3",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR4",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR5",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR6",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR7",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR8",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR9",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR10",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR11",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR12",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "MAR14",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR15",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR16",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR17",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR18",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR19",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "MAR20",
+    "name": "",
+    "count": 0,
+    "teamId": "MAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "HAI2",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI3",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI4",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI5",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI6",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI7",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI8",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI9",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI10",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI11",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI12",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "HAI14",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI15",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI16",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI17",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI18",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI19",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "HAI20",
+    "name": "",
+    "count": 0,
+    "teamId": "HAI",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "SCO2",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO3",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO4",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO5",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO6",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO7",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO8",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO9",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO10",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO11",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO12",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "SCO14",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO15",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO16",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO17",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO18",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO19",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SCO20",
+    "name": "",
+    "count": 0,
+    "teamId": "SCO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "USA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "USA2",
+    "name": "Matt Freese",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA3",
+    "name": "Chris Richards",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA4",
+    "name": "Tim Ream",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA5",
+    "name": "Mark McKenzie",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA6",
+    "name": "Alex Freeman",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA7",
+    "name": "Antonee Robinson",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA8",
+    "name": "Tyler Adams",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA9",
+    "name": "Tanner Tessmann",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA10",
+    "name": "Weston McKennie",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA11",
+    "name": "Cristian Roldan",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA12",
+    "name": "Timothy Weah",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "USA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "USA14",
+    "name": "Diego Luna",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA15",
+    "name": "Malik Tillman",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA16",
+    "name": "Christian Pulisic",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA17",
+    "name": "Brenden Aaronson",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA18",
+    "name": "Ricardo Pepi",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA19",
+    "name": "Haji Wright",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "USA20",
+    "name": "Folarin Balogun",
+    "count": 0,
+    "teamId": "USA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "PAR2",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR3",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR4",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR5",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR6",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR7",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR8",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR9",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR10",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR11",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR12",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "PAR14",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR15",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR16",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR17",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR18",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR19",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAR20",
+    "name": "",
+    "count": 0,
+    "teamId": "PAR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "AUS2",
+    "name": "Mathew Ryan",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS3",
+    "name": "Joe Gauci",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS4",
+    "name": "Harry Souttar",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS5",
+    "name": "Alessandro Circati",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS6",
+    "name": "Jordan Bos",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS7",
+    "name": "Aziz Behich",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS8",
+    "name": "Cameron Burgess",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS9",
+    "name": "Lewis Miller",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS10",
+    "name": "Milos Degenek",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS11",
+    "name": "Jackson Irvine",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS12",
+    "name": "Riley McGree",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "AUS14",
+    "name": "Aiden O'Neill",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS15",
+    "name": "Connor Metcalfe",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS16",
+    "name": "Patrick Yazbek",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS17",
+    "name": "Craig Goodwin",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS18",
+    "name": "Kusini Yengi",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS19",
+    "name": "Nestory Irankunda",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUS20",
+    "name": "Mohamed Touré",
+    "count": 0,
+    "teamId": "AUS",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "TUR2",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR3",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR4",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR5",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR6",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR7",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR8",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR9",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR10",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR11",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR12",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "TUR14",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR15",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR16",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR17",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR18",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR19",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUR20",
+    "name": "",
+    "count": 0,
+    "teamId": "TUR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "GER",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "GER2",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER3",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER4",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER5",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER6",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER7",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER8",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER9",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER10",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER11",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER12",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "GER",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "GER14",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER15",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER16",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER17",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER18",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER19",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GER20",
+    "name": "",
+    "count": 0,
+    "teamId": "GER",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CUW2",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW3",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW4",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW5",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW6",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW7",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW8",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW9",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW10",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW11",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW12",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CUW14",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW15",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW16",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW17",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW18",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW19",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CUW20",
+    "name": "",
+    "count": 0,
+    "teamId": "CUW",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CIV2",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV3",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV4",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV5",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV6",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV7",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV8",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV9",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV10",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV11",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV12",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CIV14",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV15",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV16",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV17",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV18",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV19",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CIV20",
+    "name": "",
+    "count": 0,
+    "teamId": "CIV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "ECU2",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU3",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU4",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU5",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU6",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU7",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU8",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU9",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU10",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU11",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU12",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "ECU14",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU15",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU16",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU17",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU18",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU19",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ECU20",
+    "name": "",
+    "count": 0,
+    "teamId": "ECU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "NED",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "NED2",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED3",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED4",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED5",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED6",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED7",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED8",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED9",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED10",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED11",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED12",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "NED",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "NED14",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED15",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED16",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED17",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED18",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED19",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NED20",
+    "name": "",
+    "count": 0,
+    "teamId": "NED",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "JPN2",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN3",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN4",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN5",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN6",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN7",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN8",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN9",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN10",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN11",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN12",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "JPN14",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN15",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN16",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN17",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN18",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN19",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JPN20",
+    "name": "",
+    "count": 0,
+    "teamId": "JPN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "SWE2",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE3",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE4",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE5",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE6",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE7",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE8",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE9",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE10",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE11",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE12",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "SWE14",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE15",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE16",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE17",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE18",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE19",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SWE20",
+    "name": "",
+    "count": 0,
+    "teamId": "SWE",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "TUN2",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN3",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN4",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN5",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN6",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN7",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN8",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN9",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN10",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN11",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN12",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "TUN14",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN15",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN16",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN17",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN18",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN19",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "TUN20",
+    "name": "",
+    "count": 0,
+    "teamId": "TUN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "BEL2",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL3",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL4",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL5",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL6",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL7",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL8",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL9",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL10",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL11",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL12",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "BEL14",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL15",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL16",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL17",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL18",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL19",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "BEL20",
+    "name": "",
+    "count": 0,
+    "teamId": "BEL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "EGY2",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY3",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY4",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY5",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY6",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY7",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY8",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY9",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY10",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY11",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY12",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "EGY14",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY15",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY16",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY17",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY18",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY19",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "EGY20",
+    "name": "",
+    "count": 0,
+    "teamId": "EGY",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "IRN2",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN3",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN4",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN5",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN6",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN7",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN8",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN9",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN10",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN11",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN12",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "IRN14",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN15",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN16",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN17",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN18",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN19",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRN20",
+    "name": "",
+    "count": 0,
+    "teamId": "IRN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "NZL2",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL3",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL4",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL5",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL6",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL7",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL8",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL9",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL10",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL11",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL12",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "NZL14",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL15",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL16",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL17",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL18",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL19",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NZL20",
+    "name": "",
+    "count": 0,
+    "teamId": "NZL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "ESP2",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP3",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP4",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP5",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP6",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP7",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP8",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP9",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP10",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP11",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP12",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "ESP14",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP15",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP16",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP17",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP18",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP19",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ESP20",
+    "name": "",
+    "count": 0,
+    "teamId": "ESP",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CPV2",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV3",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV4",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV5",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV6",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV7",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV8",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV9",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV10",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV11",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV12",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CPV14",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV15",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV16",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV17",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV18",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV19",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CPV20",
+    "name": "",
+    "count": 0,
+    "teamId": "CPV",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "KSA2",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA3",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA4",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA5",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA6",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA7",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA8",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA9",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA10",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA11",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA12",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "KSA14",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA15",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA16",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA17",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA18",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA19",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "KSA20",
+    "name": "",
+    "count": 0,
+    "teamId": "KSA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "URU",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "URU2",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU3",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU4",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU5",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU6",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU7",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU8",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU9",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU10",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU11",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU12",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "URU",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "URU14",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU15",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU16",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU17",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU18",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU19",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "URU20",
+    "name": "",
+    "count": 0,
+    "teamId": "URU",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "FRA2",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA3",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA4",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA5",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA6",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA7",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA8",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA9",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA10",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA11",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA12",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "FRA14",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA15",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA16",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA17",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA18",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA19",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "FRA20",
+    "name": "",
+    "count": 0,
+    "teamId": "FRA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "SEN2",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN3",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN4",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN5",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN6",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN7",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN8",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN9",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN10",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN11",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN12",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "SEN14",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN15",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN16",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN17",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN18",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN19",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "SEN20",
+    "name": "",
+    "count": 0,
+    "teamId": "SEN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "IRQ2",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ3",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ4",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ5",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ6",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ7",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ8",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ9",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ10",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ11",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ12",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ14",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ15",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ16",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ17",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ18",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ19",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "IRQ20",
+    "name": "",
+    "count": 0,
+    "teamId": "IRQ",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "NOR2",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR3",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR4",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR5",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR6",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR7",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR8",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR9",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR10",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR11",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR12",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "NOR14",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR15",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR16",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR17",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR18",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR19",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "NOR20",
+    "name": "",
+    "count": 0,
+    "teamId": "NOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "ARG2",
+    "name": "Emiliano Martinez",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG3",
+    "name": "Nahuel Molina",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG4",
+    "name": "Cristian Romero",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG5",
+    "name": "Nicolas Otamendi",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG6",
+    "name": "Nicolas Tagliafico",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG7",
+    "name": "Leonardo Balerdi",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG8",
+    "name": "Enzo Fernandez",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG9",
+    "name": "Alexis Mac Allister",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG10",
+    "name": "Rodrigo De Paul",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG11",
+    "name": "Exequiel Palacios",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG12",
+    "name": "Leandro Paredes",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "ARG14",
+    "name": "Nico Paz",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG15",
+    "name": "Franco Mastantuono",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG16",
+    "name": "Nico Gonzalez",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG17",
+    "name": "Lionel Messi",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG18",
+    "name": "Lautaro Martinez",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG19",
+    "name": "Julian Alvarez",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ARG20",
+    "name": "Giuliano Simeone",
+    "count": 0,
+    "teamId": "ARG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "ALG2",
+    "name": "Alexis Guendouz",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG3",
+    "name": "Ramy Bensebaini",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG4",
+    "name": "Youcef Atal",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG5",
+    "name": "Rayan Aït-Nouri",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG6",
+    "name": "Mohamed Amine Tougai",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG7",
+    "name": "Aïssa Mandi",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG8",
+    "name": "Ismael Bennacer",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG9",
+    "name": "Houssem Aouar",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG10",
+    "name": "Hicham Boudaoui",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG11",
+    "name": "Ramiz Zerrouki",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG12",
+    "name": "Nabil Bentaleb",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "ALG14",
+    "name": "Farès Chaïbi",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG15",
+    "name": "Riyad Mahrez",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG16",
+    "name": "Said Benrahma",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG17",
+    "name": "Anis Hadj Moussa",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG18",
+    "name": "Amine Gouiri",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG19",
+    "name": "Baghdad Bounedjah",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ALG20",
+    "name": "Mohammed Amoura",
+    "count": 0,
+    "teamId": "ALG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "AUT2",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT3",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT4",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT5",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT6",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT7",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT8",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT9",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT10",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT11",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT12",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "AUT14",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT15",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT16",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT17",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT18",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT19",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "AUT20",
+    "name": "",
+    "count": 0,
+    "teamId": "AUT",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "JOR2",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR3",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR4",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR5",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR6",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR7",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR8",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR9",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR10",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR11",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR12",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "JOR14",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR15",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR16",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR17",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR18",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR19",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "JOR20",
+    "name": "",
+    "count": 0,
+    "teamId": "JOR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "POR",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "POR2",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR3",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR4",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR5",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR6",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR7",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR8",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR9",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR10",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR11",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR12",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "POR",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "POR14",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR15",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR16",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR17",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR18",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR19",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "POR20",
+    "name": "",
+    "count": 0,
+    "teamId": "POR",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "COD",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "COD2",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD3",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD4",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD5",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD6",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD7",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD8",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD9",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD10",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD11",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD12",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "COD",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "COD14",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD15",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD16",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD17",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD18",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD19",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COD20",
+    "name": "",
+    "count": 0,
+    "teamId": "COD",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "UZB2",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB3",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB4",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB5",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB6",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB7",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB8",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB9",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB10",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB11",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB12",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "UZB14",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB15",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB16",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB17",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB18",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB19",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "UZB20",
+    "name": "",
+    "count": 0,
+    "teamId": "UZB",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "COL",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "COL2",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL3",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL4",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL5",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL6",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL7",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL8",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL9",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL10",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL11",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL12",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "COL",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "COL14",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL15",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL16",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL17",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL18",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL19",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "COL20",
+    "name": "",
+    "count": 0,
+    "teamId": "COL",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "ENG2",
+    "name": "Jordan Pickford",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG3",
+    "name": "John Stones",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG4",
+    "name": "Marc Guéhi",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG5",
+    "name": "Ezri Konsa",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG6",
+    "name": "Trent Alexander-Arnold",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG7",
+    "name": "Reece James",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG8",
+    "name": "Dan Burn",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG9",
+    "name": "Jordan Henderson",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG10",
+    "name": "Declan Rice",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG11",
+    "name": "Jude Bellingham",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG12",
+    "name": "Cole Palmer",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "ENG14",
+    "name": "Morgan Rogers",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG15",
+    "name": "Anthony Gordon",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG16",
+    "name": "Phil Foden",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG17",
+    "name": "Bukayo Saka",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG18",
+    "name": "Harry Kane",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG19",
+    "name": "Marcus Rashford",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "ENG20",
+    "name": "Ollie Watkins",
+    "count": 0,
+    "teamId": "ENG",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "CRO2",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO3",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO4",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO5",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO6",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO7",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO8",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO9",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO10",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO11",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO12",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "CRO14",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO15",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO16",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO17",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO18",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO19",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CRO20",
+    "name": "",
+    "count": 0,
+    "teamId": "CRO",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "GHA2",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA3",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA4",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA5",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA6",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA7",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA8",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA9",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA10",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA11",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA12",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "GHA14",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA15",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA16",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA17",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA18",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA19",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "GHA20",
+    "name": "",
+    "count": 0,
+    "teamId": "GHA",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN1",
+    "name": "Team Emblem",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "team-emblem",
+    "isShiny": true
+  },
+  {
+    "id": "PAN2",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN3",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN4",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN5",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN6",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN7",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN8",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN9",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN10",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN11",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN12",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN13",
+    "name": "Team Photo",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "team",
+    "isShiny": false
+  },
+  {
+    "id": "PAN14",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN15",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN16",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN17",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN18",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN19",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "PAN20",
+    "name": "",
+    "count": 0,
+    "teamId": "PAN",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC1",
+    "name": "Lamine Yamal (ESP)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC2",
+    "name": "Joshua Kimmich (GER)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC3",
+    "name": "Eduardo Camavinga (FRA)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC4",
+    "name": "Josko Gvardiol (CRO)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC5",
+    "name": "Federico Valverde (URU)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC6",
+    "name": "Virgil van Dijk (NED)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC7",
+    "name": "Alphonso Davies (CAN)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC8",
+    "name": "Raúl Jiménez (MEX)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC9",
+    "name": "William Saliba (FRA)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC10",
+    "name": "Lautaro Martinez (ARG)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC11",
+    "name": "Harry Kane (ENG)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  },
+  {
+    "id": "CC12",
+    "name": "Antonee Robinson (USA)",
+    "count": 0,
+    "teamId": "CC",
+    "type": "player",
+    "isShiny": false
+  }
+]

@@ -1,0 +1,95 @@
+//- block vars
+- var title = 'Collection Tracker'
+- var script = 'index.ts'
+- var assetBase = assetBase || '../'
+- var stylesheets = ['styles.css']
+
+include ../layout/mixins.pug
+
+// call head mixin with safe defaults if child pages override `block vars`
++head((typeof title === 'undefined') ? 'Collection Tracker' : title, (typeof script === 'undefined') ? 'index.ts' : script, (typeof stylesheets === 'undefined') ? ['styles.css'] : stylesheets)
+.page-wrapper
+  header
+    h1= title
+    status-bar
+    coin-counter 
+  main 
+    block content
+    block text 
+      section.text 
+        | Welcome to Collection Tracker, the ultimate tool for managing your FIFA World Cup 2026 sticker collection! Keep track of your stickers, see which ones you have, and find out which ones you're missing. Whether you're a seasoned collector or just starting out, Collection Tracker helps you stay organized and make the most of your sticker collection.
+      section.collection
+        h2 Your Sticker Collection
+          .subtitle All stickers
+        .action-bar
+          //- button#add-from-image Add Stickers from Image
+          //- button#add-from-camera Add Stickers from Camera
+        .filters
+          .filter-select
+            label Search by ID
+              input#search-filter(type="text" placeholder="Enter sticker ID")
+            label Filter by Team
+              select#collection-filter
+                option(value="all") All Stickers
+          .filter-options
+            label
+              input(type="checkbox" id="show-missing" checked)
+              | Show Missing Stickers
+            label
+              input(type="checkbox" id="show-owned" checked)
+              | Show Owned Stickers
+            label
+              input(type="checkbox" id="show-duplicates")
+              |  Show Duplicates
+        .sticker-grid
+          //- Sticker items will be rendered here by the client-side script  
+    canvas.image-canvas
+      | <!-- Canvas for image processing -->
+  nav.main-nav 
+  footer   
+    p &copy; 2026 Collection Tracker. All rights reserved.
+  #templates
+    template#collection-filter-option
+      option.collection-filter-option
+    template#team-section
+      section.team-section
+        h3.team-section__title
+          .team-section__id
+          .team-section__name
+        ul.team-list
+    template#sticker-item
+      li.sticker-details
+        span.sticker-id
+        span.spacer -
+        span.sticker-name
+        span.sticker-count
+        span.sticker-actions
+          button.add-sticker-button.icon-button.outlined(type="button" aria-label="Add sticker")
+            span(aria-hidden="true") +
+            span.sr-only Add sticker
+          button.remove-sticker-button.icon-button.outlined(type="button" aria-label="Remove sticker")
+            span(aria-hidden="true") -
+            span.sr-only Remove sticker
+    template#modal-shell
+      .modal-shell(role="dialog" aria-modal="true" aria-label="Dialog")
+        .modal-shell__dialog
+          header.modal-shell__header
+            h2.modal-shell__title
+            button.modal-shell__close(type="button" aria-label="Close") ×
+          p.modal-shell__status
+          .modal-shell__body
+          footer.modal-shell__footer
+    template#sticker-results-modal-content
+      .sticker-results-modal__body-content
+        .sticker-results-modal__image-wrap
+          canvas.sticker-results-modal__canvas
+        ul.sticker-results-modal__list
+          li.sticker-results-modal__empty No stickers detected yet.
+      .sticker-results-modal__footer-content
+        button.sticker-results-modal__stop(type="button") Stop scanning
+        button.sticker-results-modal__dismiss.primary Done
+    template#sticker-results-modal-list-item
+      li.sticker-results-modal__list-item
+        span.sticker-results-modal__id
+    template#sticker-results-modal-empty
+      li.sticker-results-modal__empty No stickers detected yet.

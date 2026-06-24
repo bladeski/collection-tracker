@@ -1,0 +1,227 @@
+@import 'colours.css';
+
+/* ===== FONT IMPORTS ===== */
+/* Load from Google Fonts or self-hosted */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+/* Design tokens / CSS variables */
+:root {
+  /* ===== FONT FAMILIES ===== */
+  
+  /* Headings & Display */
+  --font-family-heading: "Poppins", Inter, system-ui, sans-serif;
+  
+  /* Body Text */
+  --font-family-body: "Inter", system-ui, -apple-system, sans-serif;
+  
+  /* Monospace (Code, IDs) */
+  --font-family-mono: "IBM Plex Mono", "JetBrains Mono", "Roboto Mono", monospace;
+  
+  /* Legacy aliases */
+  --font-family: var(--font-family-body);
+  --font-family-ui: var(--font-family-heading);
+
+  /* spacing (margins / paddings) */
+  --space-3xs: 0.375rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.625rem;
+  --space-sm: 0.75rem;
+  --space-md: 0.875rem;
+  --space-lg: 1rem;
+  --space-xl: 1.125rem;
+  --space-2xl: 1.25rem;
+  --space-3xl: 1.5rem;
+  --space-4xl: 2rem;
+  --space-5xl: 3rem;
+  --space-6xl: 4rem;
+
+  /* font sizes */
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 0.9375rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.6rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3.125rem;
+  --font-size-5xl: 4rem;
+
+  /* ===== COLOR PALETTE ===== */
+  /* All colors imported from colours.css */
+  
+  /* Brand Colors */
+  /* --color-primary: #2563EB */
+  /* --color-secondary: #16A34A */
+  /* --color-accent: #F59E0B */
+  
+  /* Status Colors */
+  /* --color-missing, --color-owned, --color-duplicate, etc. */
+  
+  /* Theme Colors (mapped for light/dark modes) */
+  /* See prefers-color-scheme and data-theme overrides below */
+
+  /* radii & border */
+  --radius-2xs: 0.375rem;
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.625rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.125rem;
+  --radius: var(--radius-lg);
+  --radius-full: 50%;
+
+  --border-width-1: 0.0625rem;
+  --border-width-2: 0.125rem;
+
+  --focus-ring: 0 0 0 3px color-mix(in srgb, var(--c8-blue, #0044cc) 15%, transparent);
+
+  --button-height: 40px;
+
+  /* heading size tokens */
+  --heading-1: var(--font-size-2xl);
+  /* 32px */
+  --heading-2: var(--font-size-xl);
+  /* 24px */
+  --heading-3: var(--font-size-lg);
+  /* 20px */
+  --heading-4: var(--font-size-base);
+  /* 16px */
+  --heading-5: var(--font-size-sm);
+  /* 14px */
+  --heading-6: var(--font-size-xs);
+  /* 12px */
+
+  /* default heading spacing */
+  --heading-margin-top: var(--space-md);
+  --heading-margin-bottom: var(--space-xs);
+  --heading-padding-vertical: var(--space-2xs);
+
+  /* ===== ELEVATION & SHADOWS ===== */
+  
+  --color-shadow-rgb: var(--dark-background-rgb);
+  
+  /* Elevation 0 - Flat */
+  --elevation-0: none;
+  
+  /* Elevation 1 - Subtle (cards, inputs) */
+  --elevation-1: 0px 2px 4px rgba(var(--color-shadow-rgb), 0.1);
+  
+  /* Elevation 2 - Raised (hovered cards, floating elements) */
+  --elevation-2: 0px 8px 16px rgba(var(--color-shadow-rgb), 0.15);
+  
+  /* Elevation 3 - Lifted (dropdowns, popovers, overlays) */
+  --elevation-3: 0px 16px 32px rgba(var(--color-shadow-rgb), 0.2);
+  
+  /* Elevation 4 - Top (modals, dialogs) */
+  --elevation-4: 0px 24px 48px rgba(var(--color-shadow-rgb), 0.25);
+  
+  /* Elevation 5 - Floating (FAB, tooltips) */
+  --elevation-5: 0px 32px 64px rgba(var(--color-shadow-rgb), 0.3);
+  
+  /* Legacy aliases for compatibility */
+  --shadow-0: var(--elevation-1);
+  --shadow-1: var(--elevation-2);
+  --shadow-2: var(--elevation-3);
+  --shadow-3: var(--elevation-4);
+  --bottom-shadow: var(--elevation-4);
+  --text-shadow: 1px 1px 3px rgba(var(--color-shadow-rgb), 0.5);
+
+  --standard-transition: all 200ms ease;
+}
+
+/* Theme tokens: light defaults, system dark override, and explicit override */
+:root {
+  /* ===== LIGHT THEME (DEFAULT) ===== */
+  --heading-color: var(--light-text-primary);
+  --heading-color-contrast: var(--light-text-secondary);
+  --text: var(--light-text-primary);
+  --text-secondary: var(--light-text-secondary);
+  --text-muted: var(--light-text-muted);
+  --muted: var(--light-text-muted);
+  --muted-alt: var(--light-text-secondary);
+  --border-color: var(--light-border);
+
+  --color-quote: var(--light-text-muted);
+
+  --surface: var(--light-surface);
+  --surface-contrast: var(--light-text-primary);
+  --surface-2: var(--light-surface-secondary);
+  --surface-contrast-2: var(--light-text-secondary);
+
+  --surface-alt: var(--light-background);
+  --surface-alt-contrast: var(--light-text-primary);
+  --surface-alt-2: var(--light-surface-secondary);
+  --surface-alt-contrast-2: var(--light-text-secondary);
+
+  --border-style: 3px dotted var(--border-color);
+}
+
+/* Respect system dark preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* ===== DARK THEME ===== */
+    --heading-color: var(--dark-text-primary);
+    --heading-color-contrast: var(--dark-text-secondary);
+    --text: var(--dark-text-primary);
+    --text-secondary: var(--dark-text-secondary);
+    --text-muted: var(--dark-text-muted);
+    --muted: var(--dark-text-muted);
+    --muted-alt: var(--dark-text-secondary);
+    --border-color: var(--dark-border);
+
+    --color-shadow-rgb: var(--dark-text-primary-rgb);
+
+    --surface: var(--dark-surface);
+    --surface-contrast: var(--dark-text-primary);
+    --surface-2: var(--dark-surface-secondary);
+    --surface-contrast-2: var(--dark-text-secondary);
+
+    --surface-alt: var(--dark-background);
+    --surface-alt-contrast: var(--dark-text-primary);
+    --surface-alt-2: var(--dark-surface-secondary);
+    --surface-alt-contrast-2: var(--dark-text-secondary);
+  }
+}
+
+/* Explicit JS-controlled override (higher specificity) */
+:root[data-theme="dark"] {
+  --heading-color: var(--dark-text-primary);
+  --heading-color-contrast: var(--dark-text-secondary);
+  --text: var(--dark-text-primary);
+  --text-secondary: var(--dark-text-secondary);
+  --text-muted: var(--dark-text-muted);
+  --muted: var(--dark-text-muted);
+  --muted-alt: var(--dark-text-secondary);
+  --border-color: var(--dark-border);
+  --color-shadow-rgb: var(--dark-text-primary-rgb);
+  --surface: var(--dark-surface);
+  --surface-contrast: var(--dark-text-primary);
+  --surface-2: var(--dark-surface-secondary);
+  --surface-contrast-2: var(--dark-text-secondary);
+  --surface-alt: var(--dark-background);
+  --surface-alt-contrast: var(--dark-text-primary);
+  --surface-alt-2: var(--dark-surface-secondary);
+  --surface-alt-contrast-2: var(--dark-text-secondary);
+}
+
+:root[data-theme="light"] {
+  --heading-color: var(--light-text-primary);
+  --heading-color-contrast: var(--light-text-secondary);
+  --text: var(--light-text-primary);
+  --text-secondary: var(--light-text-secondary);
+  --text-muted: var(--light-text-muted);
+  --muted: var(--light-text-muted);
+  --muted-alt: var(--light-text-secondary);
+  --border-color: var(--light-border);
+  --color-shadow-rgb: var(--dark-background-rgb);
+  --surface: var(--light-surface);
+  --surface-contrast: var(--light-text-primary);
+  --surface-2: var(--light-surface-secondary);
+  --surface-contrast-2: var(--light-text-secondary);
+  --surface-alt: var(--light-background);
+  --surface-alt-contrast: var(--light-text-primary);
+  --surface-alt-2: var(--light-surface-secondary);
+  --surface-alt-contrast-2: var(--light-text-secondary);
+}

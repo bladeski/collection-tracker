@@ -1,0 +1,250 @@
+[
+  {
+    "id": "FWC",
+    "name": "FIFA World Cup 2026"
+  },
+  {
+    "id": "CC",
+    "name": "Coca-Cola"
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "countryCode": "mx"
+  },
+  {
+    "id": "RSA",
+    "name": "South Africa",
+    "countryCode": "za"
+  },
+  {
+    "id": "KOR",
+    "name": "Korea Republic",
+    "countryCode": "kr"
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "countryCode": "cz"
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "countryCode": "ca"
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "countryCode": "ba"
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "countryCode": "qa"
+  },
+  {
+    "id": "SUI",
+    "name": "Switzerland",
+    "countryCode": "ch"
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "countryCode": "br"
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "countryCode": "ma"
+  },
+  {
+    "id": "HAI",
+    "name": "Haiti",
+    "countryCode": "ht"
+  },
+  {
+    "id": "SCO",
+    "name": "Scotland",
+    "countryCode": "gb-sco"
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "countryCode": "us"
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "countryCode": "py"
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "countryCode": "au"
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "countryCode": "tr"
+  },
+  {
+    "id": "GER",
+    "name": "Germany",
+    "countryCode": "de"
+  },
+  {
+    "id": "CUW",
+    "name": "Curaçao",
+    "countryCode": "cw"
+  },
+  {
+    "id": "CIV",
+    "name": "Côte d’Ivoire",
+    "countryCode": "ci"
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "countryCode": "ec"
+  },
+  {
+    "id": "NED",
+    "name": "Netherlands",
+    "countryCode": "nl"
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "countryCode": "jp"
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "countryCode": "se"
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "countryCode": "tn"
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "countryCode": "be"
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "countryCode": "eg"
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "countryCode": "ir"
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "countryCode": "nz"
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "countryCode": "es"
+  },
+  {
+    "id": "CPV",
+    "name": "Cabo Verde",
+    "countryCode": "cv"
+  },
+  {
+    "id": "KSA",
+    "name": "Saudi Arabia",
+    "countryCode": "sa"
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "countryCode": "uy"
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "countryCode": "fr"
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "countryCode": "sn"
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "countryCode": "iq"
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "countryCode": "no"
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "countryCode": "ar"
+  },
+  {
+    "id": "ALG",
+    "name": "Algeria",
+    "countryCode": "dz"
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "countryCode": "at"
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "countryCode": "jo"
+  },
+  {
+    "id": "POR",
+    "name": "Portugal",
+    "countryCode": "pt"
+  },
+  {
+    "id": "COD",
+    "name": "Congo DR",
+    "countryCode": "cd"
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "countryCode": "uz"
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "countryCode": "co"
+  },
+  {
+    "id": "ENG",
+    "name": "England",
+    "countryCode": "gb"
+  },
+  {
+    "id": "CRO",
+    "name": "Croatia",
+    "countryCode": "hr"
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "countryCode": "gh"
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "countryCode": "pa"
+  }
+]
