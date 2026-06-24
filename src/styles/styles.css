@@ -48,11 +48,23 @@
 
     li.sticker-details {
       position: relative;
-      flex: 1 1 400px;
-      padding: var(--space-3xs) var(--space-md) var(--space-3xs) var(--space-3xl);
+      padding: var(--space-3xs) var(--space-3xl);
       display: flex;
       align-items: center;
-      gap: var(--space-xs);
+      gap: var(--space-3xs);
+      width: 100%;
+
+      @media (min-width: 720px) {
+        width: calc(50%);
+      }
+
+      @media (min-width: 1024px) {
+        width: calc(33.333%);
+      }
+
+      @media (min-width: 1440px) {
+        width: calc(25%);
+      }
 
       &::before {
         content: "x";
@@ -79,6 +91,11 @@
         text-align: right;
         font-variant-numeric: tabular-nums;
         color: var(--text-secondary);
+      }
+
+      .sticker-actions {
+        display: flex;
+        gap: var(--space-3xs);
       }
     }
   }
@@ -335,6 +352,7 @@
       li.sticker-details {
         flex: none;
         padding: 0 0 0 var(--space-lg);
+        width: auto;
 
         .spacer,
         .sticker-name,
