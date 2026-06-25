@@ -1,17 +1,27 @@
 @import 'vars.css';
 @import 'base.css';
 
+header {
+  padding: var(--space-3xl);
+}
+
+.text {
+  padding: 0 var(--space-3xl) var(--space-3xl);
+}
+
 .section-heading {
   position: sticky;
   top: 0;
   background-color: var(--surface-alt);
   z-index: 1;
-  padding: var(--space-2xs) var(--space-lg);
+  padding: var(--space-3xl);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: var(--space-3xl);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 
   h2 {
     width: 100%;
@@ -20,7 +30,6 @@
 
 .filters {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
   gap: var(--space-lg);
@@ -45,6 +54,7 @@
   flex-wrap: wrap;
   gap: var(--space-3xs) var(--space-2xl);
   flex-direction: column;
+  padding-left: var(--space-3xl);
 
   .team-section__title {
     display: flex;
