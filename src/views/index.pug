@@ -32,6 +32,8 @@ include ../layout/mixins.pug
                 input(type="checkbox" id="show-owned" checked)
               label Show Duplicates
                 input(type="checkbox" id="show-duplicates")
+              label Show Sticker Names
+                input(type="checkbox" id="show-names" checked)
         .sticker-grid
           //- Sticker items will be rendered here by the client-side script  
     canvas.image-canvas
@@ -54,7 +56,6 @@ include ../layout/mixins.pug
     template#sticker-item
       li.sticker-details
         span.sticker-id
-        span.spacer -
         span.sticker-name
         span.sticker-count
         span.sticker-actions

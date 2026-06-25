@@ -8,6 +8,7 @@ export interface StickerCollectionViewElements {
   showOwnedCheckbox: HTMLInputElement;
   showMissingCheckbox: HTMLInputElement;
   showDuplicatesCheckbox: HTMLInputElement;
+  showNamesCheckbox: HTMLInputElement;
   stickerGrid: HTMLElement;
 }
 
@@ -78,43 +79,11 @@ class StickerCollectionViewService {
   applyFilters(): void {
     const selectedValue = this.elements.selectElement.value;
     const searchValue = this.elements.searchFilterElement.value.trim().toLowerCase();
-    this.teamSectionsById.forEach((teamItem, teamId) => {
-      const teamMatchesSelect = selectedValue === 'all' || selectedValue === teamId;
-      let visibleStickerCount = 0;
 
-      const stickerRows = this.stickerRowsByTeamId.get(teamId) ?? [];
-      stickerRows.forEach((stickerRow) => {
-        const count = Number(stickerRow.item.dataset.count || '0');
-        const isMissing = count === 0;
-        const isDuplicate = count > 1;
-        const isOwned = count >= 1;
-        const stickerId = stickerRow.item.dataset.stickerId || '';
-        const stickerName = stickerRow.item.dataset.stickerName || '';
-        const matchesSearch = searchValue === ''
-          || stickerId.toLowerCase().includes(searchValue);
-
-        const matchesCheckboxes =
-          (isMissing && this.elements.showMissingCheckbox.checked)
-          || (isOwned && this.elements.showOwnedCheckbox.checked)
-          || (isDuplicate && this.elements.showDuplicatesCheckbox.checked);
-
-        const shouldShowSticker = teamMatchesSelect && matchesCheckboxes && matchesSearch;
-        stickerRow.item.classList.toggle('hidden', !shouldShowSticker);
-
-        this.setStickerRowText(
-          stickerRow,
-          stickerId,
-          stickerName,
-          this.elements.showDuplicatesCheckbox.checked ? count : 0
-        );
-
-        if (shouldShowSticker) {
-          visibleStickerCount += 1;
-        }
-      });
-
-      teamItem.classList.toggle('hidden', !(teamMatchesSelect && visibleStickerCount > 0));
-    });
+    this.elements.stickerGrid.classList.toggle('show-missing', this.elements.showMissingCheckbox.checked);
+    this.elements.stickerGrid.classList.toggle('show-owned', this.elements.showOwnedCheckbox.checked);
+    this.elements.stickerGrid.classList.toggle('show-duplicates', this.elements.showDuplicatesCheckbox.checked);
+    this.elements.stickerGrid.classList.toggle('show-names', this.elements.showNamesCheckbox.checked);
 
     if (this.filterSubtitle) {
       const filterNames =
@@ -129,6 +98,26 @@ class StickerCollectionViewService {
                 : 'No';
       this.filterSubtitle.textContent = `${filterNames} stickers`;
     }
+
+    const filterById = selectedValue === 'all' ? null : selectedValue;
+    this.stickerRowsById.forEach((stickerRow, stickerId) => {
+      stickerRow.item.classList.toggle('hidden', 
+        (filterById !== null && stickerRow.item.dataset.teamId !== filterById)
+        || (searchValue !== '' && !stickerId.toLowerCase().includes(searchValue))
+      );
+    });
+
+    this.teamSectionsById.forEach((teamItem, teamId) => {
+      const teamMatchesSelect = selectedValue !== 'all' || selectedValue === teamId;
+      const stickerRows = this.stickerRowsByTeamId.get(teamId) ?? [];
+
+      setTimeout(() => {
+        teamItem.classList.toggle('hidden', 
+          !stickerRows.some(stickerRow => stickerRow.item.computedStyleMap().get('display')?.toString() !== 'none')
+          && !teamMatchesSelect
+        );
+      });
+    });
   }
 
   private instantiateTemplate<T extends Element>(templateKey: TemplateKey): T {
@@ -204,15 +193,9 @@ class StickerCollectionViewService {
   ): void {
     stickerRow.item.dataset.count = String(count);
     this.setStickerRowText(stickerRow, stickerId, stickerName, count);
-    if (count > 0) {
-      stickerRow.item.classList.add('collected');
-      if (stickerRow.removeButton) {
-        stickerRow.removeButton.disabled = false;
-      }
-      return;
-    }
+    stickerRow.item.classList.toggle('collected', count > 0);
+    stickerRow.item.classList.toggle('has-duplicate', count > 1);
 
-    stickerRow.item.classList.remove('collected');
     if (stickerRow.removeButton) {
       stickerRow.removeButton.disabled = true;
     }

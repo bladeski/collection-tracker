@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const showOwnedCheckbox = document.getElementById('show-owned') as HTMLInputElement;
   const showMissingCheckbox = document.getElementById('show-missing') as HTMLInputElement;
   const showDuplicatesCheckbox = document.getElementById('show-duplicates') as HTMLInputElement;
+  const showNamesCheckbox = document.getElementById('show-names') as HTMLInputElement;
   const addFromImageButton = document.getElementById('add-from-image') as HTMLButtonElement | null;
   const addFromCameraButton = document.getElementById('add-from-camera') as HTMLButtonElement | null;
   const tradeButton = document.getElementById('trade-button') as HTMLButtonElement | null;
@@ -36,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showOwnedCheckbox,
     showMissingCheckbox,
     showDuplicatesCheckbox,
+    showNamesCheckbox,
     stickerGrid,
   });
   const stickerResultsModal = new StickerResultsModalService(templates);
@@ -294,6 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
       showOwnedCheckbox.addEventListener('change', () => stickerView.applyFilters());
       showMissingCheckbox.addEventListener('change', () => stickerView.applyFilters());
       showDuplicatesCheckbox.addEventListener('change', () => stickerView.applyFilters());
+      showNamesCheckbox.addEventListener('change', () => stickerView.applyFilters());
 
       stickerView.applyFilters();
     });

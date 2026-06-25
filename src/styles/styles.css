@@ -10,7 +10,7 @@ main,
   flex-direction: column;
 }
 
-.page-wrapper {  
+.page-wrapper {
   height: 100vh;
 }
 
@@ -45,6 +45,7 @@ header {
       &::before {
         content: "(";
       }
+
       &::after {
         content: ")";
       }
@@ -98,6 +99,53 @@ header {
   gap: var(--space-3xs) var(--space-2xl);
   padding: var(--space-md) var(--space-3xl);
 
+  &.show-owned {
+    .team-list {
+      li.sticker-details.collected {
+        display: flex;
+      }
+    }
+  }
+
+  &.show-missing {
+    .team-list {
+      li.sticker-details:not(.collected) {
+        display: flex;
+      }
+    }
+  }
+
+  &.show-duplicates {
+    .team-list {
+      li.sticker-details {
+        max-width: 350px;
+      }
+      li.sticker-details.has-duplicate {
+        display: flex;
+
+        .sticker-count {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &.show-names {
+    .team-list {
+      li.sticker-details {
+        max-width: none;
+
+        .sticker-name {
+          display: block;
+        }
+
+        .sticker-count {
+          flex-grow: unset;
+        }
+      }
+    }
+  }
+
   .team-section {
     width: 100%;
   }
@@ -111,16 +159,20 @@ header {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding-left: var(--space-lg);
+    padding-left: 0;
     margin: 0;
+    border-left: 1px solid var(--border-color);
 
     li.sticker-details {
       position: relative;
-      padding: var(--space-3xs) var(--space-3xl);
-      display: flex;
+      padding: var(--space-3xs) var(--space-lg) var(--space-3xs) var(--space-5xl);
+      display: none;
+      justify-content: space-between;
       align-items: center;
       gap: var(--space-3xs);
       width: 100%;
+      max-width: 250px;
+      border-right: 1px solid var(--border-color);
 
       @media (min-width: 720px) {
         width: calc(50%);
@@ -139,7 +191,7 @@ header {
         color: var(--color-error);
         font-weight: 700;
         position: absolute;
-        left: 0;
+        left: var(--space-2xl);
       }
 
       &.collected::before {
@@ -148,13 +200,20 @@ header {
       }
 
       .sticker-name {
+        display: none;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         flex: 1;
+
+        &::before {
+          content: "– ";
+        }
       }
 
       .sticker-count {
+        display: none;
+        flex-grow: 1;
         min-width: 1.5rem;
         text-align: right;
         font-variant-numeric: tabular-nums;
@@ -580,8 +639,9 @@ header {
       padding-left: 0;
 
       li.sticker-details {
+        border: 1px solid var(--border-color);
         flex: none;
-        padding: 0 0 0 var(--space-lg);
+        padding: 0 var(--space-lg) 0 var(--space-4xl);
         width: auto;
 
         .spacer,
