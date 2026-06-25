@@ -1,44 +1,74 @@
 @import 'vars.css';
 @import 'base.css';
 
+.page-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
 header {
   padding: var(--space-3xl);
+}
+
+main {
+  height: 100%;
 }
 
 .text {
   padding: 0 var(--space-3xl) var(--space-3xl);
 }
 
-.section-heading {
-  position: sticky;
-  top: 0;
+.filter-wrapper {
   background-color: var(--surface-alt);
   z-index: 1;
-  padding: var(--space-3xl);
+  padding: var(--space-md) var(--space-3xl);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: var(--space-3xl);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 
-  h2 {
-    width: 100%;
+  summary {
+    flex-grow: 1;
+
+    .summary-subtitle {
+      margin-left: var(--space-2xs);
+      font-size: var(--font-size-sm);
+      font-weight: 400;
+      color: var(--text-secondary);
+
+      &::before {
+        content: "(";
+      }
+      &::after {
+        content: ")";
+      }
+    }
   }
 }
 
-.filters {
+.action-bar {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.filters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: var(--space-lg);
 
-  .filter-select {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: var(--space-md);
+  summary {
+    width: 100%;
+  }
+
+  label {
+    flex-grow: 1;
   }
 
   .filter-options {
@@ -49,21 +79,34 @@ header {
   }
 }
 
+.collection {
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+.action-buttons {
+  padding: 0 var(--space-3xl) var(--space-md);
+}
+
 .sticker-grid {
+  height: 100%;
+  overflow: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: var(--space-3xs) var(--space-2xl);
   flex-direction: column;
-  padding-left: var(--space-3xl);
+  padding: var(--space-md) var(--space-3xl);
+
+  .team-section {
+    width: 100%;
+  }
 
   .team-section__title {
     display: flex;
     gap: var(--space-3xs);
-  }
-
-  .collection {
-    width: 100%;
-    max-width: 100%;
   }
 
   .team-list {
@@ -133,7 +176,7 @@ header {
   width: 1px;
   height: 1px;
   padding: 0;
-  margin: -1px;
+  margin: calc(-1 * var(--border-width-1));
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -523,8 +566,9 @@ header {
 
   .sticker-grid {
     gap: 0;
+
     .team-section {
-      display: flex;      
+      display: flex;
       flex-wrap: no-wrap;
       gap: var(--space-md);
       border-bottom: 1px solid var(--border-color);

@@ -24,6 +24,7 @@
   /* spacing (margins / paddings) */
   --space-3xs: 0.375rem;
   --space-2xs: 0.5rem;
+  --space-4xs: 0.25rem;
   --space-xs: 0.625rem;
   --space-sm: 0.75rem;
   --space-md: 0.875rem;
@@ -94,8 +95,8 @@
   /* 12px */
 
   /* default heading spacing */
-  --heading-margin-top: var(--space-md);
-  --heading-margin-bottom: var(--space-xs);
+  --heading-margin-top: 0;
+  --heading-margin-bottom: 0;
   --heading-padding-vertical: var(--space-2xs);
 
   /* ===== ELEVATION & SHADOWS ===== */

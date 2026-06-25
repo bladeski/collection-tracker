@@ -25,7 +25,7 @@ class StickerCollectionViewService {
   private readonly teamSectionsById = new Map<string, HTMLElement>();
   private readonly stickerRowsById = new Map<string, StickerRowState>();
   private readonly stickerRowsByTeamId = new Map<string, StickerRowState[]>();
-  private readonly collectionHeaderSubtitle = document.querySelector('.collection h2 .subtitle') as HTMLSpanElement | null;
+  private readonly filterSubtitle = document.querySelector('.summary-subtitle') as HTMLHeadingElement | null;
 
   constructor(
     private readonly templates: TemplateService,
@@ -116,7 +116,7 @@ class StickerCollectionViewService {
       teamItem.classList.toggle('hidden', !(teamMatchesSelect && visibleStickerCount > 0));
     });
 
-    if (this.collectionHeaderSubtitle) {
+    if (this.filterSubtitle) {
       const filterNames =
         this.elements.showOwnedCheckbox.checked && this.elements.showMissingCheckbox.checked
           ? 'All'
@@ -127,7 +127,7 @@ class StickerCollectionViewService {
               : this.elements.showDuplicatesCheckbox.checked
                 ? 'Duplicate'
                 : 'No';
-      this.collectionHeaderSubtitle.textContent = `${filterNames} stickers`;
+      this.filterSubtitle.textContent = `${filterNames} stickers`;
     }
   }
 
