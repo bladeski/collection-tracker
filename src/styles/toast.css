@@ -1,0 +1,73 @@
+/* toast.css
+   Floating trade toast with accent stripe and dismiss button.
+
+   See base.css header for the spacing-token ladder and naming conventions.
+
+   Conventions:
+   - BEM-ish: block__element--modifier
+   - Variants (.trade-toast--success, .trade-toast--error, .trade-toast--info)
+     select the accent color via border-left.
+*/
+
+.trade-toast {
+  position: fixed;
+  top: var(--space-lg);
+  right: var(--space-lg);
+  z-index: 1100;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  max-width: min(22.5rem, calc(100vw - var(--space-lg) * 2));
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border-color);
+  border-left: var(--border-width-2) solid var(--color-secondary);
+  box-shadow: var(--elevation-4);
+}
+
+.trade-toast__message {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+
+.trade-toast__dismiss {
+  width: var(--space-6xl);
+  height: var(--space-6xl);
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  flex: 0 0 auto;
+}
+
+.trade-toast:not(.hidden) {
+  animation: trade-toast-in 160ms ease-out;
+}
+
+@keyframes trade-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.trade-toast--success {
+  border-left-color: var(--color-owned);
+}
+
+.trade-toast--error {
+  border-left-color: var(--color-missing);
+}
+
+.trade-toast--info {
+  border-left-color: var(--color-secondary);
+}

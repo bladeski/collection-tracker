@@ -1,0 +1,266 @@
+/* filter.css
+   Filter bar: .filter-wrapper (sticky), .filters, .summary-subtitle,
+   .filter-options, and the .filter-chip pill styles.
+
+   See base.css header for the spacing-token ladder and naming conventions.
+
+   Conventions:
+   - BEM-ish: block__element--modifier
+   - Spacing uses --space-* tokens from vars.css
+*/
+
+.filter-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: var(--surface);
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: var(--space-md);
+  border-radius: var(--card-radius);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--elevation-1), var(--card-highlight);
+  overflow: hidden;
+
+  summary {
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    padding: var(--space-2xs) var(--space-sm);
+    list-style: none;
+    user-select: none;
+    font-family: var(--font-family-heading);
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    color: var(--heading-color);
+    transition: var(--standard-transition);
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Custom disclosure triangle, sits before the label text. */
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-right: var(--space-sm);
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(-45deg);
+      transition: transform var(--transition-emphasis);
+      transform-origin: 60% 60%;
+    }
+
+    &:hover {
+      color: var(--color-primary);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+  }
+
+  &[open] > summary::before,
+  details[open] > summary::before {
+    transform: rotate(45deg);
+  }
+
+  /* Animated open/close: slides the panel content down. */
+  > .filters {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition:
+      max-height var(--transition-emphasis),
+      opacity 200ms ease,
+      padding 200ms ease;
+    padding-top: 0;
+  }
+
+  &[open] > .filters {
+    max-height: 32rem;
+    opacity: 1;
+    padding-top: var(--space-md);
+  }
+
+  .summary-subtitle {
+    margin-left: var(--space-2xs);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3xs);
+    padding: 2px var(--space-sm);
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border: 1px solid var(--border-color);
+    transition: var(--standard-transition);
+
+    /* Drop the synthetic "(" / ")" markers — the pill itself frames the text. */
+    &::before,
+    &::after {
+      content: none;
+    }
+
+    /* Color-coded dot indicating the active filter scope. */
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 0.4rem;
+      height: 0.4rem;
+      border-radius: 50%;
+      background: var(--color-owned);
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-owned) 25%, transparent);
+      margin-left: var(--space-3xs);
+    }
+  }
+
+  .summary-subtitle--missing {
+    &::after {
+      background: var(--color-missing);
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-missing) 25%, transparent);
+    }
+  }
+
+  .summary-subtitle--duplicate {
+    &::after {
+      background: var(--color-duplicate);
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-duplicate) 25%, transparent);
+    }
+  }
+}
+
+.filters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-lg);
+
+  /* Search by ID + Filter by Team labels keep their default block layout. */
+  > label:not(.filter-chip) {
+    flex: 1 1 12rem;
+    min-width: 12rem;
+  }
+
+  .filter-options {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    width: 100%;
+  }
+}
+
+/* Filter chips (pill buttons). Markup uses <label class="filter-chip"> wrapping
+   a checkbox + span so the chip click toggles the input.
+
+   Explicit overrides for global `label` rules from base.css (which sets
+   `label > * { width: 100% }` and `display: flex; flex-direction: column`)
+   so the chip lays out as inline-flex row. */
+.filter-chip {
+  position: relative;
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: var(--space-2xs);
+  padding: var(--space-xs) var(--space-lg);
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: var(--chip-shadow);
+  transition:
+    background var(--transition-emphasis),
+    color var(--transition-emphasis),
+    border-color var(--transition-emphasis),
+    box-shadow var(--transition-emphasis),
+    transform var(--transition-emphasis);
+
+  &:hover {
+    background: var(--surface-2);
+    border-color: color-mix(in srgb, var(--color-primary) 35%, var(--border-color));
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0) scale(0.97);
+  }
+
+  &:focus-within {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  /* Re-assert intrinsic sizing on direct children (overrides base.css's
+     `label > * { width: 100% }`). */
+  > input[type="checkbox"],
+  > span {
+    width: auto !important;
+  }
+
+  > input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 1rem !important;
+    height: 1rem;
+    accent-color: var(--color-primary);
+    margin: 0;
+    cursor: pointer;
+  }
+
+  > span {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
+.filter-chip--active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-contrast, #fff);
+  box-shadow:
+    0 0 0 1px var(--color-primary),
+    0 4px 12px color-mix(in srgb, var(--color-primary) 25%, transparent);
+
+  &:hover {
+    background: color-mix(in srgb, var(--color-primary) 92%, #000);
+    border-color: color-mix(in srgb, var(--color-primary) 92%, #000);
+    color: var(--color-primary-contrast, #fff);
+  }
+
+  > input[type="checkbox"] {
+    accent-color: var(--color-primary-contrast, #fff);
+  }
+
+  /* Soft inset highlight at the top of the active chip for depth. */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 1px 1px auto 1px;
+    height: 50%;
+    border-radius: 999px 999px 0 0;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.18) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    pointer-events: none;
+  }
+}

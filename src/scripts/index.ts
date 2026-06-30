@@ -31,6 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const tradeToastDismiss = document.getElementById('trade-toast-dismiss') as HTMLButtonElement | null;
   const imageCanvas = document.querySelector('.image-canvas') as HTMLCanvasElement | null;
   const stickerGrid = document.querySelector('.sticker-grid') as HTMLElement;
+  const stickerEmptyState = document.querySelector('.sticker-grid__empty') as HTMLElement | null;
+  // Stats card elements — each may be null if the markup is absent,
+  // in which case the service silently skips stat rendering.
+  const statsPercentage = document.getElementById('stats-percentage');
+  const statsBarFill = document.getElementById('stats-bar-fill');
+  const statsOwned = document.getElementById('stats-owned');
+  const statsMissing = document.getElementById('stats-missing');
+  const statsDuplicates = document.getElementById('stats-duplicates');
   const stickerView = new StickerCollectionViewService(templates, {
     searchFilterElement,
     selectElement,
@@ -39,6 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
     showDuplicatesCheckbox,
     showNamesCheckbox,
     stickerGrid,
+    emptyStateElement: stickerEmptyState,
+    statsElements:
+      statsPercentage && statsBarFill && statsOwned && statsMissing && statsDuplicates
+        ? {
+            percentage: statsPercentage,
+            barFill: statsBarFill,
+            owned: statsOwned,
+            missing: statsMissing,
+            duplicates: statsDuplicates,
+          }
+        : null,
   });
   const stickerResultsModal = new StickerResultsModalService(templates);
   const tradeModal = new TradeModalService(templates);
@@ -128,6 +147,10 @@ document.addEventListener('DOMContentLoaded', () => {
           );
         }
       );
+
+      // Seed the stats card with the full base sticker list so missing
+      // counts are correct from the first paint (before any user action).
+      stickerView.renderStats(baseStickers);
 
       if (addFromImageButton) {
         wireAddFromImageButton({
@@ -279,6 +302,9 @@ document.addEventListener('DOMContentLoaded', () => {
               return;
             }
 
+            const toastVariants = ['trade-toast--success', 'trade-toast--error', 'trade-toast--info'];
+            toastVariants.forEach((variant) => tradeToast.classList.remove(variant));
+            tradeToast.classList.add('trade-toast--success');
             tradeToastMessage.textContent = `Trade complete: gave ${result.givenCount}, received ${result.receivedCount}.`;
             tradeToast.classList.remove('hidden');
           },
@@ -286,8 +312,17 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       if (tradeToastDismiss && tradeToast) {
+        const toastVariants = ['trade-toast--success', 'trade-toast--error', 'trade-toast--info'];
+
+        const applyToastVariant = (variantClass: string) => {
+          toastVariants.forEach((variant) => tradeToast.classList.remove(variant));
+          tradeToast.classList.remove('hidden');
+          tradeToast.classList.add(variantClass);
+        };
+
         tradeToastDismiss.addEventListener('click', () => {
           tradeToast.classList.add('hidden');
+          toastVariants.forEach((variant) => tradeToast.classList.remove(variant));
         });
       }
 

@@ -61,6 +61,7 @@ class TradeModalService {
 
     body.replaceChildren(...Array.from(contentBody.children));
     footer.replaceChildren(...Array.from(contentFooter.children));
+    body.classList.add('modal-shell__body--single');
 
     const selectionStep = body.querySelector('.trade-modal__selection-step') as HTMLElement | null;
     const summaryStep = body.querySelector('.trade-modal__summary-step') as HTMLElement | null;

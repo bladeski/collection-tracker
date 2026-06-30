@@ -1,0 +1,295 @@
+/* page.css
+   Page chrome: .page-wrapper, .page-shell, header, .text, .action-bar,
+   .action-buttons, .collection, .image-canvas, plus the print media block.
+
+   See base.css header for the spacing-token ladder and naming conventions.
+
+   Conventions:
+   - BEM-ish: block__element--modifier
+   - Spacing uses --space-* tokens from vars.css
+   - Radii use --radius-* tokens; elevations use --elevation-* tokens
+*/
+
+.page-wrapper,
+main,
+.collection,
+.sticker-grid {
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-wrapper {
+  min-height: 100dvh;
+  background: var(--surface-gradient);
+  background-attachment: fixed;
+}
+
+/* Centered, max-width content shell. Header and footer stay edge-to-edge. */
+.page-shell {
+  width: 100%;
+  max-width: 75rem;
+  margin-inline: auto;
+  padding: var(--space-3xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4xl);
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+header {
+  padding: var(--space-3xl) 0 var(--space-xl);
+  max-width: 75rem;
+  margin-inline: auto;
+  width: 100%;
+}
+
+header h1 {
+  background: linear-gradient(
+    100deg,
+    var(--heading-color) 0%,
+    color-mix(in srgb, var(--color-primary) 70%, var(--heading-color)) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.text {
+  padding: 0 var(--space-3xl) var(--space-3xl);
+  max-width: 56rem;
+}
+
+/* Toolbar group for primary page actions. */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--elevation-1), var(--card-highlight);
+  transition: var(--standard-transition);
+
+  &:hover {
+    box-shadow: var(--elevation-2), var(--card-highlight);
+  }
+
+  /* Subtle divider between scan icon buttons and the primary trade action.
+     Sits between the icon buttons and any subsequent button. */
+  .action-buttons__divider {
+    width: 1px;
+    height: 1.5rem;
+    background: var(--border-color);
+    margin-inline: var(--space-2xs);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 480px) {
+    .action-buttons__divider {
+      display: none;
+    }
+  }
+}
+
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.collection {
+  width: 100%;
+  max-width: 100%;
+}
+
+.image-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+/* ===== HEADER STATS CARD ===== */
+/* Reuses .card-progress / .progress-bar / .progress-stats rules from
+   base.css. This block adds the wrapper layout (two-column on desktop,
+   stacked on mobile) and the percentage / divider presentation. */
+
+.stats-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-lg);
+  padding: var(--space-xl) var(--space-2xl);
+  background: var(--card-gradient);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--elevation-2), var(--card-highlight);
+  transition: var(--transition-emphasis);
+  position: relative;
+  overflow: hidden;
+
+  @media (min-width: 720px) {
+    grid-template-columns: minmax(0, auto) minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-2xl);
+  }
+
+  &:hover {
+    box-shadow: var(--elevation-3), var(--card-highlight);
+  }
+}
+
+.stats-card__primary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 0;
+
+  .stats-card__percentage {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    line-height: 1.05;
+    color: var(--color-primary);
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    transition: color var(--transition-emphasis);
+
+    /* Brief pulse when the value changes */
+    &.stats-card__percentage--pulse {
+      color: var(--color-accent);
+    }
+  }
+
+  .stats-card__label {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+}
+
+.stats-card__stats {
+  /* Overrides .progress-stats grid to use a single row with dividers. */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  text-align: left;
+  align-items: center;
+
+  .stat {
+    padding-inline: var(--space-lg);
+    border-left: 1px solid var(--border-color);
+    min-width: 0;
+
+    &:first-child {
+      border-left: none;
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    .stat-value {
+      display: block;
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-xl);
+      font-weight: 700;
+      color: var(--heading-color);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.1;
+      transition: color var(--transition-emphasis);
+    }
+
+    .stat-label {
+      display: block;
+      margin-top: var(--space-3xs);
+      font-size: var(--font-size-xs);
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Semantic accent on the value text */
+    &.stat--owned .stat-value {
+      color: var(--color-owned);
+    }
+
+    &.stat--missing .stat-value {
+      color: var(--color-missing);
+    }
+
+    &.stat--duplicate .stat-value {
+      color: var(--color-duplicate);
+    }
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-sm);
+
+    .stat {
+      padding-inline: 0;
+      border-left: none;
+      border-top: 1px solid var(--border-color);
+      padding-block: var(--space-2xs);
+
+      &:first-child {
+        border-top: none;
+        padding-top: 0;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+/* Re-themed progress bar for the stats card. */
+.stats-card__bar {
+  width: 100%;
+  height: var(--space-md);
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: var(--space-xs);
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(var(--color-shadow-rgb), 0.08);
+
+  .stats-card__bar-fill {
+    height: 100%;
+    width: 0%;
+    border-radius: 999px;
+    background: linear-gradient(
+      90deg,
+      var(--color-owned) 0%,
+      var(--color-primary) 100%
+    );
+    box-shadow: 0 0 8px color-mix(in srgb, var(--color-primary) 40%, transparent);
+    transition: width 600ms cubic-bezier(0.2, 0.9, 0.3, 1.15);
+  }
+}
+
+@media print {
+  html {
+    font-size: var(--font-size-sm);
+  }
+
+  .text,
+  .filters,
+  .action-bar {
+    display: none;
+  }
+}

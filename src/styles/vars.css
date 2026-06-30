@@ -22,9 +22,9 @@
   --font-family-ui: var(--font-family-heading);
 
   /* spacing (margins / paddings) */
+  --space-4xs: 0.25rem;
   --space-3xs: 0.375rem;
   --space-2xs: 0.5rem;
-  --space-4xs: 0.25rem;
   --space-xs: 0.625rem;
   --space-sm: 0.75rem;
   --space-md: 0.875rem;
@@ -35,6 +35,8 @@
   --space-4xl: 2rem;
   --space-5xl: 3rem;
   --space-6xl: 4rem;
+  --space-7xl: 5rem;
+  --space-8xl: 6rem;
 
   /* font sizes */
   --font-size-xs: 0.8125rem;
@@ -79,6 +81,7 @@
   --focus-ring: 0 0 0 3px color-mix(in srgb, var(--c8-blue, #0044cc) 15%, transparent);
 
   --button-height: 40px;
+  --fab-size: 4rem;
 
   /* heading size tokens */
   --heading-1: var(--font-size-2xl);
@@ -95,32 +98,49 @@
   /* 12px */
 
   /* default heading spacing */
-  --heading-margin-top: 0;
-  --heading-margin-bottom: 0;
+  --heading-margin-top: var(--space-md);
+  --heading-margin-bottom: var(--space-xs);
   --heading-padding-vertical: var(--space-2xs);
 
   /* ===== ELEVATION & SHADOWS ===== */
-  
+  /* Softer, layered shadows for a modern "elevated" feel.
+     Each level stacks a tight ambient shadow with a softer diffuse shadow. */
+
   --color-shadow-rgb: var(--dark-background-rgb);
-  
+
   /* Elevation 0 - Flat */
   --elevation-0: none;
-  
+
   /* Elevation 1 - Subtle (cards, inputs) */
-  --elevation-1: 0px 2px 4px rgba(var(--color-shadow-rgb), 0.1);
-  
+  --elevation-1:
+    0px 1px 2px rgba(var(--color-shadow-rgb), 0.04),
+    0px 2px 6px rgba(var(--color-shadow-rgb), 0.06);
+
   /* Elevation 2 - Raised (hovered cards, floating elements) */
-  --elevation-2: 0px 8px 16px rgba(var(--color-shadow-rgb), 0.15);
-  
+  --elevation-2:
+    0px 2px 4px rgba(var(--color-shadow-rgb), 0.05),
+    0px 8px 18px rgba(var(--color-shadow-rgb), 0.08);
+
   /* Elevation 3 - Lifted (dropdowns, popovers, overlays) */
-  --elevation-3: 0px 16px 32px rgba(var(--color-shadow-rgb), 0.2);
-  
+  --elevation-3:
+    0px 4px 8px rgba(var(--color-shadow-rgb), 0.06),
+    0px 18px 36px rgba(var(--color-shadow-rgb), 0.12);
+
   /* Elevation 4 - Top (modals, dialogs) */
-  --elevation-4: 0px 24px 48px rgba(var(--color-shadow-rgb), 0.25);
-  
+  --elevation-4:
+    0px 6px 12px rgba(var(--color-shadow-rgb), 0.08),
+    0px 28px 56px rgba(var(--color-shadow-rgb), 0.18);
+
   /* Elevation 5 - Floating (FAB, tooltips) */
-  --elevation-5: 0px 32px 64px rgba(var(--color-shadow-rgb), 0.3);
-  
+  --elevation-5:
+    0px 8px 16px rgba(var(--color-shadow-rgb), 0.10),
+    0px 36px 72px rgba(var(--color-shadow-rgb), 0.22);
+
+  /* Chip-specific shadow (subtle ring used by filter chips) */
+  --chip-shadow:
+    0 0 0 1px var(--border-color),
+    0 1px 2px rgba(var(--color-shadow-rgb), 0.04);
+
   /* Legacy aliases for compatibility */
   --shadow-0: var(--elevation-1);
   --shadow-1: var(--elevation-2);
@@ -130,6 +150,46 @@
   --text-shadow: 1px 1px 3px rgba(var(--color-shadow-rgb), 0.5);
 
   --standard-transition: all 200ms ease;
+
+  /* ===== MODERN STYLE ENHANCEMENTS ===== */
+
+  /* Slightly longer, gently-overshooting transition used by chips,
+     stats card, and other "interactive emphasis" surfaces. */
+  --transition-emphasis: 280ms cubic-bezier(0.2, 0.9, 0.3, 1.15);
+
+  /* Page-level soft gradient background. Fades the page surface into
+     a faint tinted surface-secondary at the top for depth. */
+  --surface-gradient:
+    radial-gradient(
+      1200px 600px at 20% -10%,
+      color-mix(in srgb, var(--color-primary) 6%, transparent),
+      transparent 60%
+    ),
+    linear-gradient(
+      180deg,
+      var(--surface-2) 0%,
+      var(--surface-alt) 30%,
+      var(--surface-alt) 100%
+    );
+
+  /* Card-level gradient (lighter, used by stat cards on the surface). */
+  --card-gradient:
+    linear-gradient(
+      180deg,
+      var(--surface) 0%,
+      color-mix(in srgb, var(--surface) 92%, var(--color-primary) 8%) 100%
+    );
+
+  /* Card radius — slightly larger than the standard --radius-md to give
+     cards a softer, more modern silhouette. */
+  --card-radius: 1rem;
+
+  /* Subtle inner highlight used at the top of cards to mimic light
+     catching the surface. */
+  --card-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+
+  /* Pulse colour used to highlight stat value changes. */
+  --accent-pulse: color-mix(in srgb, var(--color-primary) 25%, transparent);
 }
 
 /* Theme tokens: light defaults, system dark override, and explicit override */
@@ -155,6 +215,18 @@
   --surface-alt-contrast: var(--light-text-primary);
   --surface-alt-2: var(--light-surface-secondary);
   --surface-alt-contrast-2: var(--light-text-secondary);
+
+  /* ===== STATUS COLORS ===== */
+  /* Sticker-state semantic tokens (owned, missing, duplicate). */
+  --color-owned: #16A34A;
+  --color-owned-rgb: 22, 163, 74;
+  --color-on-owned: #FFFFFF;
+  --color-missing: #DC2626;
+  --color-missing-rgb: 220, 38, 38;
+  --color-on-missing: #FFFFFF;
+  --color-duplicate: #F59E0B;
+  --color-duplicate-rgb: 245, 158, 11;
+  --color-on-duplicate: #1F2937;
 
   --border-style: 3px dotted var(--border-color);
 }
@@ -183,6 +255,19 @@
     --surface-alt-contrast: var(--dark-text-primary);
     --surface-alt-2: var(--dark-surface-secondary);
     --surface-alt-contrast-2: var(--dark-text-secondary);
+
+    --color-owned: #22C55E;
+    --color-owned-rgb: 34, 197, 94;
+    --color-on-owned: #052E16;
+    --color-missing: #F87171;
+    --color-missing-rgb: 248, 113, 113;
+    --color-on-missing: #1F0808;
+    --color-duplicate: #FBBF24;
+    --color-duplicate-rgb: 251, 191, 36;
+    --color-on-duplicate: #1F2937;
+
+    /* Dark-mode card highlight: very subtle lighter surface line. */
+    --card-highlight: inset 0 1px 0 rgba(248, 250, 252, 0.04);
   }
 }
 
@@ -205,6 +290,16 @@
   --surface-alt-contrast: var(--dark-text-primary);
   --surface-alt-2: var(--dark-surface-secondary);
   --surface-alt-contrast-2: var(--dark-text-secondary);
+
+  --color-owned: #22C55E;
+  --color-owned-rgb: 34, 197, 94;
+  --color-on-owned: #052E16;
+  --color-missing: #F87171;
+  --color-missing-rgb: 248, 113, 113;
+  --color-on-missing: #1F0808;
+  --color-duplicate: #FBBF24;
+  --color-duplicate-rgb: 251, 191, 36;
+  --color-on-duplicate: #1F2937;
 }
 
 :root[data-theme="light"] {

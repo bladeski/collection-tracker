@@ -10,6 +10,16 @@ export interface StickerCollectionViewElements {
   showDuplicatesCheckbox: HTMLInputElement;
   showNamesCheckbox: HTMLInputElement;
   stickerGrid: HTMLElement;
+  emptyStateElement?: HTMLElement | null;
+  statsElements?: StatsElements | null;
+}
+
+export interface StatsElements {
+  percentage: HTMLElement;
+  barFill: HTMLElement;
+  owned: HTMLElement;
+  missing: HTMLElement;
+  duplicates: HTMLElement;
 }
 
 export interface StickerSummary {
@@ -22,16 +32,41 @@ export interface TeamSummary {
   name: string;
 }
 
+export interface CollectionStats {
+  total: number;
+  owned: number;
+  missing: number;
+  duplicates: number;
+  /** Percentage 0..100, rounded to one decimal. */
+  percentage: number;
+}
+
 class StickerCollectionViewService {
   private readonly teamSectionsById = new Map<string, HTMLElement>();
   private readonly stickerRowsById = new Map<string, StickerRowState>();
   private readonly stickerRowsByTeamId = new Map<string, StickerRowState[]>();
-  private readonly filterSubtitle = document.querySelector('.summary-subtitle') as HTMLHeadingElement | null;
+  private readonly filterSubtitle =
+    (document.querySelector('#filter-summary') as HTMLElement | null) ??
+    (document.querySelector('.summary-subtitle') as HTMLElement | null);
+
+  /** Cached reference to the base sticker list, used to compute missing count. */
+  private baseStickers: FifaSticker[] = [];
+
+  /** Cached reference to the base sticker lookup map (id -> sticker). */
+  private readonly baseStickersById = new Map<string, FifaSticker>();
+
+  /** Cached references to stat card DOM nodes (may be null if no stats card). */
+  private readonly statsRefs: StatsElements | null;
+
+  /** Last rendered stats values, used to pulse the percentage on change. */
+  private lastStats: CollectionStats | null = null;
 
   constructor(
     private readonly templates: TemplateService,
     private readonly elements: StickerCollectionViewElements
-  ) {}
+  ) {
+    this.statsRefs = elements.statsElements ?? null;
+  }
 
   renderTeams(
     teams: TeamSummary[],
@@ -74,6 +109,90 @@ class StickerCollectionViewService {
     }
 
     this.syncStickerRow(stickerRow, stickerId, stickerName, count);
+    // Count change affects overall collection stats — refresh them.
+    this.updateStats();
+  }
+
+  /**
+   * Cache the base sticker list so we can compute the missing count
+   * (anything in the base list that hasn't been collected yet) and seed
+   * the stats card with initial zero values.
+   *
+   * Call this once after `renderTeams` and before the first
+   * `updateStickerRowById` event.
+   */
+  renderStats(baseStickers: FifaSticker[]): void {
+    this.baseStickers = baseStickers.slice();
+    this.baseStickersById.clear();
+    this.baseStickers.forEach((sticker) => {
+      this.baseStickersById.set(sticker.id, sticker);
+    });
+    this.updateStats();
+  }
+
+  /**
+   * Recompute collection stats from the current sticker row counts and
+   * write them into the stats card DOM (if present). The percentage
+   * value briefly pulses when it changes to draw the eye.
+   */
+  updateStats(): void {
+    const stats = this.computeStats();
+    if (!this.statsRefs) {
+      return;
+    }
+
+    const { percentage, owned, missing, duplicates } = stats;
+
+    this.statsRefs.percentage.textContent = `${stats.percentage}%`;
+    this.statsRefs.barFill.style.width = `${stats.percentage}%`;
+    this.statsRefs.owned.textContent = String(owned);
+    this.statsRefs.missing.textContent = String(missing);
+    this.statsRefs.duplicates.textContent = String(duplicates);
+
+    // Brief pulse on the percentage to highlight a change.
+    if (
+      this.lastStats !== null &&
+      this.lastStats.percentage !== stats.percentage &&
+      typeof this.statsRefs.percentage.animate === 'function'
+    ) {
+      const el = this.statsRefs.percentage;
+      el.classList.add('stats-card__percentage--pulse');
+      window.setTimeout(() => {
+        el.classList.remove('stats-card__percentage--pulse');
+      }, 600);
+    }
+
+    this.lastStats = stats;
+  }
+
+  /** Pure computation of owned / missing / duplicate counts. */
+  private computeStats(): CollectionStats {
+    let owned = 0;
+    let duplicates = 0;
+    this.stickerRowsById.forEach((row) => {
+      const count = Number(row.item.dataset.count ?? '0') || 0;
+      if (count > 0) {
+        owned += 1;
+      }
+      if (count > 1) {
+        duplicates += count - 1;
+      }
+    });
+
+    const total = this.baseStickers.length;
+    // Missing = base stickers that the user has never collected.
+    const missingIds = new Set(this.baseStickers.map((s) => s.id));
+    this.stickerRowsById.forEach((row) => {
+      const count = Number(row.item.dataset.count ?? '0') || 0;
+      if (count > 0 && row.item.dataset.stickerId) {
+        missingIds.delete(row.item.dataset.stickerId);
+      }
+    });
+    const missing = missingIds.size;
+
+    const percentage = total === 0 ? 0 : Math.round((owned / total) * 1000) / 10;
+
+    return { total, owned, missing, duplicates, percentage };
   }
 
   applyFilters(): void {
@@ -96,28 +215,57 @@ class StickerCollectionViewService {
               : this.elements.showDuplicatesCheckbox.checked
                 ? 'Duplicate'
                 : 'No';
-      this.filterSubtitle.textContent = `${filterNames} stickers`;
+
+      // Suffix indicates when the visible set is further narrowed by
+      // search text or a team selection — gives the user context that
+      // what they see is not the full filter result.
+      const narrowingParts: string[] = [];
+      if (searchValue !== '') {
+        narrowingParts.push(`“${searchValue}”`);
+      }
+      if (selectedValue !== 'all') {
+        narrowingParts.push(`team ${selectedValue}`);
+      }
+      const suffix = narrowingParts.length > 0 ? ` · ${narrowingParts.join(' · ')}` : '';
+
+      this.filterSubtitle.textContent = `${filterNames} stickers${suffix}`;
+
+      // Color-code the indicator dot by the active filter scope.
+      this.filterSubtitle.classList.remove(
+        'summary-subtitle--missing',
+        'summary-subtitle--duplicate'
+      );
+      if (filterNames === 'Missing') {
+        this.filterSubtitle.classList.add('summary-subtitle--missing');
+      } else if (filterNames === 'Duplicate') {
+        this.filterSubtitle.classList.add('summary-subtitle--duplicate');
+      }
     }
 
     const filterById = selectedValue === 'all' ? null : selectedValue;
+    let visibleRowCount = 0;
+
     this.stickerRowsById.forEach((stickerRow, stickerId) => {
-      stickerRow.item.classList.toggle('hidden', 
+      const isHidden =
         (filterById !== null && stickerRow.item.dataset.teamId !== filterById)
-        || (searchValue !== '' && !stickerId.toLowerCase().includes(searchValue))
-      );
+        || (searchValue !== '' && !stickerId.toLowerCase().includes(searchValue));
+      stickerRow.item.classList.toggle('hidden', isHidden);
+      if (!isHidden) {
+        visibleRowCount += 1;
+      }
     });
 
     this.teamSectionsById.forEach((teamItem, teamId) => {
-      const teamMatchesSelect = selectedValue !== 'all' || selectedValue === teamId;
+      const teamMatchesSelect = selectedValue === 'all' || selectedValue === teamId;
       const stickerRows = this.stickerRowsByTeamId.get(teamId) ?? [];
-
-      setTimeout(() => {
-        teamItem.classList.toggle('hidden', 
-          !stickerRows.some(stickerRow => stickerRow.item.computedStyleMap().get('display')?.toString() !== 'none')
-          && !teamMatchesSelect
-        );
-      });
+      const visibleInTeam = stickerRows.some((stickerRow) => !stickerRow.item.classList.contains('hidden'));
+      teamItem.classList.toggle('hidden', !teamMatchesSelect || !visibleInTeam);
     });
+
+    const hasVisibleContent = visibleRowCount > 0 && this.teamSectionsById.size > 0;
+    if (this.elements.emptyStateElement) {
+      this.elements.emptyStateElement.classList.toggle('hidden', hasVisibleContent);
+    }
   }
 
   private instantiateTemplate<T extends Element>(templateKey: TemplateKey): T {
@@ -218,8 +366,9 @@ class StickerCollectionViewService {
     }
     if (stickerRow.count) {
       const duplicateCount = Math.max(0, count - 1);
-      stickerRow.count.textContent = duplicateCount > 0 ?
-        `Duplicates: ${duplicateCount}` : '';
+      stickerRow.count.textContent = duplicateCount > 0
+        ? String(duplicateCount)
+        : '';
     }
   }
 }
