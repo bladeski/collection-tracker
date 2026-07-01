@@ -24,8 +24,8 @@
     "vm-browserify": "^1.1.2"
   },
   "scripts": {
-    "build": "parcel build \"src/views/index.pug\"",
-    "dev": "parcel \"src/views/index.pug\"",
+    "build": "parcel build src/views/index.pug src/views/collection.pug --dist-dir dist",
+    "dev": "parcel src/views/index.pug src/views/collection.pug --dist-dir dist",
     "test": "vitest run",
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",

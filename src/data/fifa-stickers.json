@@ -1,6 +1,7 @@
 [
   {
     "id": "00",
+    "itemType": "fifa26",
     "name": "Panini Logo",
     "count": 0,
     "teamId": "FWC",
@@ -9,6 +10,7 @@
   },
   {
     "id": "FWC1",
+    "itemType": "fifa26",
     "name": "Official Emblem (top)",
     "count": 0,
     "teamId": "FWC",
@@ -17,6 +19,7 @@
   },
   {
     "id": "FWC2",
+    "itemType": "fifa26",
     "name": "Official Emblem (bottom)",
     "count": 0,
     "teamId": "FWC",
@@ -25,6 +28,7 @@
   },
   {
     "id": "FWC3",
+    "itemType": "fifa26",
     "name": "Official Mascots",
     "count": 0,
     "teamId": "FWC",
@@ -33,6 +37,7 @@
   },
   {
     "id": "FWC4",
+    "itemType": "fifa26",
     "name": "Official Slogan",
     "count": 0,
     "teamId": "FWC",
@@ -41,6 +46,7 @@
   },
   {
     "id": "FWC5",
+    "itemType": "fifa26",
     "name": "Official Ball",
     "count": 0,
     "teamId": "FWC",
@@ -49,6 +55,7 @@
   },
   {
     "id": "FWC6",
+    "itemType": "fifa26",
     "name": "Canada - Host Countries & Cities",
     "count": 0,
     "teamId": "FWC",
@@ -57,6 +64,7 @@
   },
   {
     "id": "FWC7",
+    "itemType": "fifa26",
     "name": "Mexico - Host Countries & Cities",
     "count": 0,
     "teamId": "FWC",
@@ -65,6 +73,7 @@
   },
   {
     "id": "FWC8",
+    "itemType": "fifa26",
     "name": "USA - Host Countries & Cities",
     "count": 0,
     "teamId": "FWC",
@@ -73,6 +82,7 @@
   },
   {
     "id": "FWC9",
+    "itemType": "fifa26",
     "name": "Italy 1934",
     "count": 0,
     "teamId": "FWC",
@@ -81,6 +91,7 @@
   },
   {
     "id": "FWC10",
+    "itemType": "fifa26",
     "name": "Uruguay 1950",
     "count": 0,
     "teamId": "FWC",
@@ -89,6 +100,7 @@
   },
   {
     "id": "FWC11",
+    "itemType": "fifa26",
     "name": "West Germany 1954",
     "count": 0,
     "teamId": "FWC",
@@ -97,6 +109,7 @@
   },
   {
     "id": "FWC12",
+    "itemType": "fifa26",
     "name": "Brazil 1962",
     "count": 0,
     "teamId": "FWC",
@@ -105,6 +118,7 @@
   },
   {
     "id": "FWC13",
+    "itemType": "fifa26",
     "name": "West Germany 1974",
     "count": 0,
     "teamId": "FWC",
@@ -113,6 +127,7 @@
   },
   {
     "id": "FWC14",
+    "itemType": "fifa26",
     "name": "Argentina 1986",
     "count": 0,
     "teamId": "FWC",
@@ -121,6 +136,7 @@
   },
   {
     "id": "FWC15",
+    "itemType": "fifa26",
     "name": "Brazil 1994",
     "count": 0,
     "teamId": "FWC",
@@ -129,6 +145,7 @@
   },
   {
     "id": "FWC16",
+    "itemType": "fifa26",
     "name": "Brazil 2002",
     "count": 0,
     "teamId": "FWC",
@@ -137,6 +154,7 @@
   },
   {
     "id": "FWC17",
+    "itemType": "fifa26",
     "name": "Italy 2006",
     "count": 0,
     "teamId": "FWC",
@@ -145,6 +163,7 @@
   },
   {
     "id": "FWC18",
+    "itemType": "fifa26",
     "name": "Germany 2014",
     "count": 0,
     "teamId": "FWC",
@@ -153,6 +172,7 @@
   },
   {
     "id": "FWC19",
+    "itemType": "fifa26",
     "name": "Argentina 2022",
     "count": 0,
     "teamId": "FWC",
@@ -161,6 +181,7 @@
   },
   {
     "id": "MEX1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "MEX",
@@ -169,6 +190,7 @@
   },
   {
     "id": "MEX2",
+    "itemType": "fifa26",
     "name": "Luis Malagón",
     "count": 0,
     "teamId": "MEX",
@@ -177,6 +199,7 @@
   },
   {
     "id": "MEX3",
+    "itemType": "fifa26",
     "name": "Johan Vasquez",
     "count": 0,
     "teamId": "MEX",
@@ -185,6 +208,7 @@
   },
   {
     "id": "MEX4",
+    "itemType": "fifa26",
     "name": "Jorge Sánchez",
     "count": 0,
     "teamId": "MEX",
@@ -193,6 +217,7 @@
   },
   {
     "id": "MEX5",
+    "itemType": "fifa26",
     "name": "Cesar Montes",
     "count": 0,
     "teamId": "MEX",
@@ -201,6 +226,7 @@
   },
   {
     "id": "MEX6",
+    "itemType": "fifa26",
     "name": "Jesús Gallardo",
     "count": 0,
     "teamId": "MEX",
@@ -209,6 +235,7 @@
   },
   {
     "id": "MEX7",
+    "itemType": "fifa26",
     "name": "Israel Reyes",
     "count": 0,
     "teamId": "MEX",
@@ -217,6 +244,7 @@
   },
   {
     "id": "MEX8",
+    "itemType": "fifa26",
     "name": "Diego Lainez",
     "count": 0,
     "teamId": "MEX",
@@ -225,6 +253,7 @@
   },
   {
     "id": "MEX9",
+    "itemType": "fifa26",
     "name": "Carlos Rodriguez",
     "count": 0,
     "teamId": "MEX",
@@ -233,6 +262,7 @@
   },
   {
     "id": "MEX10",
+    "itemType": "fifa26",
     "name": "Edson Alvarez",
     "count": 0,
     "teamId": "MEX",
@@ -241,6 +271,7 @@
   },
   {
     "id": "MEX11",
+    "itemType": "fifa26",
     "name": "Orbelin Pineda",
     "count": 0,
     "teamId": "MEX",
@@ -249,6 +280,7 @@
   },
   {
     "id": "MEX12",
+    "itemType": "fifa26",
     "name": "Marcel Ruiz",
     "count": 0,
     "teamId": "MEX",
@@ -257,6 +289,7 @@
   },
   {
     "id": "MEX13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "MEX",
@@ -265,6 +298,7 @@
   },
   {
     "id": "MEX14",
+    "itemType": "fifa26",
     "name": "Érick Sánchez",
     "count": 0,
     "teamId": "MEX",
@@ -273,6 +307,7 @@
   },
   {
     "id": "MEX15",
+    "itemType": "fifa26",
     "name": "Hirving Lozano",
     "count": 0,
     "teamId": "MEX",
@@ -281,6 +316,7 @@
   },
   {
     "id": "MEX16",
+    "itemType": "fifa26",
     "name": "Santiago Giménez",
     "count": 0,
     "teamId": "MEX",
@@ -289,6 +325,7 @@
   },
   {
     "id": "MEX17",
+    "itemType": "fifa26",
     "name": "Raúl Jiménez",
     "count": 0,
     "teamId": "MEX",
@@ -297,6 +334,7 @@
   },
   {
     "id": "MEX18",
+    "itemType": "fifa26",
     "name": "Alexis Vega",
     "count": 0,
     "teamId": "MEX",
@@ -305,6 +343,7 @@
   },
   {
     "id": "MEX19",
+    "itemType": "fifa26",
     "name": "Roberto Alvarado",
     "count": 0,
     "teamId": "MEX",
@@ -313,6 +352,7 @@
   },
   {
     "id": "MEX20",
+    "itemType": "fifa26",
     "name": "Cesar Huerta",
     "count": 0,
     "teamId": "MEX",
@@ -321,6 +361,7 @@
   },
   {
     "id": "RSA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "RSA",
@@ -329,6 +370,7 @@
   },
   {
     "id": "RSA2",
+    "itemType": "fifa26",
     "name": "Ronwen Williams",
     "count": 0,
     "teamId": "RSA",
@@ -337,6 +379,7 @@
   },
   {
     "id": "RSA3",
+    "itemType": "fifa26",
     "name": "Sipho Chaine",
     "count": 0,
     "teamId": "RSA",
@@ -345,6 +388,7 @@
   },
   {
     "id": "RSA4",
+    "itemType": "fifa26",
     "name": "Aubrey Modiba",
     "count": 0,
     "teamId": "RSA",
@@ -353,6 +397,7 @@
   },
   {
     "id": "RSA5",
+    "itemType": "fifa26",
     "name": "Samukele Kabini",
     "count": 0,
     "teamId": "RSA",
@@ -361,6 +406,7 @@
   },
   {
     "id": "RSA6",
+    "itemType": "fifa26",
     "name": "Mbekezeli Mbokazi",
     "count": 0,
     "teamId": "RSA",
@@ -369,6 +415,7 @@
   },
   {
     "id": "RSA7",
+    "itemType": "fifa26",
     "name": "Khulumani Ndamane",
     "count": 0,
     "teamId": "RSA",
@@ -377,6 +424,7 @@
   },
   {
     "id": "RSA8",
+    "itemType": "fifa26",
     "name": "Siyabonga Ngezana",
     "count": 0,
     "teamId": "RSA",
@@ -385,6 +433,7 @@
   },
   {
     "id": "RSA9",
+    "itemType": "fifa26",
     "name": "Khuliso Mudau",
     "count": 0,
     "teamId": "RSA",
@@ -393,6 +442,7 @@
   },
   {
     "id": "RSA10",
+    "itemType": "fifa26",
     "name": "Nkosinathi Sibisi",
     "count": 0,
     "teamId": "RSA",
@@ -401,6 +451,7 @@
   },
   {
     "id": "RSA11",
+    "itemType": "fifa26",
     "name": "Teboho Mokoena",
     "count": 0,
     "teamId": "RSA",
@@ -409,6 +460,7 @@
   },
   {
     "id": "RSA12",
+    "itemType": "fifa26",
     "name": "Thalente Mbatha",
     "count": 0,
     "teamId": "RSA",
@@ -417,6 +469,7 @@
   },
   {
     "id": "RSA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "RSA",
@@ -425,6 +478,7 @@
   },
   {
     "id": "RSA14",
+    "itemType": "fifa26",
     "name": "Bathusi Aubaas",
     "count": 0,
     "teamId": "RSA",
@@ -433,6 +487,7 @@
   },
   {
     "id": "RSA15",
+    "itemType": "fifa26",
     "name": "Yaya Sithole",
     "count": 0,
     "teamId": "RSA",
@@ -441,6 +496,7 @@
   },
   {
     "id": "RSA16",
+    "itemType": "fifa26",
     "name": "Sipho Mbule",
     "count": 0,
     "teamId": "RSA",
@@ -449,6 +505,7 @@
   },
   {
     "id": "RSA17",
+    "itemType": "fifa26",
     "name": "Lyle Foster",
     "count": 0,
     "teamId": "RSA",
@@ -457,6 +514,7 @@
   },
   {
     "id": "RSA18",
+    "itemType": "fifa26",
     "name": "Iqraam Rayners",
     "count": 0,
     "teamId": "RSA",
@@ -465,6 +523,7 @@
   },
   {
     "id": "RSA19",
+    "itemType": "fifa26",
     "name": "Mohau Nkota",
     "count": 0,
     "teamId": "RSA",
@@ -473,6 +532,7 @@
   },
   {
     "id": "RSA20",
+    "itemType": "fifa26",
     "name": "Oswin Appollis",
     "count": 0,
     "teamId": "RSA",
@@ -481,6 +541,7 @@
   },
   {
     "id": "KOR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "KOR",
@@ -489,6 +550,7 @@
   },
   {
     "id": "KOR2",
+    "itemType": "fifa26",
     "name": "Hyeon-woo Jo",
     "count": 0,
     "teamId": "KOR",
@@ -497,6 +559,7 @@
   },
   {
     "id": "KOR3",
+    "itemType": "fifa26",
     "name": "Seung-Gyu Kim",
     "count": 0,
     "teamId": "KOR",
@@ -505,6 +568,7 @@
   },
   {
     "id": "KOR4",
+    "itemType": "fifa26",
     "name": "Min-jae Kim",
     "count": 0,
     "teamId": "KOR",
@@ -513,6 +577,7 @@
   },
   {
     "id": "KOR5",
+    "itemType": "fifa26",
     "name": "Yu-min Cho",
     "count": 0,
     "teamId": "KOR",
@@ -521,6 +586,7 @@
   },
   {
     "id": "KOR6",
+    "itemType": "fifa26",
     "name": "Young-woo Seol",
     "count": 0,
     "teamId": "KOR",
@@ -529,6 +595,7 @@
   },
   {
     "id": "KOR7",
+    "itemType": "fifa26",
     "name": "Han-beom Lee",
     "count": 0,
     "teamId": "KOR",
@@ -537,6 +604,7 @@
   },
   {
     "id": "KOR8",
+    "itemType": "fifa26",
     "name": "Tae-seok Lee",
     "count": 0,
     "teamId": "KOR",
@@ -545,6 +613,7 @@
   },
   {
     "id": "KOR9",
+    "itemType": "fifa26",
     "name": "Myung-jae Lee",
     "count": 0,
     "teamId": "KOR",
@@ -553,6 +622,7 @@
   },
   {
     "id": "KOR10",
+    "itemType": "fifa26",
     "name": "Jae-sung Lee",
     "count": 0,
     "teamId": "KOR",
@@ -561,6 +631,7 @@
   },
   {
     "id": "KOR11",
+    "itemType": "fifa26",
     "name": "In-beom Hwang",
     "count": 0,
     "teamId": "KOR",
@@ -569,6 +640,7 @@
   },
   {
     "id": "KOR12",
+    "itemType": "fifa26",
     "name": "Kang-in Lee",
     "count": 0,
     "teamId": "KOR",
@@ -577,6 +649,7 @@
   },
   {
     "id": "KOR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "KOR",
@@ -585,6 +658,7 @@
   },
   {
     "id": "KOR14",
+    "itemType": "fifa26",
     "name": "Seung-ho Paik",
     "count": 0,
     "teamId": "KOR",
@@ -593,6 +667,7 @@
   },
   {
     "id": "KOR15",
+    "itemType": "fifa26",
     "name": "Jens Castrop",
     "count": 0,
     "teamId": "KOR",
@@ -601,6 +676,7 @@
   },
   {
     "id": "KOR16",
+    "itemType": "fifa26",
     "name": "Dong-gyeong Lee",
     "count": 0,
     "teamId": "KOR",
@@ -609,6 +685,7 @@
   },
   {
     "id": "KOR17",
+    "itemType": "fifa26",
     "name": "Gue-sung Cho",
     "count": 0,
     "teamId": "KOR",
@@ -617,6 +694,7 @@
   },
   {
     "id": "KOR18",
+    "itemType": "fifa26",
     "name": "Heung-min Son",
     "count": 0,
     "teamId": "KOR",
@@ -625,6 +703,7 @@
   },
   {
     "id": "KOR19",
+    "itemType": "fifa26",
     "name": "Hee-chan Hwang",
     "count": 0,
     "teamId": "KOR",
@@ -633,6 +712,7 @@
   },
   {
     "id": "KOR20",
+    "itemType": "fifa26",
     "name": "Hyeon-Gyu Oh",
     "count": 0,
     "teamId": "KOR",
@@ -641,6 +721,7 @@
   },
   {
     "id": "CZE1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CZE",
@@ -649,6 +730,7 @@
   },
   {
     "id": "CZE2",
+    "itemType": "fifa26",
     "name": "Matej Kovar",
     "count": 0,
     "teamId": "CZE",
@@ -657,6 +739,7 @@
   },
   {
     "id": "CZE3",
+    "itemType": "fifa26",
     "name": "Jindrich Stanek",
     "count": 0,
     "teamId": "CZE",
@@ -665,6 +748,7 @@
   },
   {
     "id": "CZE4",
+    "itemType": "fifa26",
     "name": "Ladislav Krejci",
     "count": 0,
     "teamId": "CZE",
@@ -673,6 +757,7 @@
   },
   {
     "id": "CZE5",
+    "itemType": "fifa26",
     "name": "Vladimir Coufal",
     "count": 0,
     "teamId": "CZE",
@@ -681,6 +766,7 @@
   },
   {
     "id": "CZE6",
+    "itemType": "fifa26",
     "name": "Jaroslav Zeleny",
     "count": 0,
     "teamId": "CZE",
@@ -689,6 +775,7 @@
   },
   {
     "id": "CZE7",
+    "itemType": "fifa26",
     "name": "Tomas Holes",
     "count": 0,
     "teamId": "CZE",
@@ -697,6 +784,7 @@
   },
   {
     "id": "CZE8",
+    "itemType": "fifa26",
     "name": "David Zima",
     "count": 0,
     "teamId": "CZE",
@@ -705,6 +793,7 @@
   },
   {
     "id": "CZE9",
+    "itemType": "fifa26",
     "name": "Michal Sadilek",
     "count": 0,
     "teamId": "CZE",
@@ -713,6 +802,7 @@
   },
   {
     "id": "CZE10",
+    "itemType": "fifa26",
     "name": "Lukas Provod",
     "count": 0,
     "teamId": "CZE",
@@ -721,6 +811,7 @@
   },
   {
     "id": "CZE11",
+    "itemType": "fifa26",
     "name": "Lukas Cerv",
     "count": 0,
     "teamId": "CZE",
@@ -729,6 +820,7 @@
   },
   {
     "id": "CZE12",
+    "itemType": "fifa26",
     "name": "Tomas Soucek",
     "count": 0,
     "teamId": "CZE",
@@ -737,6 +829,7 @@
   },
   {
     "id": "CZE13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CZE",
@@ -745,6 +838,7 @@
   },
   {
     "id": "CZE14",
+    "itemType": "fifa26",
     "name": "Pavel Sulc",
     "count": 0,
     "teamId": "CZE",
@@ -753,6 +847,7 @@
   },
   {
     "id": "CZE15",
+    "itemType": "fifa26",
     "name": "Matej Vydra",
     "count": 0,
     "teamId": "CZE",
@@ -761,6 +856,7 @@
   },
   {
     "id": "CZE16",
+    "itemType": "fifa26",
     "name": "Vasil Kusej",
     "count": 0,
     "teamId": "CZE",
@@ -769,6 +865,7 @@
   },
   {
     "id": "CZE17",
+    "itemType": "fifa26",
     "name": "Tomas Chory",
     "count": 0,
     "teamId": "CZE",
@@ -777,6 +874,7 @@
   },
   {
     "id": "CZE18",
+    "itemType": "fifa26",
     "name": "Vaclav Cerny",
     "count": 0,
     "teamId": "CZE",
@@ -785,6 +883,7 @@
   },
   {
     "id": "CZE19",
+    "itemType": "fifa26",
     "name": "Adam Hlozek",
     "count": 0,
     "teamId": "CZE",
@@ -793,6 +892,7 @@
   },
   {
     "id": "CZE20",
+    "itemType": "fifa26",
     "name": "Patrik Schick",
     "count": 0,
     "teamId": "CZE",
@@ -801,6 +901,7 @@
   },
   {
     "id": "CAN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CAN",
@@ -809,6 +910,7 @@
   },
   {
     "id": "CAN2",
+    "itemType": "fifa26",
     "name": "Dayne St.Clair",
     "count": 0,
     "teamId": "CAN",
@@ -817,6 +919,7 @@
   },
   {
     "id": "CAN3",
+    "itemType": "fifa26",
     "name": "Alphonso Davies",
     "count": 0,
     "teamId": "CAN",
@@ -825,6 +928,7 @@
   },
   {
     "id": "CAN4",
+    "itemType": "fifa26",
     "name": "Alistair Johnston",
     "count": 0,
     "teamId": "CAN",
@@ -833,6 +937,7 @@
   },
   {
     "id": "CAN5",
+    "itemType": "fifa26",
     "name": "Samuel Adekugbe",
     "count": 0,
     "teamId": "CAN",
@@ -841,6 +946,7 @@
   },
   {
     "id": "CAN6",
+    "itemType": "fifa26",
     "name": "Richie Laryea",
     "count": 0,
     "teamId": "CAN",
@@ -849,6 +955,7 @@
   },
   {
     "id": "CAN7",
+    "itemType": "fifa26",
     "name": "Derek Cornelius",
     "count": 0,
     "teamId": "CAN",
@@ -857,6 +964,7 @@
   },
   {
     "id": "CAN8",
+    "itemType": "fifa26",
     "name": "Moïse Bombito",
     "count": 0,
     "teamId": "CAN",
@@ -865,6 +973,7 @@
   },
   {
     "id": "CAN9",
+    "itemType": "fifa26",
     "name": "Kamal Miller",
     "count": 0,
     "teamId": "CAN",
@@ -873,6 +982,7 @@
   },
   {
     "id": "CAN10",
+    "itemType": "fifa26",
     "name": "Stephen Eustáquio",
     "count": 0,
     "teamId": "CAN",
@@ -881,6 +991,7 @@
   },
   {
     "id": "CAN11",
+    "itemType": "fifa26",
     "name": "Ismaël Koné",
     "count": 0,
     "teamId": "CAN",
@@ -889,6 +1000,7 @@
   },
   {
     "id": "CAN12",
+    "itemType": "fifa26",
     "name": "Jonathan Osorio",
     "count": 0,
     "teamId": "CAN",
@@ -897,6 +1009,7 @@
   },
   {
     "id": "CAN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CAN",
@@ -905,6 +1018,7 @@
   },
   {
     "id": "CAN14",
+    "itemType": "fifa26",
     "name": "Jacob Shaffelburg",
     "count": 0,
     "teamId": "CAN",
@@ -913,6 +1027,7 @@
   },
   {
     "id": "CAN15",
+    "itemType": "fifa26",
     "name": "Mathieu Choinière",
     "count": 0,
     "teamId": "CAN",
@@ -921,6 +1036,7 @@
   },
   {
     "id": "CAN16",
+    "itemType": "fifa26",
     "name": "Niko Sigur",
     "count": 0,
     "teamId": "CAN",
@@ -929,6 +1045,7 @@
   },
   {
     "id": "CAN17",
+    "itemType": "fifa26",
     "name": "Tajon Buchanan",
     "count": 0,
     "teamId": "CAN",
@@ -937,6 +1054,7 @@
   },
   {
     "id": "CAN18",
+    "itemType": "fifa26",
     "name": "Liam Millar",
     "count": 0,
     "teamId": "CAN",
@@ -945,6 +1063,7 @@
   },
   {
     "id": "CAN19",
+    "itemType": "fifa26",
     "name": "Cyle Larin",
     "count": 0,
     "teamId": "CAN",
@@ -953,6 +1072,7 @@
   },
   {
     "id": "CAN20",
+    "itemType": "fifa26",
     "name": "Jonathan David",
     "count": 0,
     "teamId": "CAN",
@@ -961,6 +1081,7 @@
   },
   {
     "id": "BIH1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "BIH",
@@ -969,6 +1090,7 @@
   },
   {
     "id": "BIH2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -977,6 +1099,7 @@
   },
   {
     "id": "BIH3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -985,6 +1108,7 @@
   },
   {
     "id": "BIH4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -993,6 +1117,7 @@
   },
   {
     "id": "BIH5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1001,6 +1126,7 @@
   },
   {
     "id": "BIH6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1009,6 +1135,7 @@
   },
   {
     "id": "BIH7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1017,6 +1144,7 @@
   },
   {
     "id": "BIH8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1025,6 +1153,7 @@
   },
   {
     "id": "BIH9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1033,6 +1162,7 @@
   },
   {
     "id": "BIH10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1041,6 +1171,7 @@
   },
   {
     "id": "BIH11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1049,6 +1180,7 @@
   },
   {
     "id": "BIH12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1057,6 +1189,7 @@
   },
   {
     "id": "BIH13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "BIH",
@@ -1065,6 +1198,7 @@
   },
   {
     "id": "BIH14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1073,6 +1207,7 @@
   },
   {
     "id": "BIH15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1081,6 +1216,7 @@
   },
   {
     "id": "BIH16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1089,6 +1225,7 @@
   },
   {
     "id": "BIH17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1097,6 +1234,7 @@
   },
   {
     "id": "BIH18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1105,6 +1243,7 @@
   },
   {
     "id": "BIH19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1113,6 +1252,7 @@
   },
   {
     "id": "BIH20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BIH",
@@ -1121,6 +1261,7 @@
   },
   {
     "id": "QAT1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "QAT",
@@ -1129,6 +1270,7 @@
   },
   {
     "id": "QAT2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1137,6 +1279,7 @@
   },
   {
     "id": "QAT3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1145,6 +1288,7 @@
   },
   {
     "id": "QAT4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1153,6 +1297,7 @@
   },
   {
     "id": "QAT5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1161,6 +1306,7 @@
   },
   {
     "id": "QAT6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1169,6 +1315,7 @@
   },
   {
     "id": "QAT7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1177,6 +1324,7 @@
   },
   {
     "id": "QAT8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1185,6 +1333,7 @@
   },
   {
     "id": "QAT9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1193,6 +1342,7 @@
   },
   {
     "id": "QAT10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1201,6 +1351,7 @@
   },
   {
     "id": "QAT11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1209,6 +1360,7 @@
   },
   {
     "id": "QAT12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1217,6 +1369,7 @@
   },
   {
     "id": "QAT13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "QAT",
@@ -1225,6 +1378,7 @@
   },
   {
     "id": "QAT14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1233,6 +1387,7 @@
   },
   {
     "id": "QAT15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1241,6 +1396,7 @@
   },
   {
     "id": "QAT16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1249,6 +1405,7 @@
   },
   {
     "id": "QAT17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1257,6 +1414,7 @@
   },
   {
     "id": "QAT18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1265,6 +1423,7 @@
   },
   {
     "id": "QAT19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1273,6 +1432,7 @@
   },
   {
     "id": "QAT20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "QAT",
@@ -1281,6 +1441,7 @@
   },
   {
     "id": "SUI1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "SUI",
@@ -1289,6 +1450,7 @@
   },
   {
     "id": "SUI2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1297,6 +1459,7 @@
   },
   {
     "id": "SUI3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1305,6 +1468,7 @@
   },
   {
     "id": "SUI4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1313,6 +1477,7 @@
   },
   {
     "id": "SUI5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1321,6 +1486,7 @@
   },
   {
     "id": "SUI6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1329,6 +1495,7 @@
   },
   {
     "id": "SUI7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1337,6 +1504,7 @@
   },
   {
     "id": "SUI8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1345,6 +1513,7 @@
   },
   {
     "id": "SUI9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1353,6 +1522,7 @@
   },
   {
     "id": "SUI10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1361,6 +1531,7 @@
   },
   {
     "id": "SUI11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1369,6 +1540,7 @@
   },
   {
     "id": "SUI12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1377,6 +1549,7 @@
   },
   {
     "id": "SUI13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "SUI",
@@ -1385,6 +1558,7 @@
   },
   {
     "id": "SUI14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1393,6 +1567,7 @@
   },
   {
     "id": "SUI15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1401,6 +1576,7 @@
   },
   {
     "id": "SUI16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1409,6 +1585,7 @@
   },
   {
     "id": "SUI17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1417,6 +1594,7 @@
   },
   {
     "id": "SUI18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1425,6 +1603,7 @@
   },
   {
     "id": "SUI19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1433,6 +1612,7 @@
   },
   {
     "id": "SUI20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SUI",
@@ -1441,6 +1621,7 @@
   },
   {
     "id": "BRA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "BRA",
@@ -1449,6 +1630,7 @@
   },
   {
     "id": "BRA2",
+    "itemType": "fifa26",
     "name": "Alisson",
     "count": 0,
     "teamId": "BRA",
@@ -1457,6 +1639,7 @@
   },
   {
     "id": "BRA3",
+    "itemType": "fifa26",
     "name": "Bento",
     "count": 0,
     "teamId": "BRA",
@@ -1465,6 +1648,7 @@
   },
   {
     "id": "BRA4",
+    "itemType": "fifa26",
     "name": "Marquinhos",
     "count": 0,
     "teamId": "BRA",
@@ -1473,6 +1657,7 @@
   },
   {
     "id": "BRA5",
+    "itemType": "fifa26",
     "name": "Éder Militão",
     "count": 0,
     "teamId": "BRA",
@@ -1481,6 +1666,7 @@
   },
   {
     "id": "BRA6",
+    "itemType": "fifa26",
     "name": "Gabriel Magalhães",
     "count": 0,
     "teamId": "BRA",
@@ -1489,6 +1675,7 @@
   },
   {
     "id": "BRA7",
+    "itemType": "fifa26",
     "name": "Danilo",
     "count": 0,
     "teamId": "BRA",
@@ -1497,6 +1684,7 @@
   },
   {
     "id": "BRA8",
+    "itemType": "fifa26",
     "name": "Wesley",
     "count": 0,
     "teamId": "BRA",
@@ -1505,6 +1693,7 @@
   },
   {
     "id": "BRA9",
+    "itemType": "fifa26",
     "name": "Lucas Paquetá",
     "count": 0,
     "teamId": "BRA",
@@ -1513,6 +1702,7 @@
   },
   {
     "id": "BRA10",
+    "itemType": "fifa26",
     "name": "Casemiro",
     "count": 0,
     "teamId": "BRA",
@@ -1521,6 +1711,7 @@
   },
   {
     "id": "BRA11",
+    "itemType": "fifa26",
     "name": "Bruno Guimarães",
     "count": 0,
     "teamId": "BRA",
@@ -1529,6 +1720,7 @@
   },
   {
     "id": "BRA12",
+    "itemType": "fifa26",
     "name": "Luiz Henrique",
     "count": 0,
     "teamId": "BRA",
@@ -1537,6 +1729,7 @@
   },
   {
     "id": "BRA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "BRA",
@@ -1545,6 +1738,7 @@
   },
   {
     "id": "BRA14",
+    "itemType": "fifa26",
     "name": "Vinicius Júnior",
     "count": 0,
     "teamId": "BRA",
@@ -1553,6 +1747,7 @@
   },
   {
     "id": "BRA15",
+    "itemType": "fifa26",
     "name": "Rodrygo",
     "count": 0,
     "teamId": "BRA",
@@ -1561,6 +1756,7 @@
   },
   {
     "id": "BRA16",
+    "itemType": "fifa26",
     "name": "João Pedro",
     "count": 0,
     "teamId": "BRA",
@@ -1569,6 +1765,7 @@
   },
   {
     "id": "BRA17",
+    "itemType": "fifa26",
     "name": "Matheus Cunha",
     "count": 0,
     "teamId": "BRA",
@@ -1577,6 +1774,7 @@
   },
   {
     "id": "BRA18",
+    "itemType": "fifa26",
     "name": "Gabriel Martinelli",
     "count": 0,
     "teamId": "BRA",
@@ -1585,6 +1783,7 @@
   },
   {
     "id": "BRA19",
+    "itemType": "fifa26",
     "name": "Raphinha",
     "count": 0,
     "teamId": "BRA",
@@ -1593,6 +1792,7 @@
   },
   {
     "id": "BRA20",
+    "itemType": "fifa26",
     "name": "Estêvão",
     "count": 0,
     "teamId": "BRA",
@@ -1601,6 +1801,7 @@
   },
   {
     "id": "MAR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "MAR",
@@ -1609,6 +1810,7 @@
   },
   {
     "id": "MAR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1617,6 +1819,7 @@
   },
   {
     "id": "MAR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1625,6 +1828,7 @@
   },
   {
     "id": "MAR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1633,6 +1837,7 @@
   },
   {
     "id": "MAR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1641,6 +1846,7 @@
   },
   {
     "id": "MAR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1649,6 +1855,7 @@
   },
   {
     "id": "MAR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1657,6 +1864,7 @@
   },
   {
     "id": "MAR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1665,6 +1873,7 @@
   },
   {
     "id": "MAR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1673,6 +1882,7 @@
   },
   {
     "id": "MAR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1681,6 +1891,7 @@
   },
   {
     "id": "MAR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1689,6 +1900,7 @@
   },
   {
     "id": "MAR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1697,6 +1909,7 @@
   },
   {
     "id": "MAR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "MAR",
@@ -1705,6 +1918,7 @@
   },
   {
     "id": "MAR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1713,6 +1927,7 @@
   },
   {
     "id": "MAR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1721,6 +1936,7 @@
   },
   {
     "id": "MAR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1729,6 +1945,7 @@
   },
   {
     "id": "MAR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1737,6 +1954,7 @@
   },
   {
     "id": "MAR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1745,6 +1963,7 @@
   },
   {
     "id": "MAR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1753,6 +1972,7 @@
   },
   {
     "id": "MAR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "MAR",
@@ -1761,6 +1981,7 @@
   },
   {
     "id": "HAI1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "HAI",
@@ -1769,6 +1990,7 @@
   },
   {
     "id": "HAI2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1777,6 +1999,7 @@
   },
   {
     "id": "HAI3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1785,6 +2008,7 @@
   },
   {
     "id": "HAI4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1793,6 +2017,7 @@
   },
   {
     "id": "HAI5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1801,6 +2026,7 @@
   },
   {
     "id": "HAI6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1809,6 +2035,7 @@
   },
   {
     "id": "HAI7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1817,6 +2044,7 @@
   },
   {
     "id": "HAI8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1825,6 +2053,7 @@
   },
   {
     "id": "HAI9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1833,6 +2062,7 @@
   },
   {
     "id": "HAI10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1841,6 +2071,7 @@
   },
   {
     "id": "HAI11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1849,6 +2080,7 @@
   },
   {
     "id": "HAI12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1857,6 +2089,7 @@
   },
   {
     "id": "HAI13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "HAI",
@@ -1865,6 +2098,7 @@
   },
   {
     "id": "HAI14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1873,6 +2107,7 @@
   },
   {
     "id": "HAI15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1881,6 +2116,7 @@
   },
   {
     "id": "HAI16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1889,6 +2125,7 @@
   },
   {
     "id": "HAI17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1897,6 +2134,7 @@
   },
   {
     "id": "HAI18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1905,6 +2143,7 @@
   },
   {
     "id": "HAI19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1913,6 +2152,7 @@
   },
   {
     "id": "HAI20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "HAI",
@@ -1921,6 +2161,7 @@
   },
   {
     "id": "SCO1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "SCO",
@@ -1929,6 +2170,7 @@
   },
   {
     "id": "SCO2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1937,6 +2179,7 @@
   },
   {
     "id": "SCO3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1945,6 +2188,7 @@
   },
   {
     "id": "SCO4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1953,6 +2197,7 @@
   },
   {
     "id": "SCO5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1961,6 +2206,7 @@
   },
   {
     "id": "SCO6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1969,6 +2215,7 @@
   },
   {
     "id": "SCO7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1977,6 +2224,7 @@
   },
   {
     "id": "SCO8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1985,6 +2233,7 @@
   },
   {
     "id": "SCO9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -1993,6 +2242,7 @@
   },
   {
     "id": "SCO10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2001,6 +2251,7 @@
   },
   {
     "id": "SCO11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2009,6 +2260,7 @@
   },
   {
     "id": "SCO12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2017,6 +2269,7 @@
   },
   {
     "id": "SCO13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "SCO",
@@ -2025,6 +2278,7 @@
   },
   {
     "id": "SCO14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2033,6 +2287,7 @@
   },
   {
     "id": "SCO15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2041,6 +2296,7 @@
   },
   {
     "id": "SCO16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2049,6 +2305,7 @@
   },
   {
     "id": "SCO17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2057,6 +2314,7 @@
   },
   {
     "id": "SCO18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2065,6 +2323,7 @@
   },
   {
     "id": "SCO19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2073,6 +2332,7 @@
   },
   {
     "id": "SCO20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SCO",
@@ -2081,6 +2341,7 @@
   },
   {
     "id": "USA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "USA",
@@ -2089,6 +2350,7 @@
   },
   {
     "id": "USA2",
+    "itemType": "fifa26",
     "name": "Matt Freese",
     "count": 0,
     "teamId": "USA",
@@ -2097,6 +2359,7 @@
   },
   {
     "id": "USA3",
+    "itemType": "fifa26",
     "name": "Chris Richards",
     "count": 0,
     "teamId": "USA",
@@ -2105,6 +2368,7 @@
   },
   {
     "id": "USA4",
+    "itemType": "fifa26",
     "name": "Tim Ream",
     "count": 0,
     "teamId": "USA",
@@ -2113,6 +2377,7 @@
   },
   {
     "id": "USA5",
+    "itemType": "fifa26",
     "name": "Mark McKenzie",
     "count": 0,
     "teamId": "USA",
@@ -2121,6 +2386,7 @@
   },
   {
     "id": "USA6",
+    "itemType": "fifa26",
     "name": "Alex Freeman",
     "count": 0,
     "teamId": "USA",
@@ -2129,6 +2395,7 @@
   },
   {
     "id": "USA7",
+    "itemType": "fifa26",
     "name": "Antonee Robinson",
     "count": 0,
     "teamId": "USA",
@@ -2137,6 +2404,7 @@
   },
   {
     "id": "USA8",
+    "itemType": "fifa26",
     "name": "Tyler Adams",
     "count": 0,
     "teamId": "USA",
@@ -2145,6 +2413,7 @@
   },
   {
     "id": "USA9",
+    "itemType": "fifa26",
     "name": "Tanner Tessmann",
     "count": 0,
     "teamId": "USA",
@@ -2153,6 +2422,7 @@
   },
   {
     "id": "USA10",
+    "itemType": "fifa26",
     "name": "Weston McKennie",
     "count": 0,
     "teamId": "USA",
@@ -2161,6 +2431,7 @@
   },
   {
     "id": "USA11",
+    "itemType": "fifa26",
     "name": "Cristian Roldan",
     "count": 0,
     "teamId": "USA",
@@ -2169,6 +2440,7 @@
   },
   {
     "id": "USA12",
+    "itemType": "fifa26",
     "name": "Timothy Weah",
     "count": 0,
     "teamId": "USA",
@@ -2177,6 +2449,7 @@
   },
   {
     "id": "USA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "USA",
@@ -2185,6 +2458,7 @@
   },
   {
     "id": "USA14",
+    "itemType": "fifa26",
     "name": "Diego Luna",
     "count": 0,
     "teamId": "USA",
@@ -2193,6 +2467,7 @@
   },
   {
     "id": "USA15",
+    "itemType": "fifa26",
     "name": "Malik Tillman",
     "count": 0,
     "teamId": "USA",
@@ -2201,6 +2476,7 @@
   },
   {
     "id": "USA16",
+    "itemType": "fifa26",
     "name": "Christian Pulisic",
     "count": 0,
     "teamId": "USA",
@@ -2209,6 +2485,7 @@
   },
   {
     "id": "USA17",
+    "itemType": "fifa26",
     "name": "Brenden Aaronson",
     "count": 0,
     "teamId": "USA",
@@ -2217,6 +2494,7 @@
   },
   {
     "id": "USA18",
+    "itemType": "fifa26",
     "name": "Ricardo Pepi",
     "count": 0,
     "teamId": "USA",
@@ -2225,6 +2503,7 @@
   },
   {
     "id": "USA19",
+    "itemType": "fifa26",
     "name": "Haji Wright",
     "count": 0,
     "teamId": "USA",
@@ -2233,6 +2512,7 @@
   },
   {
     "id": "USA20",
+    "itemType": "fifa26",
     "name": "Folarin Balogun",
     "count": 0,
     "teamId": "USA",
@@ -2241,6 +2521,7 @@
   },
   {
     "id": "PAR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "PAR",
@@ -2249,6 +2530,7 @@
   },
   {
     "id": "PAR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2257,6 +2539,7 @@
   },
   {
     "id": "PAR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2265,6 +2548,7 @@
   },
   {
     "id": "PAR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2273,6 +2557,7 @@
   },
   {
     "id": "PAR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2281,6 +2566,7 @@
   },
   {
     "id": "PAR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2289,6 +2575,7 @@
   },
   {
     "id": "PAR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2297,6 +2584,7 @@
   },
   {
     "id": "PAR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2305,6 +2593,7 @@
   },
   {
     "id": "PAR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2313,6 +2602,7 @@
   },
   {
     "id": "PAR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2321,6 +2611,7 @@
   },
   {
     "id": "PAR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2329,6 +2620,7 @@
   },
   {
     "id": "PAR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2337,6 +2629,7 @@
   },
   {
     "id": "PAR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "PAR",
@@ -2345,6 +2638,7 @@
   },
   {
     "id": "PAR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2353,6 +2647,7 @@
   },
   {
     "id": "PAR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2361,6 +2656,7 @@
   },
   {
     "id": "PAR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2369,6 +2665,7 @@
   },
   {
     "id": "PAR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2377,6 +2674,7 @@
   },
   {
     "id": "PAR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2385,6 +2683,7 @@
   },
   {
     "id": "PAR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2393,6 +2692,7 @@
   },
   {
     "id": "PAR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAR",
@@ -2401,6 +2701,7 @@
   },
   {
     "id": "AUS1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "AUS",
@@ -2409,6 +2710,7 @@
   },
   {
     "id": "AUS2",
+    "itemType": "fifa26",
     "name": "Mathew Ryan",
     "count": 0,
     "teamId": "AUS",
@@ -2417,6 +2719,7 @@
   },
   {
     "id": "AUS3",
+    "itemType": "fifa26",
     "name": "Joe Gauci",
     "count": 0,
     "teamId": "AUS",
@@ -2425,6 +2728,7 @@
   },
   {
     "id": "AUS4",
+    "itemType": "fifa26",
     "name": "Harry Souttar",
     "count": 0,
     "teamId": "AUS",
@@ -2433,6 +2737,7 @@
   },
   {
     "id": "AUS5",
+    "itemType": "fifa26",
     "name": "Alessandro Circati",
     "count": 0,
     "teamId": "AUS",
@@ -2441,6 +2746,7 @@
   },
   {
     "id": "AUS6",
+    "itemType": "fifa26",
     "name": "Jordan Bos",
     "count": 0,
     "teamId": "AUS",
@@ -2449,6 +2755,7 @@
   },
   {
     "id": "AUS7",
+    "itemType": "fifa26",
     "name": "Aziz Behich",
     "count": 0,
     "teamId": "AUS",
@@ -2457,6 +2764,7 @@
   },
   {
     "id": "AUS8",
+    "itemType": "fifa26",
     "name": "Cameron Burgess",
     "count": 0,
     "teamId": "AUS",
@@ -2465,6 +2773,7 @@
   },
   {
     "id": "AUS9",
+    "itemType": "fifa26",
     "name": "Lewis Miller",
     "count": 0,
     "teamId": "AUS",
@@ -2473,6 +2782,7 @@
   },
   {
     "id": "AUS10",
+    "itemType": "fifa26",
     "name": "Milos Degenek",
     "count": 0,
     "teamId": "AUS",
@@ -2481,6 +2791,7 @@
   },
   {
     "id": "AUS11",
+    "itemType": "fifa26",
     "name": "Jackson Irvine",
     "count": 0,
     "teamId": "AUS",
@@ -2489,6 +2800,7 @@
   },
   {
     "id": "AUS12",
+    "itemType": "fifa26",
     "name": "Riley McGree",
     "count": 0,
     "teamId": "AUS",
@@ -2497,6 +2809,7 @@
   },
   {
     "id": "AUS13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "AUS",
@@ -2505,6 +2818,7 @@
   },
   {
     "id": "AUS14",
+    "itemType": "fifa26",
     "name": "Aiden O'Neill",
     "count": 0,
     "teamId": "AUS",
@@ -2513,6 +2827,7 @@
   },
   {
     "id": "AUS15",
+    "itemType": "fifa26",
     "name": "Connor Metcalfe",
     "count": 0,
     "teamId": "AUS",
@@ -2521,6 +2836,7 @@
   },
   {
     "id": "AUS16",
+    "itemType": "fifa26",
     "name": "Patrick Yazbek",
     "count": 0,
     "teamId": "AUS",
@@ -2529,6 +2845,7 @@
   },
   {
     "id": "AUS17",
+    "itemType": "fifa26",
     "name": "Craig Goodwin",
     "count": 0,
     "teamId": "AUS",
@@ -2537,6 +2854,7 @@
   },
   {
     "id": "AUS18",
+    "itemType": "fifa26",
     "name": "Kusini Yengi",
     "count": 0,
     "teamId": "AUS",
@@ -2545,6 +2863,7 @@
   },
   {
     "id": "AUS19",
+    "itemType": "fifa26",
     "name": "Nestory Irankunda",
     "count": 0,
     "teamId": "AUS",
@@ -2553,6 +2872,7 @@
   },
   {
     "id": "AUS20",
+    "itemType": "fifa26",
     "name": "Mohamed Touré",
     "count": 0,
     "teamId": "AUS",
@@ -2561,6 +2881,7 @@
   },
   {
     "id": "TUR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "TUR",
@@ -2569,6 +2890,7 @@
   },
   {
     "id": "TUR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2577,6 +2899,7 @@
   },
   {
     "id": "TUR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2585,6 +2908,7 @@
   },
   {
     "id": "TUR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2593,6 +2917,7 @@
   },
   {
     "id": "TUR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2601,6 +2926,7 @@
   },
   {
     "id": "TUR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2609,6 +2935,7 @@
   },
   {
     "id": "TUR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2617,6 +2944,7 @@
   },
   {
     "id": "TUR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2625,6 +2953,7 @@
   },
   {
     "id": "TUR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2633,6 +2962,7 @@
   },
   {
     "id": "TUR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2641,6 +2971,7 @@
   },
   {
     "id": "TUR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2649,6 +2980,7 @@
   },
   {
     "id": "TUR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2657,6 +2989,7 @@
   },
   {
     "id": "TUR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "TUR",
@@ -2665,6 +2998,7 @@
   },
   {
     "id": "TUR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2673,6 +3007,7 @@
   },
   {
     "id": "TUR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2681,6 +3016,7 @@
   },
   {
     "id": "TUR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2689,6 +3025,7 @@
   },
   {
     "id": "TUR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2697,6 +3034,7 @@
   },
   {
     "id": "TUR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2705,6 +3043,7 @@
   },
   {
     "id": "TUR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2713,6 +3052,7 @@
   },
   {
     "id": "TUR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUR",
@@ -2721,6 +3061,7 @@
   },
   {
     "id": "GER1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "GER",
@@ -2729,6 +3070,7 @@
   },
   {
     "id": "GER2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2737,6 +3079,7 @@
   },
   {
     "id": "GER3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2745,6 +3088,7 @@
   },
   {
     "id": "GER4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2753,6 +3097,7 @@
   },
   {
     "id": "GER5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2761,6 +3106,7 @@
   },
   {
     "id": "GER6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2769,6 +3115,7 @@
   },
   {
     "id": "GER7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2777,6 +3124,7 @@
   },
   {
     "id": "GER8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2785,6 +3133,7 @@
   },
   {
     "id": "GER9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2793,6 +3142,7 @@
   },
   {
     "id": "GER10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2801,6 +3151,7 @@
   },
   {
     "id": "GER11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2809,6 +3160,7 @@
   },
   {
     "id": "GER12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2817,6 +3169,7 @@
   },
   {
     "id": "GER13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "GER",
@@ -2825,6 +3178,7 @@
   },
   {
     "id": "GER14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2833,6 +3187,7 @@
   },
   {
     "id": "GER15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2841,6 +3196,7 @@
   },
   {
     "id": "GER16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2849,6 +3205,7 @@
   },
   {
     "id": "GER17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2857,6 +3214,7 @@
   },
   {
     "id": "GER18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2865,6 +3223,7 @@
   },
   {
     "id": "GER19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2873,6 +3232,7 @@
   },
   {
     "id": "GER20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GER",
@@ -2881,6 +3241,7 @@
   },
   {
     "id": "CUW1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CUW",
@@ -2889,6 +3250,7 @@
   },
   {
     "id": "CUW2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2897,6 +3259,7 @@
   },
   {
     "id": "CUW3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2905,6 +3268,7 @@
   },
   {
     "id": "CUW4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2913,6 +3277,7 @@
   },
   {
     "id": "CUW5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2921,6 +3286,7 @@
   },
   {
     "id": "CUW6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2929,6 +3295,7 @@
   },
   {
     "id": "CUW7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2937,6 +3304,7 @@
   },
   {
     "id": "CUW8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2945,6 +3313,7 @@
   },
   {
     "id": "CUW9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2953,6 +3322,7 @@
   },
   {
     "id": "CUW10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2961,6 +3331,7 @@
   },
   {
     "id": "CUW11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2969,6 +3340,7 @@
   },
   {
     "id": "CUW12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2977,6 +3349,7 @@
   },
   {
     "id": "CUW13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CUW",
@@ -2985,6 +3358,7 @@
   },
   {
     "id": "CUW14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -2993,6 +3367,7 @@
   },
   {
     "id": "CUW15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3001,6 +3376,7 @@
   },
   {
     "id": "CUW16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3009,6 +3385,7 @@
   },
   {
     "id": "CUW17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3017,6 +3394,7 @@
   },
   {
     "id": "CUW18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3025,6 +3403,7 @@
   },
   {
     "id": "CUW19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3033,6 +3412,7 @@
   },
   {
     "id": "CUW20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CUW",
@@ -3041,6 +3421,7 @@
   },
   {
     "id": "CIV1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CIV",
@@ -3049,6 +3430,7 @@
   },
   {
     "id": "CIV2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3057,6 +3439,7 @@
   },
   {
     "id": "CIV3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3065,6 +3448,7 @@
   },
   {
     "id": "CIV4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3073,6 +3457,7 @@
   },
   {
     "id": "CIV5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3081,6 +3466,7 @@
   },
   {
     "id": "CIV6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3089,6 +3475,7 @@
   },
   {
     "id": "CIV7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3097,6 +3484,7 @@
   },
   {
     "id": "CIV8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3105,6 +3493,7 @@
   },
   {
     "id": "CIV9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3113,6 +3502,7 @@
   },
   {
     "id": "CIV10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3121,6 +3511,7 @@
   },
   {
     "id": "CIV11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3129,6 +3520,7 @@
   },
   {
     "id": "CIV12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3137,6 +3529,7 @@
   },
   {
     "id": "CIV13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CIV",
@@ -3145,6 +3538,7 @@
   },
   {
     "id": "CIV14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3153,6 +3547,7 @@
   },
   {
     "id": "CIV15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3161,6 +3556,7 @@
   },
   {
     "id": "CIV16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3169,6 +3565,7 @@
   },
   {
     "id": "CIV17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3177,6 +3574,7 @@
   },
   {
     "id": "CIV18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3185,6 +3583,7 @@
   },
   {
     "id": "CIV19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3193,6 +3592,7 @@
   },
   {
     "id": "CIV20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CIV",
@@ -3201,6 +3601,7 @@
   },
   {
     "id": "ECU1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "ECU",
@@ -3209,6 +3610,7 @@
   },
   {
     "id": "ECU2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3217,6 +3619,7 @@
   },
   {
     "id": "ECU3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3225,6 +3628,7 @@
   },
   {
     "id": "ECU4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3233,6 +3637,7 @@
   },
   {
     "id": "ECU5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3241,6 +3646,7 @@
   },
   {
     "id": "ECU6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3249,6 +3655,7 @@
   },
   {
     "id": "ECU7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3257,6 +3664,7 @@
   },
   {
     "id": "ECU8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3265,6 +3673,7 @@
   },
   {
     "id": "ECU9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3273,6 +3682,7 @@
   },
   {
     "id": "ECU10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3281,6 +3691,7 @@
   },
   {
     "id": "ECU11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3289,6 +3700,7 @@
   },
   {
     "id": "ECU12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3297,6 +3709,7 @@
   },
   {
     "id": "ECU13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "ECU",
@@ -3305,6 +3718,7 @@
   },
   {
     "id": "ECU14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3313,6 +3727,7 @@
   },
   {
     "id": "ECU15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3321,6 +3736,7 @@
   },
   {
     "id": "ECU16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3329,6 +3745,7 @@
   },
   {
     "id": "ECU17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3337,6 +3754,7 @@
   },
   {
     "id": "ECU18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3345,6 +3763,7 @@
   },
   {
     "id": "ECU19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3353,6 +3772,7 @@
   },
   {
     "id": "ECU20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ECU",
@@ -3361,6 +3781,7 @@
   },
   {
     "id": "NED1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "NED",
@@ -3369,6 +3790,7 @@
   },
   {
     "id": "NED2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3377,6 +3799,7 @@
   },
   {
     "id": "NED3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3385,6 +3808,7 @@
   },
   {
     "id": "NED4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3393,6 +3817,7 @@
   },
   {
     "id": "NED5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3401,6 +3826,7 @@
   },
   {
     "id": "NED6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3409,6 +3835,7 @@
   },
   {
     "id": "NED7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3417,6 +3844,7 @@
   },
   {
     "id": "NED8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3425,6 +3853,7 @@
   },
   {
     "id": "NED9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3433,6 +3862,7 @@
   },
   {
     "id": "NED10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3441,6 +3871,7 @@
   },
   {
     "id": "NED11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3449,6 +3880,7 @@
   },
   {
     "id": "NED12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3457,6 +3889,7 @@
   },
   {
     "id": "NED13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "NED",
@@ -3465,6 +3898,7 @@
   },
   {
     "id": "NED14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3473,6 +3907,7 @@
   },
   {
     "id": "NED15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3481,6 +3916,7 @@
   },
   {
     "id": "NED16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3489,6 +3925,7 @@
   },
   {
     "id": "NED17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3497,6 +3934,7 @@
   },
   {
     "id": "NED18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3505,6 +3943,7 @@
   },
   {
     "id": "NED19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3513,6 +3952,7 @@
   },
   {
     "id": "NED20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NED",
@@ -3521,6 +3961,7 @@
   },
   {
     "id": "JPN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "JPN",
@@ -3529,6 +3970,7 @@
   },
   {
     "id": "JPN2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3537,6 +3979,7 @@
   },
   {
     "id": "JPN3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3545,6 +3988,7 @@
   },
   {
     "id": "JPN4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3553,6 +3997,7 @@
   },
   {
     "id": "JPN5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3561,6 +4006,7 @@
   },
   {
     "id": "JPN6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3569,6 +4015,7 @@
   },
   {
     "id": "JPN7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3577,6 +4024,7 @@
   },
   {
     "id": "JPN8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3585,6 +4033,7 @@
   },
   {
     "id": "JPN9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3593,6 +4042,7 @@
   },
   {
     "id": "JPN10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3601,6 +4051,7 @@
   },
   {
     "id": "JPN11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3609,6 +4060,7 @@
   },
   {
     "id": "JPN12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3617,6 +4069,7 @@
   },
   {
     "id": "JPN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "JPN",
@@ -3625,6 +4078,7 @@
   },
   {
     "id": "JPN14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3633,6 +4087,7 @@
   },
   {
     "id": "JPN15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3641,6 +4096,7 @@
   },
   {
     "id": "JPN16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3649,6 +4105,7 @@
   },
   {
     "id": "JPN17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3657,6 +4114,7 @@
   },
   {
     "id": "JPN18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3665,6 +4123,7 @@
   },
   {
     "id": "JPN19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3673,6 +4132,7 @@
   },
   {
     "id": "JPN20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JPN",
@@ -3681,6 +4141,7 @@
   },
   {
     "id": "SWE1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "SWE",
@@ -3689,6 +4150,7 @@
   },
   {
     "id": "SWE2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3697,6 +4159,7 @@
   },
   {
     "id": "SWE3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3705,6 +4168,7 @@
   },
   {
     "id": "SWE4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3713,6 +4177,7 @@
   },
   {
     "id": "SWE5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3721,6 +4186,7 @@
   },
   {
     "id": "SWE6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3729,6 +4195,7 @@
   },
   {
     "id": "SWE7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3737,6 +4204,7 @@
   },
   {
     "id": "SWE8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3745,6 +4213,7 @@
   },
   {
     "id": "SWE9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3753,6 +4222,7 @@
   },
   {
     "id": "SWE10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3761,6 +4231,7 @@
   },
   {
     "id": "SWE11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3769,6 +4240,7 @@
   },
   {
     "id": "SWE12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3777,6 +4249,7 @@
   },
   {
     "id": "SWE13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "SWE",
@@ -3785,6 +4258,7 @@
   },
   {
     "id": "SWE14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3793,6 +4267,7 @@
   },
   {
     "id": "SWE15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3801,6 +4276,7 @@
   },
   {
     "id": "SWE16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3809,6 +4285,7 @@
   },
   {
     "id": "SWE17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3817,6 +4294,7 @@
   },
   {
     "id": "SWE18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3825,6 +4303,7 @@
   },
   {
     "id": "SWE19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3833,6 +4312,7 @@
   },
   {
     "id": "SWE20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SWE",
@@ -3841,6 +4321,7 @@
   },
   {
     "id": "TUN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "TUN",
@@ -3849,6 +4330,7 @@
   },
   {
     "id": "TUN2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3857,6 +4339,7 @@
   },
   {
     "id": "TUN3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3865,6 +4348,7 @@
   },
   {
     "id": "TUN4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3873,6 +4357,7 @@
   },
   {
     "id": "TUN5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3881,6 +4366,7 @@
   },
   {
     "id": "TUN6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3889,6 +4375,7 @@
   },
   {
     "id": "TUN7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3897,6 +4384,7 @@
   },
   {
     "id": "TUN8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3905,6 +4393,7 @@
   },
   {
     "id": "TUN9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3913,6 +4402,7 @@
   },
   {
     "id": "TUN10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3921,6 +4411,7 @@
   },
   {
     "id": "TUN11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3929,6 +4420,7 @@
   },
   {
     "id": "TUN12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3937,6 +4429,7 @@
   },
   {
     "id": "TUN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "TUN",
@@ -3945,6 +4438,7 @@
   },
   {
     "id": "TUN14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3953,6 +4447,7 @@
   },
   {
     "id": "TUN15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3961,6 +4456,7 @@
   },
   {
     "id": "TUN16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3969,6 +4465,7 @@
   },
   {
     "id": "TUN17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3977,6 +4474,7 @@
   },
   {
     "id": "TUN18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3985,6 +4483,7 @@
   },
   {
     "id": "TUN19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -3993,6 +4492,7 @@
   },
   {
     "id": "TUN20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "TUN",
@@ -4001,6 +4501,7 @@
   },
   {
     "id": "BEL1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "BEL",
@@ -4009,6 +4510,7 @@
   },
   {
     "id": "BEL2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4017,6 +4519,7 @@
   },
   {
     "id": "BEL3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4025,6 +4528,7 @@
   },
   {
     "id": "BEL4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4033,6 +4537,7 @@
   },
   {
     "id": "BEL5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4041,6 +4546,7 @@
   },
   {
     "id": "BEL6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4049,6 +4555,7 @@
   },
   {
     "id": "BEL7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4057,6 +4564,7 @@
   },
   {
     "id": "BEL8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4065,6 +4573,7 @@
   },
   {
     "id": "BEL9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4073,6 +4582,7 @@
   },
   {
     "id": "BEL10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4081,6 +4591,7 @@
   },
   {
     "id": "BEL11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4089,6 +4600,7 @@
   },
   {
     "id": "BEL12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4097,6 +4609,7 @@
   },
   {
     "id": "BEL13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "BEL",
@@ -4105,6 +4618,7 @@
   },
   {
     "id": "BEL14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4113,6 +4627,7 @@
   },
   {
     "id": "BEL15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4121,6 +4636,7 @@
   },
   {
     "id": "BEL16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4129,6 +4645,7 @@
   },
   {
     "id": "BEL17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4137,6 +4654,7 @@
   },
   {
     "id": "BEL18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4145,6 +4663,7 @@
   },
   {
     "id": "BEL19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4153,6 +4672,7 @@
   },
   {
     "id": "BEL20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "BEL",
@@ -4161,6 +4681,7 @@
   },
   {
     "id": "EGY1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "EGY",
@@ -4169,6 +4690,7 @@
   },
   {
     "id": "EGY2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4177,6 +4699,7 @@
   },
   {
     "id": "EGY3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4185,6 +4708,7 @@
   },
   {
     "id": "EGY4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4193,6 +4717,7 @@
   },
   {
     "id": "EGY5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4201,6 +4726,7 @@
   },
   {
     "id": "EGY6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4209,6 +4735,7 @@
   },
   {
     "id": "EGY7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4217,6 +4744,7 @@
   },
   {
     "id": "EGY8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4225,6 +4753,7 @@
   },
   {
     "id": "EGY9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4233,6 +4762,7 @@
   },
   {
     "id": "EGY10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4241,6 +4771,7 @@
   },
   {
     "id": "EGY11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4249,6 +4780,7 @@
   },
   {
     "id": "EGY12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4257,6 +4789,7 @@
   },
   {
     "id": "EGY13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "EGY",
@@ -4265,6 +4798,7 @@
   },
   {
     "id": "EGY14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4273,6 +4807,7 @@
   },
   {
     "id": "EGY15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4281,6 +4816,7 @@
   },
   {
     "id": "EGY16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4289,6 +4825,7 @@
   },
   {
     "id": "EGY17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4297,6 +4834,7 @@
   },
   {
     "id": "EGY18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4305,6 +4843,7 @@
   },
   {
     "id": "EGY19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4313,6 +4852,7 @@
   },
   {
     "id": "EGY20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "EGY",
@@ -4321,6 +4861,7 @@
   },
   {
     "id": "IRN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "IRN",
@@ -4329,6 +4870,7 @@
   },
   {
     "id": "IRN2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4337,6 +4879,7 @@
   },
   {
     "id": "IRN3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4345,6 +4888,7 @@
   },
   {
     "id": "IRN4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4353,6 +4897,7 @@
   },
   {
     "id": "IRN5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4361,6 +4906,7 @@
   },
   {
     "id": "IRN6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4369,6 +4915,7 @@
   },
   {
     "id": "IRN7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4377,6 +4924,7 @@
   },
   {
     "id": "IRN8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4385,6 +4933,7 @@
   },
   {
     "id": "IRN9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4393,6 +4942,7 @@
   },
   {
     "id": "IRN10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4401,6 +4951,7 @@
   },
   {
     "id": "IRN11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4409,6 +4960,7 @@
   },
   {
     "id": "IRN12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4417,6 +4969,7 @@
   },
   {
     "id": "IRN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "IRN",
@@ -4425,6 +4978,7 @@
   },
   {
     "id": "IRN14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4433,6 +4987,7 @@
   },
   {
     "id": "IRN15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4441,6 +4996,7 @@
   },
   {
     "id": "IRN16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4449,6 +5005,7 @@
   },
   {
     "id": "IRN17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4457,6 +5014,7 @@
   },
   {
     "id": "IRN18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4465,6 +5023,7 @@
   },
   {
     "id": "IRN19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4473,6 +5032,7 @@
   },
   {
     "id": "IRN20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRN",
@@ -4481,6 +5041,7 @@
   },
   {
     "id": "NZL1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "NZL",
@@ -4489,6 +5050,7 @@
   },
   {
     "id": "NZL2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4497,6 +5059,7 @@
   },
   {
     "id": "NZL3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4505,6 +5068,7 @@
   },
   {
     "id": "NZL4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4513,6 +5077,7 @@
   },
   {
     "id": "NZL5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4521,6 +5086,7 @@
   },
   {
     "id": "NZL6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4529,6 +5095,7 @@
   },
   {
     "id": "NZL7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4537,6 +5104,7 @@
   },
   {
     "id": "NZL8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4545,6 +5113,7 @@
   },
   {
     "id": "NZL9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4553,6 +5122,7 @@
   },
   {
     "id": "NZL10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4561,6 +5131,7 @@
   },
   {
     "id": "NZL11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4569,6 +5140,7 @@
   },
   {
     "id": "NZL12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4577,6 +5149,7 @@
   },
   {
     "id": "NZL13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "NZL",
@@ -4585,6 +5158,7 @@
   },
   {
     "id": "NZL14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4593,6 +5167,7 @@
   },
   {
     "id": "NZL15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4601,6 +5176,7 @@
   },
   {
     "id": "NZL16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4609,6 +5185,7 @@
   },
   {
     "id": "NZL17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4617,6 +5194,7 @@
   },
   {
     "id": "NZL18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4625,6 +5203,7 @@
   },
   {
     "id": "NZL19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4633,6 +5212,7 @@
   },
   {
     "id": "NZL20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NZL",
@@ -4641,6 +5221,7 @@
   },
   {
     "id": "ESP1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "ESP",
@@ -4649,6 +5230,7 @@
   },
   {
     "id": "ESP2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4657,6 +5239,7 @@
   },
   {
     "id": "ESP3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4665,6 +5248,7 @@
   },
   {
     "id": "ESP4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4673,6 +5257,7 @@
   },
   {
     "id": "ESP5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4681,6 +5266,7 @@
   },
   {
     "id": "ESP6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4689,6 +5275,7 @@
   },
   {
     "id": "ESP7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4697,6 +5284,7 @@
   },
   {
     "id": "ESP8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4705,6 +5293,7 @@
   },
   {
     "id": "ESP9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4713,6 +5302,7 @@
   },
   {
     "id": "ESP10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4721,6 +5311,7 @@
   },
   {
     "id": "ESP11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4729,6 +5320,7 @@
   },
   {
     "id": "ESP12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4737,6 +5329,7 @@
   },
   {
     "id": "ESP13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "ESP",
@@ -4745,6 +5338,7 @@
   },
   {
     "id": "ESP14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4753,6 +5347,7 @@
   },
   {
     "id": "ESP15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4761,6 +5356,7 @@
   },
   {
     "id": "ESP16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4769,6 +5365,7 @@
   },
   {
     "id": "ESP17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4777,6 +5374,7 @@
   },
   {
     "id": "ESP18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4785,6 +5383,7 @@
   },
   {
     "id": "ESP19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4793,6 +5392,7 @@
   },
   {
     "id": "ESP20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "ESP",
@@ -4801,6 +5401,7 @@
   },
   {
     "id": "CPV1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CPV",
@@ -4809,6 +5410,7 @@
   },
   {
     "id": "CPV2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4817,6 +5419,7 @@
   },
   {
     "id": "CPV3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4825,6 +5428,7 @@
   },
   {
     "id": "CPV4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4833,6 +5437,7 @@
   },
   {
     "id": "CPV5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4841,6 +5446,7 @@
   },
   {
     "id": "CPV6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4849,6 +5455,7 @@
   },
   {
     "id": "CPV7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4857,6 +5464,7 @@
   },
   {
     "id": "CPV8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4865,6 +5473,7 @@
   },
   {
     "id": "CPV9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4873,6 +5482,7 @@
   },
   {
     "id": "CPV10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4881,6 +5491,7 @@
   },
   {
     "id": "CPV11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4889,6 +5500,7 @@
   },
   {
     "id": "CPV12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4897,6 +5509,7 @@
   },
   {
     "id": "CPV13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CPV",
@@ -4905,6 +5518,7 @@
   },
   {
     "id": "CPV14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4913,6 +5527,7 @@
   },
   {
     "id": "CPV15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4921,6 +5536,7 @@
   },
   {
     "id": "CPV16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4929,6 +5545,7 @@
   },
   {
     "id": "CPV17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4937,6 +5554,7 @@
   },
   {
     "id": "CPV18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4945,6 +5563,7 @@
   },
   {
     "id": "CPV19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4953,6 +5572,7 @@
   },
   {
     "id": "CPV20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CPV",
@@ -4961,6 +5581,7 @@
   },
   {
     "id": "KSA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "KSA",
@@ -4969,6 +5590,7 @@
   },
   {
     "id": "KSA2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -4977,6 +5599,7 @@
   },
   {
     "id": "KSA3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -4985,6 +5608,7 @@
   },
   {
     "id": "KSA4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -4993,6 +5617,7 @@
   },
   {
     "id": "KSA5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5001,6 +5626,7 @@
   },
   {
     "id": "KSA6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5009,6 +5635,7 @@
   },
   {
     "id": "KSA7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5017,6 +5644,7 @@
   },
   {
     "id": "KSA8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5025,6 +5653,7 @@
   },
   {
     "id": "KSA9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5033,6 +5662,7 @@
   },
   {
     "id": "KSA10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5041,6 +5671,7 @@
   },
   {
     "id": "KSA11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5049,6 +5680,7 @@
   },
   {
     "id": "KSA12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5057,6 +5689,7 @@
   },
   {
     "id": "KSA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "KSA",
@@ -5065,6 +5698,7 @@
   },
   {
     "id": "KSA14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5073,6 +5707,7 @@
   },
   {
     "id": "KSA15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5081,6 +5716,7 @@
   },
   {
     "id": "KSA16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5089,6 +5725,7 @@
   },
   {
     "id": "KSA17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5097,6 +5734,7 @@
   },
   {
     "id": "KSA18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5105,6 +5743,7 @@
   },
   {
     "id": "KSA19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5113,6 +5752,7 @@
   },
   {
     "id": "KSA20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "KSA",
@@ -5121,6 +5761,7 @@
   },
   {
     "id": "URU1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "URU",
@@ -5129,6 +5770,7 @@
   },
   {
     "id": "URU2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5137,6 +5779,7 @@
   },
   {
     "id": "URU3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5145,6 +5788,7 @@
   },
   {
     "id": "URU4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5153,6 +5797,7 @@
   },
   {
     "id": "URU5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5161,6 +5806,7 @@
   },
   {
     "id": "URU6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5169,6 +5815,7 @@
   },
   {
     "id": "URU7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5177,6 +5824,7 @@
   },
   {
     "id": "URU8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5185,6 +5833,7 @@
   },
   {
     "id": "URU9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5193,6 +5842,7 @@
   },
   {
     "id": "URU10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5201,6 +5851,7 @@
   },
   {
     "id": "URU11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5209,6 +5860,7 @@
   },
   {
     "id": "URU12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5217,6 +5869,7 @@
   },
   {
     "id": "URU13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "URU",
@@ -5225,6 +5878,7 @@
   },
   {
     "id": "URU14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5233,6 +5887,7 @@
   },
   {
     "id": "URU15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5241,6 +5896,7 @@
   },
   {
     "id": "URU16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5249,6 +5905,7 @@
   },
   {
     "id": "URU17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5257,6 +5914,7 @@
   },
   {
     "id": "URU18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5265,6 +5923,7 @@
   },
   {
     "id": "URU19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5273,6 +5932,7 @@
   },
   {
     "id": "URU20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "URU",
@@ -5281,6 +5941,7 @@
   },
   {
     "id": "FRA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "FRA",
@@ -5289,6 +5950,7 @@
   },
   {
     "id": "FRA2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5297,6 +5959,7 @@
   },
   {
     "id": "FRA3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5305,6 +5968,7 @@
   },
   {
     "id": "FRA4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5313,6 +5977,7 @@
   },
   {
     "id": "FRA5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5321,6 +5986,7 @@
   },
   {
     "id": "FRA6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5329,6 +5995,7 @@
   },
   {
     "id": "FRA7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5337,6 +6004,7 @@
   },
   {
     "id": "FRA8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5345,6 +6013,7 @@
   },
   {
     "id": "FRA9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5353,6 +6022,7 @@
   },
   {
     "id": "FRA10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5361,6 +6031,7 @@
   },
   {
     "id": "FRA11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5369,6 +6040,7 @@
   },
   {
     "id": "FRA12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5377,6 +6049,7 @@
   },
   {
     "id": "FRA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "FRA",
@@ -5385,6 +6058,7 @@
   },
   {
     "id": "FRA14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5393,6 +6067,7 @@
   },
   {
     "id": "FRA15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5401,6 +6076,7 @@
   },
   {
     "id": "FRA16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5409,6 +6085,7 @@
   },
   {
     "id": "FRA17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5417,6 +6094,7 @@
   },
   {
     "id": "FRA18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5425,6 +6103,7 @@
   },
   {
     "id": "FRA19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5433,6 +6112,7 @@
   },
   {
     "id": "FRA20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "FRA",
@@ -5441,6 +6121,7 @@
   },
   {
     "id": "SEN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "SEN",
@@ -5449,6 +6130,7 @@
   },
   {
     "id": "SEN2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5457,6 +6139,7 @@
   },
   {
     "id": "SEN3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5465,6 +6148,7 @@
   },
   {
     "id": "SEN4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5473,6 +6157,7 @@
   },
   {
     "id": "SEN5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5481,6 +6166,7 @@
   },
   {
     "id": "SEN6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5489,6 +6175,7 @@
   },
   {
     "id": "SEN7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5497,6 +6184,7 @@
   },
   {
     "id": "SEN8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5505,6 +6193,7 @@
   },
   {
     "id": "SEN9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5513,6 +6202,7 @@
   },
   {
     "id": "SEN10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5521,6 +6211,7 @@
   },
   {
     "id": "SEN11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5529,6 +6220,7 @@
   },
   {
     "id": "SEN12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5537,6 +6229,7 @@
   },
   {
     "id": "SEN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "SEN",
@@ -5545,6 +6238,7 @@
   },
   {
     "id": "SEN14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5553,6 +6247,7 @@
   },
   {
     "id": "SEN15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5561,6 +6256,7 @@
   },
   {
     "id": "SEN16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5569,6 +6265,7 @@
   },
   {
     "id": "SEN17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5577,6 +6274,7 @@
   },
   {
     "id": "SEN18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5585,6 +6283,7 @@
   },
   {
     "id": "SEN19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5593,6 +6292,7 @@
   },
   {
     "id": "SEN20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "SEN",
@@ -5601,6 +6301,7 @@
   },
   {
     "id": "IRQ1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "IRQ",
@@ -5609,6 +6310,7 @@
   },
   {
     "id": "IRQ2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5617,6 +6319,7 @@
   },
   {
     "id": "IRQ3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5625,6 +6328,7 @@
   },
   {
     "id": "IRQ4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5633,6 +6337,7 @@
   },
   {
     "id": "IRQ5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5641,6 +6346,7 @@
   },
   {
     "id": "IRQ6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5649,6 +6355,7 @@
   },
   {
     "id": "IRQ7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5657,6 +6364,7 @@
   },
   {
     "id": "IRQ8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5665,6 +6373,7 @@
   },
   {
     "id": "IRQ9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5673,6 +6382,7 @@
   },
   {
     "id": "IRQ10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5681,6 +6391,7 @@
   },
   {
     "id": "IRQ11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5689,6 +6400,7 @@
   },
   {
     "id": "IRQ12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5697,6 +6409,7 @@
   },
   {
     "id": "IRQ13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "IRQ",
@@ -5705,6 +6418,7 @@
   },
   {
     "id": "IRQ14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5713,6 +6427,7 @@
   },
   {
     "id": "IRQ15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5721,6 +6436,7 @@
   },
   {
     "id": "IRQ16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5729,6 +6445,7 @@
   },
   {
     "id": "IRQ17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5737,6 +6454,7 @@
   },
   {
     "id": "IRQ18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5745,6 +6463,7 @@
   },
   {
     "id": "IRQ19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5753,6 +6472,7 @@
   },
   {
     "id": "IRQ20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "IRQ",
@@ -5761,6 +6481,7 @@
   },
   {
     "id": "NOR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "NOR",
@@ -5769,6 +6490,7 @@
   },
   {
     "id": "NOR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5777,6 +6499,7 @@
   },
   {
     "id": "NOR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5785,6 +6508,7 @@
   },
   {
     "id": "NOR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5793,6 +6517,7 @@
   },
   {
     "id": "NOR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5801,6 +6526,7 @@
   },
   {
     "id": "NOR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5809,6 +6535,7 @@
   },
   {
     "id": "NOR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5817,6 +6544,7 @@
   },
   {
     "id": "NOR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5825,6 +6553,7 @@
   },
   {
     "id": "NOR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5833,6 +6562,7 @@
   },
   {
     "id": "NOR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5841,6 +6571,7 @@
   },
   {
     "id": "NOR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5849,6 +6580,7 @@
   },
   {
     "id": "NOR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5857,6 +6589,7 @@
   },
   {
     "id": "NOR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "NOR",
@@ -5865,6 +6598,7 @@
   },
   {
     "id": "NOR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5873,6 +6607,7 @@
   },
   {
     "id": "NOR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5881,6 +6616,7 @@
   },
   {
     "id": "NOR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5889,6 +6625,7 @@
   },
   {
     "id": "NOR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5897,6 +6634,7 @@
   },
   {
     "id": "NOR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5905,6 +6643,7 @@
   },
   {
     "id": "NOR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5913,6 +6652,7 @@
   },
   {
     "id": "NOR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "NOR",
@@ -5921,6 +6661,7 @@
   },
   {
     "id": "ARG1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "ARG",
@@ -5929,6 +6670,7 @@
   },
   {
     "id": "ARG2",
+    "itemType": "fifa26",
     "name": "Emiliano Martinez",
     "count": 0,
     "teamId": "ARG",
@@ -5937,6 +6679,7 @@
   },
   {
     "id": "ARG3",
+    "itemType": "fifa26",
     "name": "Nahuel Molina",
     "count": 0,
     "teamId": "ARG",
@@ -5945,6 +6688,7 @@
   },
   {
     "id": "ARG4",
+    "itemType": "fifa26",
     "name": "Cristian Romero",
     "count": 0,
     "teamId": "ARG",
@@ -5953,6 +6697,7 @@
   },
   {
     "id": "ARG5",
+    "itemType": "fifa26",
     "name": "Nicolas Otamendi",
     "count": 0,
     "teamId": "ARG",
@@ -5961,6 +6706,7 @@
   },
   {
     "id": "ARG6",
+    "itemType": "fifa26",
     "name": "Nicolas Tagliafico",
     "count": 0,
     "teamId": "ARG",
@@ -5969,6 +6715,7 @@
   },
   {
     "id": "ARG7",
+    "itemType": "fifa26",
     "name": "Leonardo Balerdi",
     "count": 0,
     "teamId": "ARG",
@@ -5977,6 +6724,7 @@
   },
   {
     "id": "ARG8",
+    "itemType": "fifa26",
     "name": "Enzo Fernandez",
     "count": 0,
     "teamId": "ARG",
@@ -5985,6 +6733,7 @@
   },
   {
     "id": "ARG9",
+    "itemType": "fifa26",
     "name": "Alexis Mac Allister",
     "count": 0,
     "teamId": "ARG",
@@ -5993,6 +6742,7 @@
   },
   {
     "id": "ARG10",
+    "itemType": "fifa26",
     "name": "Rodrigo De Paul",
     "count": 0,
     "teamId": "ARG",
@@ -6001,6 +6751,7 @@
   },
   {
     "id": "ARG11",
+    "itemType": "fifa26",
     "name": "Exequiel Palacios",
     "count": 0,
     "teamId": "ARG",
@@ -6009,6 +6760,7 @@
   },
   {
     "id": "ARG12",
+    "itemType": "fifa26",
     "name": "Leandro Paredes",
     "count": 0,
     "teamId": "ARG",
@@ -6017,6 +6769,7 @@
   },
   {
     "id": "ARG13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "ARG",
@@ -6025,6 +6778,7 @@
   },
   {
     "id": "ARG14",
+    "itemType": "fifa26",
     "name": "Nico Paz",
     "count": 0,
     "teamId": "ARG",
@@ -6033,6 +6787,7 @@
   },
   {
     "id": "ARG15",
+    "itemType": "fifa26",
     "name": "Franco Mastantuono",
     "count": 0,
     "teamId": "ARG",
@@ -6041,6 +6796,7 @@
   },
   {
     "id": "ARG16",
+    "itemType": "fifa26",
     "name": "Nico Gonzalez",
     "count": 0,
     "teamId": "ARG",
@@ -6049,6 +6805,7 @@
   },
   {
     "id": "ARG17",
+    "itemType": "fifa26",
     "name": "Lionel Messi",
     "count": 0,
     "teamId": "ARG",
@@ -6057,6 +6814,7 @@
   },
   {
     "id": "ARG18",
+    "itemType": "fifa26",
     "name": "Lautaro Martinez",
     "count": 0,
     "teamId": "ARG",
@@ -6065,6 +6823,7 @@
   },
   {
     "id": "ARG19",
+    "itemType": "fifa26",
     "name": "Julian Alvarez",
     "count": 0,
     "teamId": "ARG",
@@ -6073,6 +6832,7 @@
   },
   {
     "id": "ARG20",
+    "itemType": "fifa26",
     "name": "Giuliano Simeone",
     "count": 0,
     "teamId": "ARG",
@@ -6081,6 +6841,7 @@
   },
   {
     "id": "ALG1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "ALG",
@@ -6089,6 +6850,7 @@
   },
   {
     "id": "ALG2",
+    "itemType": "fifa26",
     "name": "Alexis Guendouz",
     "count": 0,
     "teamId": "ALG",
@@ -6097,6 +6859,7 @@
   },
   {
     "id": "ALG3",
+    "itemType": "fifa26",
     "name": "Ramy Bensebaini",
     "count": 0,
     "teamId": "ALG",
@@ -6105,6 +6868,7 @@
   },
   {
     "id": "ALG4",
+    "itemType": "fifa26",
     "name": "Youcef Atal",
     "count": 0,
     "teamId": "ALG",
@@ -6113,6 +6877,7 @@
   },
   {
     "id": "ALG5",
+    "itemType": "fifa26",
     "name": "Rayan Aït-Nouri",
     "count": 0,
     "teamId": "ALG",
@@ -6121,6 +6886,7 @@
   },
   {
     "id": "ALG6",
+    "itemType": "fifa26",
     "name": "Mohamed Amine Tougai",
     "count": 0,
     "teamId": "ALG",
@@ -6129,6 +6895,7 @@
   },
   {
     "id": "ALG7",
+    "itemType": "fifa26",
     "name": "Aïssa Mandi",
     "count": 0,
     "teamId": "ALG",
@@ -6137,6 +6904,7 @@
   },
   {
     "id": "ALG8",
+    "itemType": "fifa26",
     "name": "Ismael Bennacer",
     "count": 0,
     "teamId": "ALG",
@@ -6145,6 +6913,7 @@
   },
   {
     "id": "ALG9",
+    "itemType": "fifa26",
     "name": "Houssem Aouar",
     "count": 0,
     "teamId": "ALG",
@@ -6153,6 +6922,7 @@
   },
   {
     "id": "ALG10",
+    "itemType": "fifa26",
     "name": "Hicham Boudaoui",
     "count": 0,
     "teamId": "ALG",
@@ -6161,6 +6931,7 @@
   },
   {
     "id": "ALG11",
+    "itemType": "fifa26",
     "name": "Ramiz Zerrouki",
     "count": 0,
     "teamId": "ALG",
@@ -6169,6 +6940,7 @@
   },
   {
     "id": "ALG12",
+    "itemType": "fifa26",
     "name": "Nabil Bentaleb",
     "count": 0,
     "teamId": "ALG",
@@ -6177,6 +6949,7 @@
   },
   {
     "id": "ALG13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "ALG",
@@ -6185,6 +6958,7 @@
   },
   {
     "id": "ALG14",
+    "itemType": "fifa26",
     "name": "Farès Chaïbi",
     "count": 0,
     "teamId": "ALG",
@@ -6193,6 +6967,7 @@
   },
   {
     "id": "ALG15",
+    "itemType": "fifa26",
     "name": "Riyad Mahrez",
     "count": 0,
     "teamId": "ALG",
@@ -6201,6 +6976,7 @@
   },
   {
     "id": "ALG16",
+    "itemType": "fifa26",
     "name": "Said Benrahma",
     "count": 0,
     "teamId": "ALG",
@@ -6209,6 +6985,7 @@
   },
   {
     "id": "ALG17",
+    "itemType": "fifa26",
     "name": "Anis Hadj Moussa",
     "count": 0,
     "teamId": "ALG",
@@ -6217,6 +6994,7 @@
   },
   {
     "id": "ALG18",
+    "itemType": "fifa26",
     "name": "Amine Gouiri",
     "count": 0,
     "teamId": "ALG",
@@ -6225,6 +7003,7 @@
   },
   {
     "id": "ALG19",
+    "itemType": "fifa26",
     "name": "Baghdad Bounedjah",
     "count": 0,
     "teamId": "ALG",
@@ -6233,6 +7012,7 @@
   },
   {
     "id": "ALG20",
+    "itemType": "fifa26",
     "name": "Mohammed Amoura",
     "count": 0,
     "teamId": "ALG",
@@ -6241,6 +7021,7 @@
   },
   {
     "id": "AUT1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "AUT",
@@ -6249,6 +7030,7 @@
   },
   {
     "id": "AUT2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6257,6 +7039,7 @@
   },
   {
     "id": "AUT3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6265,6 +7048,7 @@
   },
   {
     "id": "AUT4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6273,6 +7057,7 @@
   },
   {
     "id": "AUT5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6281,6 +7066,7 @@
   },
   {
     "id": "AUT6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6289,6 +7075,7 @@
   },
   {
     "id": "AUT7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6297,6 +7084,7 @@
   },
   {
     "id": "AUT8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6305,6 +7093,7 @@
   },
   {
     "id": "AUT9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6313,6 +7102,7 @@
   },
   {
     "id": "AUT10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6321,6 +7111,7 @@
   },
   {
     "id": "AUT11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6329,6 +7120,7 @@
   },
   {
     "id": "AUT12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6337,6 +7129,7 @@
   },
   {
     "id": "AUT13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "AUT",
@@ -6345,6 +7138,7 @@
   },
   {
     "id": "AUT14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6353,6 +7147,7 @@
   },
   {
     "id": "AUT15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6361,6 +7156,7 @@
   },
   {
     "id": "AUT16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6369,6 +7165,7 @@
   },
   {
     "id": "AUT17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6377,6 +7174,7 @@
   },
   {
     "id": "AUT18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6385,6 +7183,7 @@
   },
   {
     "id": "AUT19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6393,6 +7192,7 @@
   },
   {
     "id": "AUT20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "AUT",
@@ -6401,6 +7201,7 @@
   },
   {
     "id": "JOR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "JOR",
@@ -6409,6 +7210,7 @@
   },
   {
     "id": "JOR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6417,6 +7219,7 @@
   },
   {
     "id": "JOR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6425,6 +7228,7 @@
   },
   {
     "id": "JOR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6433,6 +7237,7 @@
   },
   {
     "id": "JOR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6441,6 +7246,7 @@
   },
   {
     "id": "JOR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6449,6 +7255,7 @@
   },
   {
     "id": "JOR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6457,6 +7264,7 @@
   },
   {
     "id": "JOR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6465,6 +7273,7 @@
   },
   {
     "id": "JOR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6473,6 +7282,7 @@
   },
   {
     "id": "JOR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6481,6 +7291,7 @@
   },
   {
     "id": "JOR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6489,6 +7300,7 @@
   },
   {
     "id": "JOR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6497,6 +7309,7 @@
   },
   {
     "id": "JOR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "JOR",
@@ -6505,6 +7318,7 @@
   },
   {
     "id": "JOR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6513,6 +7327,7 @@
   },
   {
     "id": "JOR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6521,6 +7336,7 @@
   },
   {
     "id": "JOR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6529,6 +7345,7 @@
   },
   {
     "id": "JOR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6537,6 +7354,7 @@
   },
   {
     "id": "JOR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6545,6 +7363,7 @@
   },
   {
     "id": "JOR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6553,6 +7372,7 @@
   },
   {
     "id": "JOR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "JOR",
@@ -6561,6 +7381,7 @@
   },
   {
     "id": "POR1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "POR",
@@ -6569,6 +7390,7 @@
   },
   {
     "id": "POR2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6577,6 +7399,7 @@
   },
   {
     "id": "POR3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6585,6 +7408,7 @@
   },
   {
     "id": "POR4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6593,6 +7417,7 @@
   },
   {
     "id": "POR5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6601,6 +7426,7 @@
   },
   {
     "id": "POR6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6609,6 +7435,7 @@
   },
   {
     "id": "POR7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6617,6 +7444,7 @@
   },
   {
     "id": "POR8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6625,6 +7453,7 @@
   },
   {
     "id": "POR9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6633,6 +7462,7 @@
   },
   {
     "id": "POR10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6641,6 +7471,7 @@
   },
   {
     "id": "POR11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6649,6 +7480,7 @@
   },
   {
     "id": "POR12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6657,6 +7489,7 @@
   },
   {
     "id": "POR13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "POR",
@@ -6665,6 +7498,7 @@
   },
   {
     "id": "POR14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6673,6 +7507,7 @@
   },
   {
     "id": "POR15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6681,6 +7516,7 @@
   },
   {
     "id": "POR16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6689,6 +7525,7 @@
   },
   {
     "id": "POR17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6697,6 +7534,7 @@
   },
   {
     "id": "POR18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6705,6 +7543,7 @@
   },
   {
     "id": "POR19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6713,6 +7552,7 @@
   },
   {
     "id": "POR20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "POR",
@@ -6721,6 +7561,7 @@
   },
   {
     "id": "COD1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "COD",
@@ -6729,6 +7570,7 @@
   },
   {
     "id": "COD2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6737,6 +7579,7 @@
   },
   {
     "id": "COD3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6745,6 +7588,7 @@
   },
   {
     "id": "COD4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6753,6 +7597,7 @@
   },
   {
     "id": "COD5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6761,6 +7606,7 @@
   },
   {
     "id": "COD6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6769,6 +7615,7 @@
   },
   {
     "id": "COD7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6777,6 +7624,7 @@
   },
   {
     "id": "COD8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6785,6 +7633,7 @@
   },
   {
     "id": "COD9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6793,6 +7642,7 @@
   },
   {
     "id": "COD10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6801,6 +7651,7 @@
   },
   {
     "id": "COD11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6809,6 +7660,7 @@
   },
   {
     "id": "COD12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6817,6 +7669,7 @@
   },
   {
     "id": "COD13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "COD",
@@ -6825,6 +7678,7 @@
   },
   {
     "id": "COD14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6833,6 +7687,7 @@
   },
   {
     "id": "COD15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6841,6 +7696,7 @@
   },
   {
     "id": "COD16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6849,6 +7705,7 @@
   },
   {
     "id": "COD17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6857,6 +7714,7 @@
   },
   {
     "id": "COD18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6865,6 +7723,7 @@
   },
   {
     "id": "COD19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6873,6 +7732,7 @@
   },
   {
     "id": "COD20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COD",
@@ -6881,6 +7741,7 @@
   },
   {
     "id": "UZB1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "UZB",
@@ -6889,6 +7750,7 @@
   },
   {
     "id": "UZB2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6897,6 +7759,7 @@
   },
   {
     "id": "UZB3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6905,6 +7768,7 @@
   },
   {
     "id": "UZB4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6913,6 +7777,7 @@
   },
   {
     "id": "UZB5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6921,6 +7786,7 @@
   },
   {
     "id": "UZB6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6929,6 +7795,7 @@
   },
   {
     "id": "UZB7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6937,6 +7804,7 @@
   },
   {
     "id": "UZB8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6945,6 +7813,7 @@
   },
   {
     "id": "UZB9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6953,6 +7822,7 @@
   },
   {
     "id": "UZB10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6961,6 +7831,7 @@
   },
   {
     "id": "UZB11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6969,6 +7840,7 @@
   },
   {
     "id": "UZB12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6977,6 +7849,7 @@
   },
   {
     "id": "UZB13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "UZB",
@@ -6985,6 +7858,7 @@
   },
   {
     "id": "UZB14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -6993,6 +7867,7 @@
   },
   {
     "id": "UZB15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7001,6 +7876,7 @@
   },
   {
     "id": "UZB16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7009,6 +7885,7 @@
   },
   {
     "id": "UZB17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7017,6 +7894,7 @@
   },
   {
     "id": "UZB18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7025,6 +7903,7 @@
   },
   {
     "id": "UZB19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7033,6 +7912,7 @@
   },
   {
     "id": "UZB20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "UZB",
@@ -7041,6 +7921,7 @@
   },
   {
     "id": "COL1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "COL",
@@ -7049,6 +7930,7 @@
   },
   {
     "id": "COL2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7057,6 +7939,7 @@
   },
   {
     "id": "COL3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7065,6 +7948,7 @@
   },
   {
     "id": "COL4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7073,6 +7957,7 @@
   },
   {
     "id": "COL5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7081,6 +7966,7 @@
   },
   {
     "id": "COL6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7089,6 +7975,7 @@
   },
   {
     "id": "COL7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7097,6 +7984,7 @@
   },
   {
     "id": "COL8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7105,6 +7993,7 @@
   },
   {
     "id": "COL9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7113,6 +8002,7 @@
   },
   {
     "id": "COL10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7121,6 +8011,7 @@
   },
   {
     "id": "COL11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7129,6 +8020,7 @@
   },
   {
     "id": "COL12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7137,6 +8029,7 @@
   },
   {
     "id": "COL13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "COL",
@@ -7145,6 +8038,7 @@
   },
   {
     "id": "COL14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7153,6 +8047,7 @@
   },
   {
     "id": "COL15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7161,6 +8056,7 @@
   },
   {
     "id": "COL16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7169,6 +8065,7 @@
   },
   {
     "id": "COL17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7177,6 +8074,7 @@
   },
   {
     "id": "COL18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7185,6 +8083,7 @@
   },
   {
     "id": "COL19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7193,6 +8092,7 @@
   },
   {
     "id": "COL20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "COL",
@@ -7201,6 +8101,7 @@
   },
   {
     "id": "ENG1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "ENG",
@@ -7209,6 +8110,7 @@
   },
   {
     "id": "ENG2",
+    "itemType": "fifa26",
     "name": "Jordan Pickford",
     "count": 0,
     "teamId": "ENG",
@@ -7217,6 +8119,7 @@
   },
   {
     "id": "ENG3",
+    "itemType": "fifa26",
     "name": "John Stones",
     "count": 0,
     "teamId": "ENG",
@@ -7225,6 +8128,7 @@
   },
   {
     "id": "ENG4",
+    "itemType": "fifa26",
     "name": "Marc Guéhi",
     "count": 0,
     "teamId": "ENG",
@@ -7233,6 +8137,7 @@
   },
   {
     "id": "ENG5",
+    "itemType": "fifa26",
     "name": "Ezri Konsa",
     "count": 0,
     "teamId": "ENG",
@@ -7241,6 +8146,7 @@
   },
   {
     "id": "ENG6",
+    "itemType": "fifa26",
     "name": "Trent Alexander-Arnold",
     "count": 0,
     "teamId": "ENG",
@@ -7249,6 +8155,7 @@
   },
   {
     "id": "ENG7",
+    "itemType": "fifa26",
     "name": "Reece James",
     "count": 0,
     "teamId": "ENG",
@@ -7257,6 +8164,7 @@
   },
   {
     "id": "ENG8",
+    "itemType": "fifa26",
     "name": "Dan Burn",
     "count": 0,
     "teamId": "ENG",
@@ -7265,6 +8173,7 @@
   },
   {
     "id": "ENG9",
+    "itemType": "fifa26",
     "name": "Jordan Henderson",
     "count": 0,
     "teamId": "ENG",
@@ -7273,6 +8182,7 @@
   },
   {
     "id": "ENG10",
+    "itemType": "fifa26",
     "name": "Declan Rice",
     "count": 0,
     "teamId": "ENG",
@@ -7281,6 +8191,7 @@
   },
   {
     "id": "ENG11",
+    "itemType": "fifa26",
     "name": "Jude Bellingham",
     "count": 0,
     "teamId": "ENG",
@@ -7289,6 +8200,7 @@
   },
   {
     "id": "ENG12",
+    "itemType": "fifa26",
     "name": "Cole Palmer",
     "count": 0,
     "teamId": "ENG",
@@ -7297,6 +8209,7 @@
   },
   {
     "id": "ENG13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "ENG",
@@ -7305,6 +8218,7 @@
   },
   {
     "id": "ENG14",
+    "itemType": "fifa26",
     "name": "Morgan Rogers",
     "count": 0,
     "teamId": "ENG",
@@ -7313,6 +8227,7 @@
   },
   {
     "id": "ENG15",
+    "itemType": "fifa26",
     "name": "Anthony Gordon",
     "count": 0,
     "teamId": "ENG",
@@ -7321,6 +8236,7 @@
   },
   {
     "id": "ENG16",
+    "itemType": "fifa26",
     "name": "Phil Foden",
     "count": 0,
     "teamId": "ENG",
@@ -7329,6 +8245,7 @@
   },
   {
     "id": "ENG17",
+    "itemType": "fifa26",
     "name": "Bukayo Saka",
     "count": 0,
     "teamId": "ENG",
@@ -7337,6 +8254,7 @@
   },
   {
     "id": "ENG18",
+    "itemType": "fifa26",
     "name": "Harry Kane",
     "count": 0,
     "teamId": "ENG",
@@ -7345,6 +8263,7 @@
   },
   {
     "id": "ENG19",
+    "itemType": "fifa26",
     "name": "Marcus Rashford",
     "count": 0,
     "teamId": "ENG",
@@ -7353,6 +8272,7 @@
   },
   {
     "id": "ENG20",
+    "itemType": "fifa26",
     "name": "Ollie Watkins",
     "count": 0,
     "teamId": "ENG",
@@ -7361,6 +8281,7 @@
   },
   {
     "id": "CRO1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "CRO",
@@ -7369,6 +8290,7 @@
   },
   {
     "id": "CRO2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7377,6 +8299,7 @@
   },
   {
     "id": "CRO3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7385,6 +8308,7 @@
   },
   {
     "id": "CRO4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7393,6 +8317,7 @@
   },
   {
     "id": "CRO5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7401,6 +8326,7 @@
   },
   {
     "id": "CRO6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7409,6 +8335,7 @@
   },
   {
     "id": "CRO7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7417,6 +8344,7 @@
   },
   {
     "id": "CRO8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7425,6 +8353,7 @@
   },
   {
     "id": "CRO9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7433,6 +8362,7 @@
   },
   {
     "id": "CRO10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7441,6 +8371,7 @@
   },
   {
     "id": "CRO11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7449,6 +8380,7 @@
   },
   {
     "id": "CRO12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7457,6 +8389,7 @@
   },
   {
     "id": "CRO13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "CRO",
@@ -7465,6 +8398,7 @@
   },
   {
     "id": "CRO14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7473,6 +8407,7 @@
   },
   {
     "id": "CRO15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7481,6 +8416,7 @@
   },
   {
     "id": "CRO16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7489,6 +8425,7 @@
   },
   {
     "id": "CRO17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7497,6 +8434,7 @@
   },
   {
     "id": "CRO18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7505,6 +8443,7 @@
   },
   {
     "id": "CRO19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7513,6 +8452,7 @@
   },
   {
     "id": "CRO20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "CRO",
@@ -7521,6 +8461,7 @@
   },
   {
     "id": "GHA1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "GHA",
@@ -7529,6 +8470,7 @@
   },
   {
     "id": "GHA2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7537,6 +8479,7 @@
   },
   {
     "id": "GHA3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7545,6 +8488,7 @@
   },
   {
     "id": "GHA4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7553,6 +8497,7 @@
   },
   {
     "id": "GHA5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7561,6 +8506,7 @@
   },
   {
     "id": "GHA6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7569,6 +8515,7 @@
   },
   {
     "id": "GHA7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7577,6 +8524,7 @@
   },
   {
     "id": "GHA8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7585,6 +8533,7 @@
   },
   {
     "id": "GHA9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7593,6 +8542,7 @@
   },
   {
     "id": "GHA10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7601,6 +8551,7 @@
   },
   {
     "id": "GHA11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7609,6 +8560,7 @@
   },
   {
     "id": "GHA12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7617,6 +8569,7 @@
   },
   {
     "id": "GHA13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "GHA",
@@ -7625,6 +8578,7 @@
   },
   {
     "id": "GHA14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7633,6 +8587,7 @@
   },
   {
     "id": "GHA15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7641,6 +8596,7 @@
   },
   {
     "id": "GHA16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7649,6 +8605,7 @@
   },
   {
     "id": "GHA17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7657,6 +8614,7 @@
   },
   {
     "id": "GHA18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7665,6 +8623,7 @@
   },
   {
     "id": "GHA19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7673,6 +8632,7 @@
   },
   {
     "id": "GHA20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "GHA",
@@ -7681,6 +8641,7 @@
   },
   {
     "id": "PAN1",
+    "itemType": "fifa26",
     "name": "Team Emblem",
     "count": 0,
     "teamId": "PAN",
@@ -7689,6 +8650,7 @@
   },
   {
     "id": "PAN2",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7697,6 +8659,7 @@
   },
   {
     "id": "PAN3",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7705,6 +8668,7 @@
   },
   {
     "id": "PAN4",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7713,6 +8677,7 @@
   },
   {
     "id": "PAN5",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7721,6 +8686,7 @@
   },
   {
     "id": "PAN6",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7729,6 +8695,7 @@
   },
   {
     "id": "PAN7",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7737,6 +8704,7 @@
   },
   {
     "id": "PAN8",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7745,6 +8713,7 @@
   },
   {
     "id": "PAN9",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7753,6 +8722,7 @@
   },
   {
     "id": "PAN10",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7761,6 +8731,7 @@
   },
   {
     "id": "PAN11",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7769,6 +8740,7 @@
   },
   {
     "id": "PAN12",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7777,6 +8749,7 @@
   },
   {
     "id": "PAN13",
+    "itemType": "fifa26",
     "name": "Team Photo",
     "count": 0,
     "teamId": "PAN",
@@ -7785,6 +8758,7 @@
   },
   {
     "id": "PAN14",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7793,6 +8767,7 @@
   },
   {
     "id": "PAN15",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7801,6 +8776,7 @@
   },
   {
     "id": "PAN16",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7809,6 +8785,7 @@
   },
   {
     "id": "PAN17",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7817,6 +8794,7 @@
   },
   {
     "id": "PAN18",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7825,6 +8803,7 @@
   },
   {
     "id": "PAN19",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7833,6 +8812,7 @@
   },
   {
     "id": "PAN20",
+    "itemType": "fifa26",
     "name": "",
     "count": 0,
     "teamId": "PAN",
@@ -7841,6 +8821,7 @@
   },
   {
     "id": "CC1",
+    "itemType": "fifa26",
     "name": "Lamine Yamal (ESP)",
     "count": 0,
     "teamId": "CC",
@@ -7849,6 +8830,7 @@
   },
   {
     "id": "CC2",
+    "itemType": "fifa26",
     "name": "Joshua Kimmich (GER)",
     "count": 0,
     "teamId": "CC",
@@ -7857,6 +8839,7 @@
   },
   {
     "id": "CC3",
+    "itemType": "fifa26",
     "name": "Eduardo Camavinga (FRA)",
     "count": 0,
     "teamId": "CC",
@@ -7865,6 +8848,7 @@
   },
   {
     "id": "CC4",
+    "itemType": "fifa26",
     "name": "Josko Gvardiol (CRO)",
     "count": 0,
     "teamId": "CC",
@@ -7873,6 +8857,7 @@
   },
   {
     "id": "CC5",
+    "itemType": "fifa26",
     "name": "Federico Valverde (URU)",
     "count": 0,
     "teamId": "CC",
@@ -7881,6 +8866,7 @@
   },
   {
     "id": "CC6",
+    "itemType": "fifa26",
     "name": "Virgil van Dijk (NED)",
     "count": 0,
     "teamId": "CC",
@@ -7889,6 +8875,7 @@
   },
   {
     "id": "CC7",
+    "itemType": "fifa26",
     "name": "Alphonso Davies (CAN)",
     "count": 0,
     "teamId": "CC",
@@ -7897,6 +8884,7 @@
   },
   {
     "id": "CC8",
+    "itemType": "fifa26",
     "name": "Raúl Jiménez (MEX)",
     "count": 0,
     "teamId": "CC",
@@ -7905,6 +8893,7 @@
   },
   {
     "id": "CC9",
+    "itemType": "fifa26",
     "name": "William Saliba (FRA)",
     "count": 0,
     "teamId": "CC",
@@ -7913,6 +8902,7 @@
   },
   {
     "id": "CC10",
+    "itemType": "fifa26",
     "name": "Lautaro Martinez (ARG)",
     "count": 0,
     "teamId": "CC",
@@ -7921,6 +8911,7 @@
   },
   {
     "id": "CC11",
+    "itemType": "fifa26",
     "name": "Harry Kane (ENG)",
     "count": 0,
     "teamId": "CC",
@@ -7929,6 +8920,7 @@
   },
   {
     "id": "CC12",
+    "itemType": "fifa26",
     "name": "Antonee Robinson (USA)",
     "count": 0,
     "teamId": "CC",

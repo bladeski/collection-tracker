@@ -345,7 +345,7 @@ class StickerCollectionViewService {
     stickerRow.item.classList.toggle('has-duplicate', count > 1);
 
     if (stickerRow.removeButton) {
-      stickerRow.removeButton.disabled = true;
+      stickerRow.removeButton.disabled = count === 0;
     }
     if (stickerRow.addButton) {
       stickerRow.addButton.disabled = false;

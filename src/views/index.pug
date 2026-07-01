@@ -1,177 +1,25 @@
 //- block vars
-- var title = 'FIFA World Cup 2026 Sticker Tracker'
+- var title = 'Collection Tracker'
 - var script = 'index.ts'
 - var assetBase = assetBase || '../'
 - var stylesheets = ['styles.css']
 
-include ../layout/mixins.pug
+include ./layout/mixins.pug
 
 // call head mixin with safe defaults if child pages override `block vars`
-+head((typeof title === 'undefined') ? 'FIFA World Cup 2026 Sticker Tracker' : title, (typeof script === 'undefined') ? 'index.ts' : script, (typeof stylesheets === 'undefined') ? ['styles.css'] : stylesheets)
++head((typeof title === 'undefined') ? 'Collection Tracker' : title, (typeof script === 'undefined') ? 'index.ts' : script, (typeof stylesheets === 'undefined') ? ['styles.css'] : stylesheets)
 .page-wrapper
   header
     h1= title
   main
-    .page-shell
-      block content
-        .collection
-          //- Header stats card: shows collection progress at a glance.
-          //- Populated by StickerCollectionViewService.renderStats / updateStats.
-          .stats-card#stats-card(aria-label="Collection statistics")
-            .stats-card__primary
-              .stats-card__percentage#stats-percentage 0%
-              .stats-card__label Collection progress
-              .stats-card__bar
-                .stats-card__bar-fill#stats-bar-fill
-            .stats-card__stats.progress-stats
-              .stat.stat--owned
-                span.stat-value#stats-owned 0
-                span.stat-label Owned
-              .stat.stat--missing
-                span.stat-value#stats-missing 0
-                span.stat-label Missing
-              .stat.stat--duplicate
-                span.stat-value#stats-duplicates 0
-                span.stat-label Duplicates
-
-          //- Action bar: scan buttons + primary trade action.
-          .action-buttons
-            button.outlined.icon-button#add-from-image(type="button" aria-label="Add stickers from an image" title="Add from image")
-              svg.icon(width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true")
-                rect(x="3" y="3" width="18" height="18" rx="2" ry="2")
-                circle(cx="8.5" cy="8.5" r="1.5")
-                path(d="m21 15-5-5L5 21")
-              span.sr-only Add from image
-            button.outlined.icon-button#add-from-camera(type="button" aria-label="Add stickers using the camera" title="Add from camera")
-              svg.icon(width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true")
-                path(d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z")
-                circle(cx="12" cy="13" r="3.5")
-              span.sr-only Add from camera
-            span.action-buttons__divider(aria-hidden="true")
-            button.primary#trade-button Trade Stickers
-
-          //- Filter panel. `<details>` wraps both the summary line and the
-          //- filter controls so the disclosure animates as a single unit
-          //- and chips can never overflow into the grid below.
-          details.filter-wrapper
-            summary Filter Options
-              span.summary-subtitle#filter-summary All stickers
-            .filters
-              .filter-options
-                label.filter-chip.filter-chip--active
-                  input(type="checkbox" id="show-missing" checked)
-                  span Show Missing Stickers
-                label.filter-chip.filter-chip--active
-                  input(type="checkbox" id="show-owned" checked)
-                  span Show Owned Stickers
-                label.filter-chip
-                  input(type="checkbox" id="show-duplicates")
-                  span Show Duplicates
-                label.filter-chip.filter-chip--active
-                  input(type="checkbox" id="show-names" checked)
-                  span Show Sticker Names
-              label Search by ID
-                input#search-filter(type="text" placeholder="Enter sticker ID")
-              label Filter by Team
-                select#collection-filter
-                  option(value="all") All Stickers
-        .sticker-grid
-          //- Sticker items will be rendered here by the client-side script
-          .sticker-grid__empty.hidden
-            .sticker-grid__empty-title No stickers match your filters
-            .sticker-grid__empty-text Try clearing the search or adjusting the filter toggles to see more stickers.
-    canvas.image-canvas
-      | <!-- Canvas for image processing -->
-  nav.main-nav 
+    .collection-list
+      ul#collection-list
+      p#collection-list-empty.hidden No collections yet. Click "Add New Collection" to get started.
+    button#add-collection-button Add New Collection
   footer   
     p &copy; 2026 Collection Tracker. All rights reserved.
   #trade-toast.trade-toast.hidden(role="status" aria-live="polite")
     span#trade-toast-message.trade-toast__message
     button#trade-toast-dismiss.trade-toast__dismiss(type="button" aria-label="Dismiss trade status") ×
   #templates
-    template#collection-filter-option
-      option.collection-filter-option
-    template#team-section
-      section.team-section
-        h2.team-section__title
-          .team-section__id
-          .team-section__name
-        ul.team-list
-    template#sticker-item
-      li.sticker-details
-        span.sticker-id
-        span.sticker-name
-        span.sticker-count
-        span.sticker-actions
-          button.add-sticker-button.icon-button.outlined(type="button" aria-label="Add sticker")
-            span(aria-hidden="true") +
-            span.sr-only Add sticker
-          button.remove-sticker-button.icon-button.outlined(type="button" aria-label="Remove sticker")
-            span(aria-hidden="true") -
-            span.sr-only Remove sticker
-    template#modal-shell
-      .modal-shell(role="dialog" aria-modal="true" aria-label="Dialog")
-        .modal-shell__dialog
-          header.modal-shell__header
-            h2.modal-shell__title
-            button.modal-shell__close(type="button" aria-label="Close") ×
-          p.modal-shell__status
-          .modal-shell__body
-          footer.modal-shell__footer
-    template#sticker-results-modal-content
-      .sticker-results-modal__body-content
-        .sticker-results-modal__image-wrap
-          canvas.sticker-results-modal__canvas
-        ul.sticker-results-modal__list
-          li.sticker-results-modal__empty No stickers detected yet.
-      .sticker-results-modal__footer-content
-        button.sticker-results-modal__stop(type="button") Stop scanning
-        button.sticker-results-modal__dismiss.primary Done
-    template#sticker-results-modal-list-item
-      li.sticker-results-modal__list-item
-        span.sticker-results-modal__id
-    template#sticker-results-modal-empty
-      li.sticker-results-modal__empty No stickers detected yet.
-    template#trade-modal-content
-      .trade-modal__body-content
-        .trade-modal__selection-step
-          .trade-modal__columns
-            section.trade-modal__column
-              h3.trade-modal__column-title Give (Duplicates)
-              label.trade-modal__search-label(for="trade-give-search") Search by ID
-              input#trade-give-search.trade-modal__search(type="text" placeholder="Filter IDs")
-              ul.trade-modal__list.trade-modal__give-list
-            section.trade-modal__column
-              h3.trade-modal__column-title Receive (Missing)
-              label.trade-modal__search-label(for="trade-receive-search") Search by ID
-              input#trade-receive-search.trade-modal__search(type="text" placeholder="Filter IDs")
-              ul.trade-modal__list.trade-modal__receive-list
-        .trade-modal__summary-step.hidden
-          section.trade-modal__summary-group
-            h3.trade-modal__summary-title Giving
-            ul.trade-modal__list.trade-modal__summary-give
-          section.trade-modal__summary-group
-            h3.trade-modal__summary-title Receiving
-            ul.trade-modal__list.trade-modal__summary-receive
-      .trade-modal__footer-content
-        p.trade-modal__error.hidden(role="alert")
-        button.trade-modal__cancel(type="button") Cancel
-        button.trade-modal__back(type="button" hidden) Back
-        button.trade-modal__next.primary(type="button") Next
-        button.trade-modal__confirm.primary(type="button" hidden) Confirm
-    template#trade-modal-give-item
-      li.trade-modal__list-item
-        label.trade-modal__row
-          input.trade-modal__checkbox(type="checkbox")
-          span.trade-modal__id
-          span.trade-modal__count
-    template#trade-modal-receive-item
-      li.trade-modal__list-item
-        label.trade-modal__row
-          input.trade-modal__checkbox(type="checkbox")
-          span.trade-modal__id
-    template#trade-modal-summary-item
-      li.trade-modal__list-item
-        span.trade-modal__id
-    template#trade-modal-empty-item
-      li.trade-modal__empty No stickers available.
+    include ./layout/templates.pug

@@ -1,14 +1,17 @@
 import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import { IItem } from '../interfaces';
+import { ItemType } from '../enums';
 import { IndexedDbDataStoreService } from '.';
 
 interface TestItem extends IItem {
+  itemType: ItemType.DEFAULT;
   name: string;
   count: number;
 }
 
 const makeItem = (id: string, overrides: Partial<TestItem> = {}): TestItem => ({
   id,
+  itemType: ItemType.DEFAULT,
   name: `Item ${id}`,
   count: 1,
   ...overrides,
@@ -22,15 +25,17 @@ describe('IndexedDbDataStoreService', () => {
   let service: IndexedDbDataStoreService<TestItem>;
   let collectionId: string;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     collectionId = uniqueCollectionId();
     service = new IndexedDbDataStoreService<TestItem>(collectionId);
+    // Eagerly initialize so the store is created before any test runs
+    await service.init();
   });
 
   afterEach(async () => {
-    // Await close() so the connection is released before the next test opens
-    // the shared `collectors` database. fire-and-forget close() would race
-    // with the next open and deadlock the polyfill.
+    // Await close() so the connection is released before the next test
+    // opens the shared `collectors` database. fire-and-forget close()
+    // would race with the next open and deadlock the polyfill.
     await service.close();
   });
 
@@ -46,16 +51,12 @@ describe('IndexedDbDataStoreService', () => {
     });
 
     it('should scope operations to a per-collection store name', async () => {
-      // The store name is private, but it must be unique per collectionId —
-      // two services on different ids must not collide. We assert that by
-      // writing to one and not seeing the data in the other.
       const otherId = uniqueCollectionId('other');
       const otherService = new IndexedDbDataStoreService<TestItem>(otherId);
       try {
         // Serialize the opens: fake-indexeddb can hang when two services
         // open the same shared DB in parallel before the first finishes
-        // its upgrade. Real browsers also serialize the versionchange
-        // transaction, so this is the more realistic path anyway.
+        // its upgrade.
         await service.init();
         await otherService.init();
         await service.add(makeItem('a'));
@@ -94,10 +95,18 @@ describe('IndexedDbDataStoreService', () => {
 
     it('should accept items whose shape extends IItem', async () => {
       interface Sticker extends IItem {
+        itemType: ItemType.FIFA26;
         teamId: string;
         type: string;
       }
-      const sticker: Sticker = { id: 's1', teamId: 't1', type: 'shiny' } as Sticker;
+      const sticker: Sticker = {
+        id: 's1',
+        itemType: ItemType.FIFA26,
+        teamId: 't1',
+        type: 'shiny',
+        name: 's1',
+        count: 1,
+      } as Sticker;
       const stickerService = new IndexedDbDataStoreService<Sticker>(uniqueCollectionId('sticker'));
       try {
         await stickerService.add(sticker);
@@ -116,7 +125,7 @@ describe('IndexedDbDataStoreService', () => {
 
     it('should reject items with an empty id', async () => {
       await expect(
-        service.add({ id: '', name: 'x', count: 1 })
+        service.add({ id: '', name: 'x', count: 1, itemType: ItemType.DEFAULT } as TestItem)
       ).rejects.toThrow('Item must have a non-empty id.');
     });
 

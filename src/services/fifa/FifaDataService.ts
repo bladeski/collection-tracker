@@ -1,7 +1,9 @@
 import stickerUrl from '../../data/fifa-stickers.json';
 import teamsUrl from '../../data/fifa-teams.json';
+import { ItemType } from '../../enums';
 import { IDataService } from '../../interfaces';
 import { FifaSticker, FifaTeam } from '../../models/fifa';
+import ValidatorService from '../ValidatorService';
 
 export default class FifaDataService implements IDataService<FifaSticker> {
   private baseDataCache: FifaSticker[] | null = null;
@@ -29,10 +31,10 @@ export default class FifaDataService implements IDataService<FifaSticker> {
       const data = await response.json();
       
       // Cache the result
-      this.baseDataCache = data;
+      this.baseDataCache = ValidatorService.validateItems<FifaSticker>(data, ItemType.FIFA26);
       this.cacheTimestamps.baseData = Date.now();
       
-      return data;
+      return this.baseDataCache;
     } catch (error) {
       // If fetch fails and we have stale cache, return it
       if (this.baseDataCache) {
@@ -63,10 +65,10 @@ export default class FifaDataService implements IDataService<FifaSticker> {
       const data = await response.json();
       
       // Cache the result
-      this.teamsCache = data;
+      this.teamsCache = data as FifaTeam[];
       this.cacheTimestamps.teams = Date.now();
       
-      return data;
+      return this.teamsCache;
     } catch (error) {
       // If fetch fails and we have stale cache, return it
       if (this.teamsCache) {

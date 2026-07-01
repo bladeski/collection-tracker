@@ -1,27 +1,36 @@
 import { describe, it, expect, beforeEach } from 'vitest';
+import { ItemType } from '../../enums';
+import { ICollectionsRegistryService, ICollectionMetadata } from '../../interfaces';
 import FifaCollection from './fifa-collection.model';
 import { FifaSticker } from './fifa-sticker.model';
 import { FifaTeam } from './fifaTeam.model';
-import { FifaStickerType } from '../../enums';
 
-const makeSticker = (id: string, teamId: string, overrides: Partial<FifaSticker> = {}): FifaSticker => ({
+const makeFifaMeta: (overrides?: Partial<ICollectionMetadata>) => ICollectionMetadata = (
+  overrides = {}
+) => ({
+  id: 'fifa-test',
+  name: 'FIFA Test',
+  itemType: ItemType.FIFA26,
+  createdAt: '2026-01-01T00:00:00.000Z',
+  updatedAt: '2026-01-01T00:00:00.000Z',
+  ...overrides,
+});
+
+const makeSticker = (
+  id: string,
+  teamId: string,
+  overrides: Partial<FifaSticker> = {}
+): FifaSticker => ({
   id,
   name: `Sticker ${id}`,
   count: 1,
+  itemType: ItemType.FIFA26,
   teamId,
-  type: FifaStickerType.Player,
+  type: 'player',
   isShiny: false,
   ...overrides,
 });
 
-/**
- * Stub data services. They return promises that never resolve so the
- * `FifaCollection` constructor's auto-initialise
- * (`Promise.all([dataService.getBaseData(), dataStoreService.getAll()])`)
- * never flips `isInitialised` to true. Tests that need a populated
- * collection call `collection.initialise(...)` explicitly afterwards,
- * which sets the flag regardless of any pending constructor fetch.
- */
 const neverResolving = <T>(): Promise<T> => new Promise<T>(() => undefined);
 
 const makeStubDataService = () => ({
@@ -35,12 +44,50 @@ const makeStubDataStoreService = () => ({
   add: () => neverResolving<void>(),
   update: () => neverResolving<void>(),
   delete: () => neverResolving<void>(),
-  storageKey: 'fifaCollection',
-  saveAll: () => neverResolving<void>(),
 }) as any;
+
+interface FakeRegistry {
+  rows: Map<string, ICollectionMetadata>;
+  get: (id: string) => Promise<ICollectionMetadata | undefined>;
+  list: () => Promise<ICollectionMetadata[]>;
+  create: (meta: Omit<ICollectionMetadata, 'createdAt' | 'updatedAt'>) => Promise<ICollectionMetadata>;
+  rename: (id: string, name: string) => Promise<ICollectionMetadata>;
+  remove: (id: string) => Promise<void>;
+  createFromCatalog: (...args: any[]) => Promise<ICollectionMetadata>;
+  init: () => Promise<void>;
+}
+
+const makeFakeRegistry = (): ICollectionsRegistryService => {
+  const rows = new Map<string, ICollectionMetadata>();
+  const fake: FakeRegistry = {
+    rows,
+    get: async (id) => rows.get(id),
+    list: async () => Array.from(rows.values()),
+    create: async (meta) => {
+      const now = new Date().toISOString();
+      const row: ICollectionMetadata = { ...meta, createdAt: now, updatedAt: now };
+      rows.set(row.id, row);
+      return row;
+    },
+    rename: async (id, name) => {
+      const existing = rows.get(id);
+      if (!existing) throw new Error('Not found');
+      const updated = { ...existing, name };
+      rows.set(id, updated);
+      return updated;
+    },
+    remove: async (id) => {
+      rows.delete(id);
+    },
+    createFromCatalog: async () => neverResolving(),
+    init: async () => undefined,
+  };
+  return fake as unknown as ICollectionsRegistryService;
+};
 
 describe('FifaCollection', () => {
   let collection: FifaCollection;
+  let registry: ICollectionsRegistryService;
 
   const baseData: FifaSticker[] = [
     makeSticker('1', 'team-a'),
@@ -49,17 +96,24 @@ describe('FifaCollection', () => {
     makeSticker('4', 'team-b'),
   ];
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    registry = makeFakeRegistry();
+    const fake = registry as unknown as FakeRegistry;
+    await fake.create(makeFifaMeta());
     collection = new FifaCollection(
+      'fifa-test',
       makeStubDataService(),
-      makeStubDataStoreService()
+      makeStubDataStoreService(),
+      registry
     );
   });
 
   describe('constructor', () => {
-    it('should set id and name correctly', () => {
-      expect(collection.id).toBe('fifa-world-cup-2026');
-      expect(collection.name).toBe('FIFA World Cup 2026');
+    it('should set id correctly and require a registry', () => {
+      expect(collection.id).toBe('fifa-test');
+      expect(() => new FifaCollection('fifa-test', undefined, undefined, undefined as any)).toThrow(
+        'FifaCollection requires a CollectionsRegistryService'
+      );
     });
   });
 
@@ -79,6 +133,13 @@ describe('FifaCollection', () => {
     it('should throw if collection is not initialised', () => {
       expect(() => collection.getTeamStickers('team-a')).toThrow('Collection is not initialised.');
     });
+
+    it('should support includeMissing to fill in uncollected base stickers', () => {
+      collection.initialise(baseData, [makeSticker('1', 'team-a')]);
+      const result = collection.getTeamStickers('team-a', true);
+      expect(result).toHaveLength(2);
+      expect(result.map(s => s.id)).toEqual(expect.arrayContaining(['1', '2']));
+    });
   });
 
   describe('getMissingTeamStickers', () => {
@@ -97,7 +158,10 @@ describe('FifaCollection', () => {
     });
 
     it('should return an empty array when all team stickers are collected', () => {
-      collection.initialise(baseData, [makeSticker('1', 'team-a'), makeSticker('2', 'team-a')]);
+      collection.initialise(baseData, [
+        makeSticker('1', 'team-a'),
+        makeSticker('2', 'team-a'),
+      ]);
       expect(collection.getMissingTeamStickers('team-a')).toHaveLength(0);
     });
 
@@ -124,9 +188,7 @@ describe('FifaCollection', () => {
     });
 
     it('should not include spares from other teams', () => {
-      collection.initialise(baseData, [
-        makeSticker('3', 'team-b', { count: 5 }),
-      ]);
+      collection.initialise(baseData, [makeSticker('3', 'team-b', { count: 5 })]);
       expect(collection.getTeamSpares('team-a')).toHaveLength(0);
     });
 

@@ -1,7 +1,5 @@
-export type Item = {
-  id: string;
-  name: string;
-  count: number;
-}
+import { IItemTypeMap } from "../interfaces";
+
+export type Item = IItemTypeMap[keyof IItemTypeMap];
 
 export default Item;

@@ -1,3 +1,6 @@
+import CatalogService from './CatalogService';
+import CollectionsRegistryService from './CollectionsRegistryService';
+import IndexedDbConnectionManager from './IndexedDbConnectionManager';
 import IndexedDbDataStoreService from './IndexedDbDataStoreService';
 import TemplateService from './TemplateService';
 import StickerCollectionViewService from './StickerCollectionViewService';
@@ -5,6 +8,9 @@ import StickerResultsModalService from './StickerResultsModalService';
 import TradeModalService from './TradeModalService';
 
 export {
+  CatalogService,
+  CollectionsRegistryService,
+  IndexedDbConnectionManager,
   IndexedDbDataStoreService,
   StickerCollectionViewService,
   StickerResultsModalService,

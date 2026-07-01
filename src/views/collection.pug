@@ -1,18 +1,38 @@
 //- block vars
 - var title = 'FIFA World Cup 2026 Sticker Tracker'
-- var script = 'index.ts'
+- var script = 'collection.ts'
 - var assetBase = assetBase || '../'
 - var stylesheets = ['styles.css']
 
-include ../layout/mixins.pug
+include ./layout/mixins.pug
 
 // call head mixin with safe defaults if child pages override `block vars`
 +head((typeof title === 'undefined') ? 'FIFA World Cup 2026 Sticker Tracker' : title, (typeof script === 'undefined') ? 'index.ts' : script, (typeof stylesheets === 'undefined') ? ['styles.css'] : stylesheets)
 .page-wrapper
   header
-    h1= title
+    h1#collection-title= title
   main
     .page-shell
+      #collection-init-error.collection-error.hidden
+        p.collection-error__message Failed to initialize the collection. Please try again or return to the home page.
+        a.collection-error__back-button(href="./") Return to Home
+      #collection-picker.collection-picker.hidden
+        .collection-picker__backdrop
+        .collection-picker__modal
+          h2 Choose a Collection to Create
+          select.collection-picker__select(data-picker-select)
+          button.collection-picker__confirm(type="button" data-picker-confirm) Create
+      #collection-creation-form.collection-creation-form.hidden
+        .collection-creation-form__backdrop
+        .collection-creation-form__modal
+          h2.collection-creation-form__title Create New Collection
+          form.collection-creation-form__form(data-creation-form)
+            .collection-creation-form__field
+              label.collection-creation-form__label(for="collection-name-input") Collection Name
+              input.collection-creation-form__input#collection-name-input(type="text" placeholder="Enter collection name" data-creation-name required)
+            .collection-creation-form__actions
+              button.collection-creation-form__cancel(type="button" data-creation-cancel) Cancel
+              button.collection-creation-form__create(type="submit" data-creation-submit) Create Collection
       block content
         .collection
           //- Header stats card: shows collection progress at a glance.
@@ -80,98 +100,10 @@ include ../layout/mixins.pug
           .sticker-grid__empty.hidden
             .sticker-grid__empty-title No stickers match your filters
             .sticker-grid__empty-text Try clearing the search or adjusting the filter toggles to see more stickers.
-    canvas.image-canvas
-      | <!-- Canvas for image processing -->
-  nav.main-nav 
   footer   
     p &copy; 2026 Collection Tracker. All rights reserved.
   #trade-toast.trade-toast.hidden(role="status" aria-live="polite")
     span#trade-toast-message.trade-toast__message
     button#trade-toast-dismiss.trade-toast__dismiss(type="button" aria-label="Dismiss trade status") ×
   #templates
-    template#collection-filter-option
-      option.collection-filter-option
-    template#team-section
-      section.team-section
-        h2.team-section__title
-          .team-section__id
-          .team-section__name
-        ul.team-list
-    template#sticker-item
-      li.sticker-details
-        span.sticker-id
-        span.sticker-name
-        span.sticker-count
-        span.sticker-actions
-          button.add-sticker-button.icon-button.outlined(type="button" aria-label="Add sticker")
-            span(aria-hidden="true") +
-            span.sr-only Add sticker
-          button.remove-sticker-button.icon-button.outlined(type="button" aria-label="Remove sticker")
-            span(aria-hidden="true") -
-            span.sr-only Remove sticker
-    template#modal-shell
-      .modal-shell(role="dialog" aria-modal="true" aria-label="Dialog")
-        .modal-shell__dialog
-          header.modal-shell__header
-            h2.modal-shell__title
-            button.modal-shell__close(type="button" aria-label="Close") ×
-          p.modal-shell__status
-          .modal-shell__body
-          footer.modal-shell__footer
-    template#sticker-results-modal-content
-      .sticker-results-modal__body-content
-        .sticker-results-modal__image-wrap
-          canvas.sticker-results-modal__canvas
-        ul.sticker-results-modal__list
-          li.sticker-results-modal__empty No stickers detected yet.
-      .sticker-results-modal__footer-content
-        button.sticker-results-modal__stop(type="button") Stop scanning
-        button.sticker-results-modal__dismiss.primary Done
-    template#sticker-results-modal-list-item
-      li.sticker-results-modal__list-item
-        span.sticker-results-modal__id
-    template#sticker-results-modal-empty
-      li.sticker-results-modal__empty No stickers detected yet.
-    template#trade-modal-content
-      .trade-modal__body-content
-        .trade-modal__selection-step
-          .trade-modal__columns
-            section.trade-modal__column
-              h3.trade-modal__column-title Give (Duplicates)
-              label.trade-modal__search-label(for="trade-give-search") Search by ID
-              input#trade-give-search.trade-modal__search(type="text" placeholder="Filter IDs")
-              ul.trade-modal__list.trade-modal__give-list
-            section.trade-modal__column
-              h3.trade-modal__column-title Receive (Missing)
-              label.trade-modal__search-label(for="trade-receive-search") Search by ID
-              input#trade-receive-search.trade-modal__search(type="text" placeholder="Filter IDs")
-              ul.trade-modal__list.trade-modal__receive-list
-        .trade-modal__summary-step.hidden
-          section.trade-modal__summary-group
-            h3.trade-modal__summary-title Giving
-            ul.trade-modal__list.trade-modal__summary-give
-          section.trade-modal__summary-group
-            h3.trade-modal__summary-title Receiving
-            ul.trade-modal__list.trade-modal__summary-receive
-      .trade-modal__footer-content
-        p.trade-modal__error.hidden(role="alert")
-        button.trade-modal__cancel(type="button") Cancel
-        button.trade-modal__back(type="button" hidden) Back
-        button.trade-modal__next.primary(type="button") Next
-        button.trade-modal__confirm.primary(type="button" hidden) Confirm
-    template#trade-modal-give-item
-      li.trade-modal__list-item
-        label.trade-modal__row
-          input.trade-modal__checkbox(type="checkbox")
-          span.trade-modal__id
-          span.trade-modal__count
-    template#trade-modal-receive-item
-      li.trade-modal__list-item
-        label.trade-modal__row
-          input.trade-modal__checkbox(type="checkbox")
-          span.trade-modal__id
-    template#trade-modal-summary-item
-      li.trade-modal__list-item
-        span.trade-modal__id
-    template#trade-modal-empty-item
-      li.trade-modal__empty No stickers available.
+    include ./layout/templates.pug

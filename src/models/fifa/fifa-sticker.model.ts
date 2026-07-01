@@ -1,8 +1,9 @@
-import { FifaStickerType } from '../../enums';
+import { FifaStickerType, ItemType } from '../../enums';
 import { IItem } from '../../interfaces';
 
 export class FifaSticker implements IItem {
   id: string;
+  itemType: ItemType = ItemType.FIFA26;
   name: string;
   count: number;
   teamId: string;
